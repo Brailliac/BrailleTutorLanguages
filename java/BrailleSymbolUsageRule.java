@@ -1,0 +1,20 @@
+package com.lukeneedham.brailletutor.Braille;
+
+/**
+ * Created by Luke on 30/07/2016.
+ */
+public enum BrailleSymbolUsageRule
+{
+    ANYWHERE,
+    STANDALONE,
+    SURROUNDED,
+    FIRST_SYLLABLE,
+    NOT_AT_START,
+    STRESS_ON_FIRST_E_AND_NOT_AFTER_I_OR_E,
+    NOT_AFTER_A_OR_O_AND_UN_NOT_A_PREFIX,
+    ORIGINAL_MEANING_RETAINED,
+    ORIGINAL_PRONOUNCIATION_RETAINED,
+    SHORT_A,
+    ONE_SYLLABLE,
+    ONE_SYLLABLE_OR_END_WITH_ONEY_BUT_NEVER_AFTER_O;
+}
