@@ -255,8 +255,34 @@ public class SvenskaSymbolDatabase extends BrailleSymbolDatabase
             new BrailleSymbolDataEntry("andras", STANDALONE, SHORTFORM, CellA, CellW, CellS), // [1][2456][234] other peoples ...
             new BrailleSymbolDataEntry("alltså", STANDALONE, SHORTFORM, CellA, CellCH), // [1][16] aå. that is / so
 
-            // Still 139 short forms left, I will add them too.
+            new BrailleSymbolDataEntry("bli", STANDALONE, SHORTFORM, CellB), // [12] b. become
+            new BrailleSymbolDataEntry("börja", STANDALONE, SHORTFORM, CellB, CellJ), // [12][245] bj. start
+            new BrailleSymbolDataEntry("början", STANDALONE, SHORTFORM, CellB, CellJ, CellN), // [12][245][1345] bjn. the start
+            new BrailleSymbolDataEntry("börjans", STANDALONE, SHORTFORM, CellB, CellJ, CellN, CellS), // [12][245][1345][234] bjns. about the start
+            new BrailleSymbolDataEntry("börjar", STANDALONE, SHORTFORM, CellB, CellJ, CellR), // [12][245][1235] bjr. starting
+            new BrailleSymbolDataEntry("börjat", STANDALONE, SHORTFORM, CellB, CellJ, CellT), // [12][245][2345] bjt. have started
+            new BrailleSymbolDataEntry("började", STANDALONE, SHORTFORM, CellB, CellJ, CellTH), // [12][245][1456] bj[1456]. did start / it started
+            new BrailleSymbolDataEntry("bland", STANDALONE, SHORTFORM, CellB, CellL), // [12][123] bl. among
+            new BrailleSymbolDataEntry("blir", STANDALONE, SHORTFORM, CellB, CellR), // [12][1235] br. become
+            new BrailleSymbolDataEntry("blev", STANDALONE, SHORTFORM, CellB, CellV), // [12][1236] became
 
+            new BrailleSymbolDataEntry("och", STANDALONE, SHORTFORM, CellC), // [14] c. and
+            new BrailleSymbolDataEntry("också", STANDALONE, SHORTFORM, CellC, CellS), // [12][234] also
+
+            new BrailleSymbolDataEntry("där", STANDALONE, SHORTFORM, CellD), // [145] d. there
+            new BrailleSymbolDataEntry("dess", STANDALONE, SHORTFORM, CellD, CellS), // [145][234] its
+            new BrailleSymbolDataEntry("dessa", STANDALONE, SHORTFORM, CellD, CellS, CellA), // [145][234][1] dsa. those
+            new BrailleSymbolDataEntry("dessas", STANDALONE, SHORTFORM, CellD, CellS, CellA, CellS), // [145][234][1][234] dsas. thoses (that belong to them, it is thoses :-)
+
+            new BrailleSymbolDataEntry("eller", STANDALONE, SHORTFORM, CellE), // [15] e. or
+            new BrailleSymbolDataEntry("endast", STANDALONE, SHORTFORM, CellE, CellA), // [15][1] only
+            new BrailleSymbolDataEntry("henne", STANDALONE, SHORTFORM, CellE, CellE), // [15][15] ee. her
+            new BrailleSymbolDataEntry("hennes", STANDALONE, SHORTFORM, CellE, CellE, CellS), // [15][15][234] ees. hers
+            new BrailleSymbolDataEntry("emedan", STANDALONE, SHORTFORM, CellE, CellM, CellD), // [15][134][145] emd. while
+            new BrailleSymbolDataEntry("emellan", STANDALONE, SHORTFORM, CellE, CellM, CellL), // [15][134][123] between
+            new BrailleSymbolDataEntry("emellertid", STANDALONE, SHORTFORM, CellE, CellM, CellT), // [15][134][2345] emt. however
+
+            // Still 116 short forms left, I will add them too.
 
     };
 

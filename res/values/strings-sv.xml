@@ -4,65 +4,65 @@
   <!-- for Swedish -->
 
     <string name="app_name">Braille Tutor</string>
-    <string name="action_settings">Settings</string>
-    <string name="braillekeyboardsubmitbuttontext">Submit</string>
-    <string name="braillekeyboardretrybuttontext">Retry</string>
-    <string name="test_yourself_button">Test Yourself</string>
-    <string name="translate_button">Translation</string>
-    <string name="practise_button">Practice</string>
-    <string name="home_button">Home</string>
-    <string name="challenge_yourself_button">Challenge</string>
-    <string name="dictionary_button">Dictionary</string>
-    <string name="achievements_button">Achievements</string>
-    <string name="themes_button">Themes</string>
-    <string name="settings_button">Settings</string>
-    <string name="romanModeLined">Translate\nInto\nBraille</string>
-    <string name="brailleModeLined">Translate\nFrom\nBraille</string>
-    <string name="romanMode">Practise Into Braille</string>
-    <string name="brailleMode">Practise From Braille</string>
-    <string name="readingMode">Reading Mode</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="braillekeyboardsubmitbuttontext">Skicka</string>
+    <string name="braillekeyboardretrybuttontext">Försök igen</string>
+    <string name="test_yourself_button">Testa dig själv</string>
+    <string name="translate_button">Översättning</string>
+    <string name="practise_button">Öva</string>
+    <string name="home_button">Hem</string>
+    <string name="challenge_yourself_button">Utmaning</string>
+    <string name="dictionary_button">Lexikon</string>
+    <string name="achievements_button">Bedrifter</string>
+    <string name="themes_button">Teman</string>
+    <string name="settings_button">Inställningar</string>
+    <string name="romanModeLined">Översätt\nTill\nBraille</string>
+    <string name="brailleModeLined">Översätt\nFrån\nBraille</string>
+    <string name="romanMode">Öva Till Braille</string>
+    <string name="brailleMode">Öva Från Braille</string>
+    <string name="readingMode">Läsläge</string>
 
-    <string name="back">Back</string>
-    <string name="next">Next</string>
+    <string name="back">Tillbaka</string>
+    <string name="next">Nästa</string>
 
-    <string name="dot1input">Dot 1 input</string>
-    <string name="dot2input">Dot 2 input</string>
-    <string name="dot3input">Dot 3 input</string>
-    <string name="dot4input">Dot 4 input</string>
-    <string name="dot5input">Dot 5 input</string>
-    <string name="dot6input">Dot 6 input</string>
-    <string name="submit">Submit Button</string>
+    <string name="dot1input">Punkt 1 indata</string>
+    <string name="dot2input">Punkt 2 indata</string>
+    <string name="dot3input">Punkt 3 indata</string>
+    <string name="dot4input">Punkt 4 indata</string>
+    <string name="dot5input">Punkt 5 indata</string>
+    <string name="dot6input">Punkt 6 indata</string>
+    <string name="submit">Skickaknapp</string>
 
-    <string name="reviewask">If you\'re enjoying the app it would be amazing if you could</string>
-    <string name="clicktoreview">rate it 5 stars!</string>
-    <string name="emailask">If you have any problems, questions or suggestions, please</string>
-    <string name="clicktoemail">send me an email!</string>
-    <string name="resetapp">Reset App</string>
-    <string name="resetinfo">Reset App? This will reset all your scores and settings, but not your themes</string>
-    <string name="transfer_data">Transfer Data</string>
-    <string name="receive_data">Receive Data</string>
-    <string name="show_answer">Show Answer Button</string>
-    <string name="start_challenge">Type to start!</string>
-    <string name="start_practise">Start!</string>
-    <string name="paused">Paused - type to resume!</string>
+    <string name="reviewask">Om du tycker om appen skulle det vara fantastiskt om du kunde</string>
+    <string name="clicktoreview">betygsätta den till 5 stjärnor!</string>
+    <string name="emailask">Om du har några problem, frågor eller förslag, var snäll och</string>
+    <string name="clicktoemail">skicka mig ett epost!</string>
+    <string name="resetapp">Återställ appen</string>
+    <string name="resetinfo">Återställ appen? Det här kommer att nollställa alla dina poäng och inställningar, men inte dina teman</string>
+    <string name="transfer_data">Överför Data</string>
+    <string name="receive_data">Ta emot Data</string>
+    <string name="show_answer">Visa Svar Knappen</string>
+    <string name="start_challenge">Skriv för att starta!</string>
+    <string name="start_practise">Starta!</string>
+    <string name="paused">Pausad - skriv för att återuppta!</string>
     <string name="failure">:(</string>
     <string name="success">:)</string>
     <string name="newbesttime">:D</string>
-    <string name="timeUp">Time\'s up!</string>
-    <string name="outOfTime">Oops!\nYou ran out of time!</string>
-    <string name="misspelt">Argh!\nYou misspelt something!</string>
-    <string name="inarow">in a row!</string>
+    <string name="timeUp">Tiden är slut!</string>
+    <string name="outOfTime">Oops!\nDu fick slut på tid!</string>
+    <string name="misspelt">Argh!\nDu stavade något fel!</string>
+    <string name="inarow">i rad!</string>
 
-    <string name="settings_musicOption">Music</string>
-    <string name="settings_soundOption">Sounds</string>
-    <string name="settings_fontOption">Smooth Font</string>
-    <string name="settings_advContOption">Advanced Contractions</string>
+    <string name="settings_musicOption">Musik</string>
+    <string name="settings_soundOption">Ljud</string>
+    <string name="settings_fontOption">Mjukt Typsnitt</string>
+    <string name="settings_advContOption">Avancerade sammandragningar</string>
     <string name="settings_rectoVerso">Recto Verso Mode</string>
-    <string name="settings_vibrationOption">Vibration</string>
-    <string name="settings_soundOptionsTitle">Sound Settings</string>
-    <string name="settings_translationOptionsTitle">Translation Settings</string>
+    <string name="settings_vibrationOption">Vibrationer</string>
+    <string name="settings_soundOptionsTitle">Ljudinställningar</string>
+    <string name="settings_translationOptionsTitle">Översättningsinställningar</string>
     <string name="settings_credits">View Credits</string>
-    <string name="credits1" formatted="false">Made with love by Luke Needham :)\n</string>
+    <string name="credits1" formatted="false">Skapad med kärlek av Luke Needham :)\n</string>
 	<string name="credits2" formatted="false">
         \n\nAlso why not like the Facebook page!\nhttps://www.facebook.com/brailletutor/
         \n\nMany thanks to add the volunteers who worked incredibly hard to add other languages to the app!
@@ -73,148 +73,148 @@
         All Braille rules and data from\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
         "Faster Does It" and "George Street Shuffle" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/</string>
     <string name="settings_dictionaryGridViewLabel">Dictionary Style</string>
-    <string name="settings_challengeOptionsTitle">Challenge Settings</string>
-    <string name="settings_ColourOptionsTitle">Colour Settings</string>
-    <string name="settings_DictionaryOptionsTitle">Dictionary Settings</string>
+    <string name="settings_challengeOptionsTitle">Utmaningsinställningar</string>
+    <string name="settings_ColourOptionsTitle">Färginställningar</string>
+    <string name="settings_DictionaryOptionsTitle">Lexikoninställningar</string>
     <string name="groupsign_title">Groupsigns</string>
     <string name="wordsign_title">Wordsigns</string>
     <string name="intiallettercontractions_title">Initial-letter Contractions</string>
     <string name="finallettercontractions_title">Final-letter Contractions</string>
-    <string name="locked_until">"Locked until level"</string>
-    <string name="locked_until_plural">" are locked until level"</string>
-    <string name="locked_until_singular">" is locked until level"</string>
-    <string name="nothing_selected">You haven\'t selected anything to practise!</string>
-    <string name="bluetooth_not_available">Unfortunately your device does not support Bluetooth</string>
-    <string name="bluetooth_transfercheck">Do you wish to transfer your data to #? This will replace all data on # with the data on your current device, and delete all the data on your current device.</string>
-    <string name="bluetooth_receivecheck">Do you wish to search for connections? If a connection is found, all data on this device will be replaced with the received data.</string>
-    <string name="cancel">CANCEL</string>
-    <string name="transfer">TRANSFER</string>
-    <string name="receive">RECEIVE</string>
+    <string name="locked_until">"Är låst fram till nivå"</string>
+    <string name="locked_until_plural">" är låsta fram till nivå"</string>
+    <string name="locked_until_singular">" är låst fram till nivå"</string>
+    <string name="nothing_selected">Du har inte valt något att öva på!</string>
+    <string name="bluetooth_not_available">Tyvärr har din enhet inte inte stöd för Bluetooth</string>
+    <string name="bluetooth_transfercheck">Vill du överföra din data till #? Detta kommer att ersätta din data i # med den data som finns i din enhet, och radera all data i din enhet.</string>
+    <string name="bluetooth_receivecheck">Vill du söka efter anslutningar? Om en anslutning är hittad, då kommer all data på enheten att bli ersatt med den mottagna datan.</string>
+    <string name="cancel">AVBRYT</string>
+    <string name="transfer">ÖVERFÖR</string>
+    <string name="receive">TA EMOT</string>
     <string name="ok">OK</string>
 
-    <string name="nopptionsavailable">No options available!</string>
-    <string name="whatyouwanttopractise">What do you want to practise?</string>
+    <string name="nopptionsavailable">Inga val är tillgängliga!</string>
+    <string name="whatyouwanttopractise">Vad vill du öva på?</string>
 
-	<string name="newtheme">New Theme!</string>
-    <string name="setTheme">Set Theme</string>
-    <string name="currentTheme">Current Theme</string>
-    <string name="locked">Locked</string>
-    <string name="buynow">Buy now</string>
-    <string name="levelup">Level up</string>
-    <string name="tounlock">to unlock</string>
-    <string name="tapformoreinfo">Tap for more info</string>
+	<string name="newtheme">Nytt Tema!</string>
+    <string name="setTheme">Välj Tema</string>
+    <string name="currentTheme">Nuvarande Tema</string>
+    <string name="locked">Låst</string>
+    <string name="buynow">Köp nu</string>
+    <string name="levelup">En nivå upp</string>
+    <string name="tounlock">för att låsa upp</string>
+    <string name="tapformoreinfo">Tryck för mer info</string>
 
-    <string name="levelupDropInfo">"A new random colour will next unlock at Level "</string>
-    <string name="nextLevelDrop">"Next chance at level "</string>
+    <string name="levelupDropInfo">"En ny slumpvis färg kommer att låsas upp på Nivå "</string>
+    <string name="nextLevelDrop">"Nästa chans på nivå "</string>
 
     <string name="to_earn">To earn:</string>
-    <string name="achievement">Achievement</string>
+    <string name="achievement">Bedrift</string>
 
-    <string name="ach_loyal">Loyal</string>
-    <string name="ach_loyal_desc">You\'ve seen the app change over the months, and you\'ve decided to stick with it. Thanks!</string>
-    <string name="ach_loyal_unlock">be a long time user of the app</string>
+    <string name="ach_loyal">Lojal</string>
+    <string name="ach_loyal_desc">Du har sett appen ändras över tid, och du har beslutat att behålla den. Tack!</string>
+    <string name="ach_loyal_unlock">vara en långtidsanvändare av appen</string>
 
     <string name="ach_challengescore_18">Hare</string>
-    <string name="ach_challengescore_18_desc">Congratulations! You completed a challenge in under 18 seconds!</string>
-    <string name="ach_challengescore_18_unlock">complete a challenge in under 18 seconds</string>
+    <string name="ach_challengescore_18_desc">Grattis! Du slutförde utmaningen på under 18 sekunder!</string>
+    <string name="ach_challengescore_18_unlock">slutför en utmaning på under 18 sekunder</string>
 
-    <string name="ach_challengescore_11">Swordfish</string>
-    <string name="ach_challengescore_11_desc">You\'ve managed to complete a challenge in less than 11 seconds! That\'s under 1 second per letter!</string>
-    <string name="ach_challengescore_11_unlock">complete a challenge in under 11 seconds</string>
+    <string name="ach_challengescore_11">Svärdfisk</string>
+    <string name="ach_challengescore_11_desc">Du har lyckats sluföra en utmaning på under 11 sekunder! Det är under 1 sekund per bokstav!</string>
+    <string name="ach_challengescore_11_unlock">slutför en utmaning på under 11 sekunder</string>
 
-    <string name="ach_challengescore_8">Cheetah</string>
-    <string name="ach_challengescore_8_desc">You\'re getting quicker! Beating a challenge in 8 seconds is no mean feat!</string>
-    <string name="ach_challengescore_8_unlock">complete a challenge in under 8 seconds</string>
+    <string name="ach_challengescore_8">Gepard</string>
+    <string name="ach_challengescore_8_desc">Du blir snabbare! Att klara en utmaning på under 8 sekunder är ingen genomsnittlig prestation!</string>
+    <string name="ach_challengescore_8_unlock">slutför en utmaning på under 8 sekunder</string>
 
-    <string name="ach_challengescore_5">Falcon</string>
-    <string name="ach_challengescore_5_desc">Your braille typing skills are incredible! A whole challenge translated in under 5 seconds!</string>
-    <string name="ach_challengescore_5_unlock">complete a challenge in under 5 seconds</string>
+    <string name="ach_challengescore_5">Falk</string>
+    <string name="ach_challengescore_5_desc">Dina skrivkunskaper i Braille är otroliga! En hel utmaning översatt på under 5 sekunder!</string>
+    <string name="ach_challengescore_5_unlock">slutför en utmaning på under 5 sekunder</string>
 
-    <string name="ach_challengescore_3">Falcon</string>
-    <string name="ach_challengescore_3_desc">Some people may doubt it\'s possible to complete a challenge in under 3 seconds. Clearly they\'ve never met you!</string>
-    <string name="ach_challengescore_3_unlock">complete a challenge in under 3 seconds</string>
+    <string name="ach_challengescore_3">Falk</string>
+    <string name="ach_challengescore_3_desc">En del människor kanske tvivlar på att det är möjligt att slutföra en utmaning på under 3 sekunder. Tydligen har de aldrig träffat dig!</string>
+    <string name="ach_challengescore_3_unlock">slutför en utmaning på under 3 sekunder</string>
 
-    <string name="theme_name_plain">Plain</string>
-    <string name="theme_desc_plain">The most basic, most boring theme</string>
-    <string name="theme_name_plain_white">White</string>
-    <string name="theme_name_plain_grey">Grey</string>
-    <string name="theme_name_plain_red">Red</string>
+    <string name="theme_name_plain">Enkel</string>
+    <string name="theme_desc_plain">Det enklaste, tråkigaste temat</string>
+    <string name="theme_name_plain_white">Vit</string>
+    <string name="theme_name_plain_grey">Grå</string>
+    <string name="theme_name_plain_red">Röd</string>
     <string name="theme_name_plain_orange">Orange</string>
-    <string name="theme_name_plain_yellow">Yellow</string>
-    <string name="theme_name_plain_green">Green</string>
-    <string name="theme_name_plain_teal">Teal</string>
-    <string name="theme_name_plain_lightblue">Light Blue</string>
-    <string name="theme_name_plain_blue">Blue</string>
-    <string name="theme_name_plain_pink">Pink</string>
-    <string name="theme_name_plain_purple">Purple</string>
+    <string name="theme_name_plain_yellow">Gul</string>
+    <string name="theme_name_plain_green">Grön</string>
+    <string name="theme_name_plain_teal">Kricka</string>
+    <string name="theme_name_plain_lightblue">Ljusblå</string>
+    <string name="theme_name_plain_blue">Blå</string>
+    <string name="theme_name_plain_pink">Rosa</string>
+    <string name="theme_name_plain_purple">Lila</string>
 
-    <string name="theme_name_dark">Dark</string>
-    <string name="theme_desc_dark">It\'s very dark</string>
-    <string name="theme_name_dark_red">Red</string>
-    <string name="theme_name_dark_purple">Purple</string>
-    <string name="theme_name_dark_redpurple">Red</string>
-    <string name="theme_name_dark_bluepurple">Red</string>
-    <string name="theme_name_dark_darkbluepurple">Red</string>
+    <string name="theme_name_dark">Mörk</string>
+    <string name="theme_desc_dark">Den är väldigt mörk</string>
+    <string name="theme_name_dark_red">Röd</string>
+    <string name="theme_name_dark_purple">Lila</string>
+    <string name="theme_name_dark_redpurple">Rödlila</string>
+    <string name="theme_name_dark_bluepurple">Blålila</string>
+    <string name="theme_name_dark_darkbluepurple">Mörkblålila</string>
 
-    <string name="theme_name_beach">Beach</string>
-    <string name="theme_desc_beach">Listen to the waves while brailling</string>
-    <string name="theme_name_beach_white">Beach White</string>
+    <string name="theme_name_beach">Strand</string>
+    <string name="theme_desc_beach">Lyssna på vågorna medan du Braillar</string>
+    <string name="theme_name_beach_white">Strand Vit</string>
 
-    <string name="theme_name_garden">Garden</string>
-    <string name="theme_desc_garden">Grow beautiful flowers - and your braille knowledge! This theme adds:\n- A brand new background\n- 21 new braille button designs\n- Removes all adverts forever</string>
-    <string name="theme_name_garden_white">Garden</string>
+    <string name="theme_name_garden">Trädgård</string>
+    <string name="theme_desc_garden">Odla vackra blommor - och dina Braillekunskaper! Det här temat lägger till: \n- En ny bakgrund\n- 21 nya Braille knappdesigner\n- Tar bort all reklam för evigt</string>
+    <string name="theme_name_garden_white">Trädgård</string>
 
-    <string name="view_unlocks">View Unlocks</string>
+    <string name="view_unlocks">Visa Upplåsningar</string>
 
-    <string name="yoursecretket">Your user code is:</string>
-    <string name="input">INPUT</string>
+    <string name="yoursecretket">Din användarkod är:</string>
+    <string name="input">INMATNING</string>
 
-    <string name="totalscore_title">Total Score:</string>
-    <string name="currentlevel_title">Level:</string>
-    <string name="tonextLevel_title">Next level in:</string>
-    <string name="highscore_title">Best score:</string>
-    <string name="scoremean_title">Average:</string>
-    <string name="settings_ColourPickerDescription">Choose Background Colour</string>
-    <string name="settings_ColourSchemeButtonText">Change Colour Scheme</string>
-    <string name="search_prompt">Start Typing</string>
-    <string name="achievements_test_tab">Progress</string>
-    <string name="achievements_challenge_tab">Challenge</string>
-    <string name="achievements_misc_tab">Misc</string>
+    <string name="totalscore_title">Total Poäng:</string>
+    <string name="currentlevel_title">Nivå:</string>
+    <string name="tonextLevel_title">Nästa nivå om:</string>
+    <string name="highscore_title">Bästa poäng:</string>
+    <string name="scoremean_title">Medel:</string>
+    <string name="settings_ColourPickerDescription">Välj Bakgrundsfärg</string>
+    <string name="settings_ColourSchemeButtonText">Ändra Färgschema</string>
+    <string name="search_prompt">Börja Skriv</string>
+    <string name="achievements_test_tab">Framsteg</string>
+    <string name="achievements_challenge_tab">Utmaning</string>
+    <string name="achievements_misc_tab">Blandat</string>
 
-    <string name="chooseLetters">Letters to practise:</string>
-    <string name="chooseContractions">Contractions to practise:</string>
-    <string name="contractions">Contractions</string>
-    <string name="advancedcontractions">Advanced Contractions</string>
+    <string name="chooseLetters">Bokstäver att öva på:</string>
+    <string name="chooseContractions">Förkortningar att öva på:</string>
+    <string name="contractions">Förkortningar</string>
+    <string name="advancedcontractions">Avancerade Förkortningar</string>
 
-    <string name="challenge1">Translate this sentence&#8230;</string>
-    <string name="challenge2">Against the clock!</string>
-    <string name="challenge3">Pause if you need a break&#8230;</string>
-    <string name="challenge4">And resume by typing!</string>
+    <string name="challenge1">Översätt den här meningen&#8230;</string>
+    <string name="challenge2">Mot klockan!</string>
+    <string name="challenge3">Pausa om du behöver vila&#8230;</string>
+    <string name="challenge4">Och fortsätt genom att skriva!</string>
 
-    <string name="chooseprac1">Click the Alphabet button&#8230;</string>
-    <string name="chooseprac2">To select the letters to practise!</string>
-    <string name="chooseprac3">Click the other dictionaries&#8230;</string>
-    <string name="chooseprac4">To turn them on or off!</string>
-    <string name="chooseprac5">Click the Mode button&#8230;</string>
-    <string name="chooseprac6">To change translation direction!</string>
+    <string name="chooseprac1">Klicka på alfabetsknappen&#8230;</string>
+    <string name="chooseprac2">För att välja de bokstäver du vill öva på!</string>
+    <string name="chooseprac3">Klicka på de andra lexikonen&#8230;</string>
+    <string name="chooseprac4">För att slå på eller av dem!</string>
+    <string name="chooseprac5">Klicka på Lägesknappen&#8230;</string>
+    <string name="chooseprac6">För att ändra översättningsriktning!</string>
 
-    <string name="practisebraille1">Use the braille grid to translate the given letter&#8230;</string>
-    <string name="practisebraille2">And click here to check your answer!</string>
-    <string name="practisebraille3">If you\'re stuck click here to cheat!</string>
-    <string name="practisebraille4">Earn points to increase your total score&#8230;</string>
-    <string name="practisebraille5">And level up to unlock new features!</string>
-    <string name="practisebraille6">Check out your percentage accuracy&#8230;</string>
-    <string name="practisebraille7">And your current streak!</string>
-    <string name="practisebraille8">When translating from braille, use the keyboard!</string>
-    <string name="practisebraille9">Some braille characters have multiple meanings&#8230;</string>
-    <string name="practisebraille10">Check which meaning is needed!</string>
+    <string name="practisebraille1">Använd Brailles rutnät för att översätta bokstaven&#8230;</string>
+    <string name="practisebraille2">Och klicka här för att kontrollera svaret!</string>
+    <string name="practisebraille3">Om du fastnar, klicka här för att fuska!</string>
+    <string name="practisebraille4">Tjäna poäng för att öka din totala poäng&#8230;</string>
+    <string name="practisebraille5">Och nå nästa Nivå för att låsa upp nya finesser!</string>
+    <string name="practisebraille6">Se hur noggrann du är i procent&#8230;</string>
+    <string name="practisebraille7">Och din nuvarande upprepningsföljd!</string>
+    <string name="practisebraille8">Använd tangentbordet när du översätter från Braille!</string>
+    <string name="practisebraille9">Några tecken i Braille har flera betydelser&#8230;</string>
+    <string name="practisebraille10">Kontrollera vilken betydelse som behövs!</string>
 
-    <string name="translatebraille1">Translate the random sentence given!</string>
-    <string name="translatebraille2">Check your score for the sentence&#8230;</string>
-    <string name="translatebraille3">To be added to your total when you finish!</string>
-    <string name="translatebraille4">Click here to see how good your translation is!</string>
-    <string name="translatebraille5">Use contractions to get extra points&#8230;</string>
-    <string name="translatebraille6">And see if you could have used any extra contractions!</string>
+    <string name="translatebraille1">Översätt den slumpvis konstruerade meningen!</string>
+    <string name="translatebraille2">Se din poäng för meningen&#8230;</string>
+    <string name="translatebraille3">Blir lagd till din totala poäng när du är klar!</string>
+    <string name="translatebraille4">Klicka här för att se hur bra din översättning är!</string>
+    <string name="translatebraille5">Använd förkortningar för att få extra poäng&#8230;</string>
+    <string name="translatebraille6">Och se om du kunde ha använt någon extra förkortning!</string>
 
     <string name="translateroman1">Translate the random sentence given!</string>
     <string name="translateroman2">Scroll to see longer sentences!</string>
