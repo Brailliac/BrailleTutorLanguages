@@ -21,7 +21,7 @@
     <string name="romanMode">Öva Till Braille</string>
     <string name="brailleMode">Öva Från Braille</string>
     <string name="readingMode">Läsläge</string>
-
+https://github.com/peterlembke
     <string name="back">Tillbaka</string>
     <string name="next">Nästa</string>
 
@@ -216,68 +216,68 @@
     <string name="translatebraille5">Använd förkortningar för att få extra poäng&#8230;</string>
     <string name="translatebraille6">Och se om du kunde ha använt någon extra förkortning!</string>
 
-    <string name="translateroman1">Translate the random sentence given!</string>
-    <string name="translateroman2">Scroll to see longer sentences!</string>
-    <string name="translateroman3">Click here to lookup unknown characters&#8230;</string>
-    <string name="translateroman4">But try not to cheat too much!</string>
+    <string name="translateroman1">Översätt den framslumpade meningen!</string>
+    <string name="translateroman2">Bläddra för att se längre meningar!</string>
+    <string name="translateroman3">Klicka här för att söka upp okända tecken&#8230;</string>
+    <string name="translateroman4">Men försök att inte fuska för mycket!</string>
 
-    <string name="transferinfo1">Transfer data between devices via Bluetooth!</string>
-    <string name="transferinfo2">Select Transfer Data on the device to send from&#8230;</string>
-    <string name="transferinfo3">Then select Receive Data on the device to receive to!</string>
-    <string name="transferinfo4">Wait for the receiver to appear, then select it to transfer!</string>
-    <string name="transferinfo5">Don\'t close anything while data is transferring!</string>
+    <string name="transferinfo1">Överför data mellan enheter via Bluetooth!</string>
+    <string name="transferinfo2">Välj Överför data på enheten du vill sända från&#8230;</string>
+    <string name="transferinfo3">Välj sedan Mottag data på den enhet du vill motta data på!</string>
+    <string name="transferinfo4">Vänta på att enheten ska dyka upp, välj den sedan för överföringen!</string>
+    <string name="transferinfo5">Stäng ingenting så länge överföringen pågår!</string>
 
-    <string name="rectoversoinfo1">Practise writing braille as with a slate and stylus!</string>
-    <string name="rectoversoinfo2">Imagine you are impressing the dots on the back&#8230;</string>
-    <string name="rectoversoinfo3">So that they are the right way around on the front!</string>
-    <string name="rectoversoinfo4">This requires you to input the dots back-to-front&#8230;</string>
-    <string name="rectoversoinfo5">As if flipped down the middle!</string>
+    <string name="rectoversoinfo1">Öva på att skriva Braille som du gör med papper och penna!</string>
+    <string name="rectoversoinfo2">Tänk dig att du präglar punkter på baksidan&#8230;</string>
+    <string name="rectoversoinfo3">Så att de är rättvända på framtidan!</string>
+    <string name="rectoversoinfo4">Det här kräver att du matar in punkterna spegelvänt&#8230;</string>
+    <string name="rectoversoinfo5">som om de vore vända på mitten!</string>
 
-    <string name="num_lock">Numeric Mode</string>
-    <string name="caps_lock">Capitals Mode</string>
-    <string name="allcaps_lock">Word Caps Mode</string>
+    <string name="num_lock">Sifferläge</string>
+    <string name="caps_lock">Versalläge</string>
+    <string name="allcaps_lock">Ordversalläge</string>
 
-    <string name="dictionary_info">Special Character Notes</string>
-    <string name="numbers_info_label">How to use numbers</string>
-    <string name="lettersign_info_label">How to use the Letter Sign</string>
-    <string name="capitalsign_info_label">How to use the Capital Sign</string>
-    <string name="doublecapitalsign_info_label">How to use the Double Capital Sign</string>
-    <string name="italicsign_info_label">How to use the Italic Sign</string>
-    <string name="doubleitalicsign_info_label">How to use the Double Italic Sign</string>
-    <string name="dictionary_alphabet_tab">Alphabet</string>
-    <string name="dictionary_numbers_tab">Numbers</string>
-    <string name="dictionary_punctuation_tab">Punctuation</string>
-    <string name="dictionary_maths_tab">Maths</string>
-    <string name="dictionary_contracted_tab">Contractions</string>
-    <string name="dictionary_advancedcontracted_tab">Advanced Contractions</string>
-    <string name="dictionary_shortform_tab">Shortforms</string>
-    <string name="search">Search</string>
-    <string name="search_results">Results</string>
+    <string name="dictionary_info">Specialtecken - noteringar</string>
+    <string name="numbers_info_label">Hur du använder siffror</string>
+    <string name="lettersign_info_label">Hur du använder bokstavstecknet</string>
+    <string name="capitalsign_info_label">Hur du använder tecknet för versaler</string>
+    <string name="doublecapitalsign_info_label">Hur du använder dubbla versaltecken</string>
+    <string name="italicsign_info_label">Hur du använder tecken för kursiv skrift</string>
+    <string name="doubleitalicsign_info_label">Hur du använder dubbel kursiv skrift</string>
+    <string name="dictionary_alphabet_tab">Alfabetet</string>
+    <string name="dictionary_numbers_tab">Nummer</string>
+    <string name="dictionary_punctuation_tab">Skiljetecken</string>
+    <string name="dictionary_maths_tab">Matematik</string>
+    <string name="dictionary_contracted_tab">Kortskrift</string> <!-- Level 1 - short words -->
+    <string name="dictionary_advancedcontracted_tab">Avancerad kortskrift</string> <!-- Level 2 ABC - more short words, sounds in words, sentences -->
+    <string name="dictionary_shortform_tab">Shortforms</string> <!-- I'll check the grouping of signs and we can discuss over email. -->
+    <string name="search">Sök</string>
+    <string name="search_results">Resultat</string>
 
-    <string name="braille_number_sign">Number Sign</string>
-    <string name="braille_decimal_point">Decimal Point</string>
-    <string name="braille_thousands_separator">Thousands Separator</string>
-    <string name="braille_fullstop">Full Stop</string>
-    <string name="braille_comma">Comma</string>
-    <string name="braille_colon">Colon</string>
-    <string name="braille_semicolon">Semicolon</string>
-    <string name="braille_apostrophe">Apostrophe</string>
-    <string name="braille_questionmark">Question Mark</string>
-    <string name="braille_exclamationmark">Exclamation Mark</string>
-    <string name="braille_hyphen">Hyphen</string>
-    <string name="braille_slash">Slash</string>
-    <string name="braille_openbracket">Open Bracket</string>
-    <string name="braille_closebracket">Close Bracket</string>
-    <string name="braille_openquote">Open Quote</string>
-    <string name="braille_closequote">Close Quote</string>
-    <string name="braille_capital">Capital Sign</string>
-    <string name="braille_capitalword">Capital Word Sign</string>
-    <string name="braille_italic">Italic Sign</string>
-    <string name="braille_doubleitalic">All Italics Sign</string>
-    <string name="braille_lettersign">Letter Sign</string>
-    <string name="braille_elipsis">Ellipsis</string>
-    <string name="braille_asterisk">Asterisk</string>
-    <string name="braille_space">Space</string>
+    <string name="braille_number_sign">Siffertecken</string>
+    <string name="braille_decimal_point">Decimaltecken</string> <!-- comma -->
+    <string name="braille_thousands_separator">Tusenseparator</string>
+    <string name="braille_fullstop">Fullt Stopp</string>
+    <string name="braille_comma">Komma</string>
+    <string name="braille_colon">Kolon</string>
+    <string name="braille_semicolon">SemiKolon</string>
+    <string name="braille_apostrophe">Apostrof</string>
+    <string name="braille_questionmark">Frågetecken</string>
+    <string name="braille_exclamationmark">Utropstecken</string>
+    <string name="braille_hyphen">Bindestreck</string>
+    <string name="braille_slash">Snedstreck</string>
+    <string name="braille_openbracket">Vänster parentes</string>
+    <string name="braille_closebracket">Höger parentes</string>
+    <string name="braille_openquote">Vänster citattecken</string>
+    <string name="braille_closequote">Höger citattecken</string>
+    <string name="braille_capital">Versaltecken</string>
+    <string name="braille_capitalword">Versaltecken ord</string>
+    <string name="braille_italic">Kursivt tecken</string>
+    <string name="braille_doubleitalic">Kursiv text</string>
+    <string name="braille_lettersign">Bokstavstecken</string>
+    <string name="braille_elipsis">Ellips</string>
+    <string name="braille_asterisk">Stjärna</string>
+    <string name="braille_space">Mellanslag</string>
 
     <string name="braille_dots5">Dots5</string>
     <string name="braille_dots45">Dots45</string>
@@ -285,12 +285,12 @@
     <string name="braille_dots46">Dots46</string>
     <string name="braille_dots56">Dots56</string>
 
-    <string name="braille_groupsigncontraction">Groupsign Contraction</string>
-    <string name="braille_wordsigncontraction">Wordsign Contraction</string>
-    <string name="braille_letter">Letter</string>
-    <string name="braille_number">Number</string>
-    <string name="braille_advancedcontraction">Advanced Contraction</string>
-    <string name="braille_shortform">Shortform</string>
+    <string name="braille_groupsigncontraction">Grupptecken förkortningar</string>
+    <string name="braille_wordsigncontraction">Ordtecken förkortningar</string>
+    <string name="braille_letter">Bokstav</string>
+    <string name="braille_number">Nummer</string>
+    <string name="braille_advancedcontraction">Avancerade förkortningar</string>
+    <string name="braille_shortform">Kortform</string>
 
     <string name="numbersExplanation">The Number Sign sets <b>\'Numeric Mode\'</b> for the remainder of the sentence.\n\nThis means that all Braille characters after the Number Sign should be read as numbers until Numeric Mode ends.\n\nNumeric Mode is ended by spaces, the Letter Sign or any other character not shown in the numbers dictionary.</string>
     <string name="lettersignExplanation">Some Braille characters can have more than one meaning; an uncontracted meaning and a contracted or numerical meaning.\n\nIn cases where this may be confusing for the reader, the <b>\'Uncontracted Indicator\'</b> (Letter Sign) is placed before the character to set <b>\'Uncontracted Mode\'</b>.\n\nThis tells the reader that the next symbol is not a contraction or a numeric value; it should be read as a letter or punctuation.</string>
@@ -321,7 +321,7 @@
     <string name="ruleOne">\' can only be used when the letters it represents are pronounced as one syllable, or are used to end a word with the letters \'oney\'. It cannot ever be used after the letter \'o\'</string>
     <string name="ruleSamePronounciation">\' can only be used when the letters it represents are pronounced in the same way as in the original word</string>
     <string name="ruleUnder">\' can only be used when the letters it represents do not follow the letters \'a\' or \'o\', and the letters \'un\' do not form a prefix</string>
-
+Transfer data between devices via
     <string name="placeholderad">You should watch \'Earthlings\'</string>
 
 <!-- words used to generate random (but grammatically correct!!) sentences to translate. It works like: Subject + Verb + Object. To make it work in different languages, you might not be able to do literal translations, so you can choose your own words :) -->
