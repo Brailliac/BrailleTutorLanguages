@@ -21,7 +21,6 @@
     <string name="romanMode">Öva Till Braille</string>
     <string name="brailleMode">Öva Från Braille</string>
     <string name="readingMode">Läsläge</string>
-https://github.com/peterlembke
     <string name="back">Tillbaka</string>
     <string name="next">Nästa</string>
 
@@ -292,216 +291,214 @@ https://github.com/peterlembke
     <string name="braille_advancedcontraction">Avancerade förkortningar</string>
     <string name="braille_shortform">Kortform</string>
 
-    <string name="numbersExplanation">The Number Sign sets <b>\'Numeric Mode\'</b> for the remainder of the sentence.\n\nThis means that all Braille characters after the Number Sign should be read as numbers until Numeric Mode ends.\n\nNumeric Mode is ended by spaces, the Letter Sign or any other character not shown in the numbers dictionary.</string>
-    <string name="lettersignExplanation">Some Braille characters can have more than one meaning; an uncontracted meaning and a contracted or numerical meaning.\n\nIn cases where this may be confusing for the reader, the <b>\'Uncontracted Indicator\'</b> (Letter Sign) is placed before the character to set <b>\'Uncontracted Mode\'</b>.\n\nThis tells the reader that the next symbol is not a contraction or a numeric value; it should be read as a letter or punctuation.</string>
-    <string name="capitalsignExplanation">The next letter to come after a <b>\'Capitalisation Indicator\'</b> (Capital Sign) is a capital letter.\n\nThe use of the Capital Sign sets <b>\'Capitals Mode\'</b>, which ends after the first letter.\n\nFor contractions, only the first letter in the contraction is capitalised.</string>
-    <string name="doublecapitalignExplanation">The <b>Capitals Word Indicator</b> sets <b>\'Capitals Mode\'</b> for a whole word, after which it ends.\n\nThis means that the entire following word is capitalised.</string>
-    <string name="italicsignExplanation">The <b>Italic Sign</b> makes the word to follow italic.</string>
-    <string name="doubleitalicsignExplanation">The <b>Double Italic Sign</b> makes the passage to follow italic.</string>
+    <string name="numbersExplanation">Med nummertecknet går du in i <b>\'numeriskt läge\'</b> för resten av meningen.\n\nDet betyder att alla tecken efter nummertecknet ska läsas som siffror tills nummerläget avslutas.\n\nNumeriskt läge avslutas med mellanslag, bokstavstecknet eller vilket tecken som helst som inte finns i nummerläget.</string>
+    <string name="lettersignExplanation">Några Brailletecken kan ha mer än en betydelse; an uncontracted meaning and a contracted or numerical meaning.\n\nIn cases where this may be confusing for the reader, the <b>\'Uncontracted Indicator\'</b> (Letter Sign) is placed before the character to set <b>\'Uncontracted Mode\'</b>.\n\nThis tells the reader that the next symbol is not a contraction or a numeric value; it should be read as a letter or punctuation.</string>
+    <string name="capitalsignExplanation">Tecknet som kommer efter ett <b>\'Versaltecken\'</b> är en versal.\n\nMed versaltecknet går du in i <b>\'Versalläge\'</b>, och det slutar efter första bokstaven.\n\nMed kortskrift så är det bara första tecknet som är en versal.</string>
+    <string name="doublecapitalignExplanation">Med <b>Versalordstecknet</b> får du <b>\'Versalläge\'</b> för ett helt ord, och sedan avslutas läget.\n\nDet här betyder att hela ordet är i versaler.</string>
+    <string name="italicsignExplanation">Med <b>Kursivtecknet</b> blir hela det efterföljande ordet kursivt.</string>
+    <string name="doubleitalicsignExplanation">Med <b>Dubbla kursivtecken</b> blir hela avsnittet i kursiv stil.</string>
 
-    <string name="dictexplanation_numbers">Numbers in Braille are signified by the <b>\'Numeric Indicator\'</b> (Number Sign), followed by the symbols for each number. Tap on any entry to bring up more information on it.</string>
-    <string name="dictexplanation_punctuation">Some symbols are made up of more than one Braille cell. Tap on any entry to bring up more information on it.</string>
-    <string name="dictexplanation_wordsign">Wordsigns can generally only be used when they are standing alone. This means that they must form a word on their own, with no other letters in the word.</string>
-    <string name="dictexplanation_groupsign">Groupsigns can generally be used wherever the letters they represent occur, whether this be alone or in a word with other letters. However some groupsigns have specific rules which must be obeyed. Tap on any entry for more information on its usage rules.</string>
-    <string name="dictexplanation_initiallettercontractions">These contractions are made up of 2 cells. The first cell indicates which contraction should be read, and the second cell gives you the first few letters of the contraction. Tap on any entry for more information on its usage rules.</string>
-    <string name="dictexplanation_finallettercontractions">These contractions are made up of 2 cells. The first cell indicates that the symbol should be read as a final-letter contraction, and the second cell gives you the last letter of the contraction. They can generally be used anywhere, except at the start of a word. Tap on any entry for more information on its usage rules.</string>
-    <string name="dictexplanation_shortforms">These shortforms allow you to abbreviate common words, by missing out some letters. They can generally only be used when standing alone. Tap on any entry for more information on its usage rules.</string>
+    <string name="dictexplanation_numbers">Siffror i Braille börjar med ett <b>\'Nummertecken\'</b> och sedan en symbol för varje siffra. Klicka på ett ämne för att få mer information.</string>
+    <string name="dictexplanation_punctuation">Some symbols are made up of more than one Braille cell. Klicka på ett ämne för att få mer information.</string>
+    <string name="dictexplanation_wordsign">Tecken som representerar ett ord kan vanligtvis bara användas enskilt. Det betyder at de måste forma ett ord på egen hand utan att du fyller på med mer bokstäver i ordet.</string>
+    <string name="dictexplanation_groupsign">Grupptecken kan generellt användas där bokstäverna dom representerar finns, oavsett om de står självständiga eller i ett ord tillsammans med andra bokstäver. Emellertid har några grupptecken specifika regler som måste följas. Klicka på ett ämne för att få mer information hur du använder detta.</string>
+    <string name="dictexplanation_initiallettercontractions">Dessa förkortningar består av två tecken. Första tecknet talar om vilken förkortning som ska läsas, andra tecknet ger dig de första bokstäverna i förkortningen. Klicka på ett ämne för att få mer information hur du använder detta.</string>
+    <string name="dictexplanation_finallettercontractions">Dessa förkortningar består av två tecken. Första tecknet talar om att tecknet ska läsas som en slutbokstäversförkortning, och andra tecknet ger dig de sista bokstäverna i förkortningen. Dessa kan generellt användas över allt, utom i börna av ett ord. Klicka på ett ämne för att få mer information hur du använder detta.</string>
+    <string name="dictexplanation_shortforms">Med de här kortformerna kan du förkorta valigt förekommande ord genom att undvika vissa bokstäver. De kan generellt användas enbart när de förekommer enskilt. Klicka på ett ämne för att få mer information hur du använder detta.</string>
 
-    <string name="ruleTitle">Rule </string>
-    <string name="theContraction">The contraction \'</string>
-    <string name="ruleAnywhere">\' can be used wherever the characters occur</string>
-    <string name="ruleStandAlone">\' can only be used when standing alone</string>
-    <string name="ruleNotAtStart">\' cannot be used at the start of a word</string>
-    <string name="ruleFirstSyllable">\' can only be used when it forms the first syllable of a word</string>
-    <string name="ruleSurrounded">\' can only be used when surrounded by other letters</string>
-    <string name="ruleWordMeaningRetained">\' can only be used when the meaning of the original word is retained</string>
-    <string name="ruleShortA">\' can only be used when the \'a\' is short</string>
-    <string name="ruleEver">\' can only be used when the stress is on the first \'e\', and it does not follow the letters \'i\' or \'e\'</string>
-    <string name="ruleOneSyllable">\' can only be used when the letters it represents are pronounced as one syllable</string>
-    <string name="ruleOne">\' can only be used when the letters it represents are pronounced as one syllable, or are used to end a word with the letters \'oney\'. It cannot ever be used after the letter \'o\'</string>
-    <string name="ruleSamePronounciation">\' can only be used when the letters it represents are pronounced in the same way as in the original word</string>
-    <string name="ruleUnder">\' can only be used when the letters it represents do not follow the letters \'a\' or \'o\', and the letters \'un\' do not form a prefix</string>
-Transfer data between devices via
-    <string name="placeholderad">You should watch \'Earthlings\'</string>
+    <string name="ruleTitle">Regel </string>
+    <string name="theContraction">Sammandragningen \'</string>
+    <string name="ruleAnywhere">\' kan användas över allt där tecknen förekommer</string>
+    <string name="ruleStandAlone">\' kan bara anändas enskilt</string>
+    <string name="ruleNotAtStart">\' kan användas i början av ett ord</string>
+    <string name="ruleFirstSyllable">\' kan bara användas som första bokstav i ett ord</string>
+    <string name="ruleSurrounded">\' kan bara användas när är omslutet av andra bokstäver</string>
+    <string name="ruleWordMeaningRetained">\' kan bara användas när betydelsen av originalordet är densamma</string>
+    <string name="ruleShortA">\' kan bara användas när \'a\' betonas kort</string>
+    <string name="ruleEver">\' kan bara använas när betoningen är på första \'e\', och det inte kommer efter bokstäverna \'i\' eller \'e\'</string>
+    <string name="ruleOneSyllable">\' kan bara användas när bokstäverna den representerar uttalas som en stavelse</string>
+    <string name="ruleOne">\' kan bara användas när bokstäverna den representerar uttalas som en stavelse, eller används för att avsluta ett ord med bokstäverna \'oney\'. Det kan aldrig användas efter bokstäverna \'o\'</string>
+    <string name="ruleSamePronounciation">\' kan bara användas när bokstäverna det representerar uttalas på samma sätt som originalordet</string>
+    <string name="ruleUnder">\' kan bara användas när bokstäverna det representerar inte kommer efter bokstäverna \'a\' eller \'o\', och bokstäverna \'un\' inte formar ett prefix</string>
+
+    <string name="placeholderad">Du borde se \'Earthlings\'</string>
 
 <!-- words used to generate random (but grammatically correct!!) sentences to translate. It works like: Subject + Verb + Object. To make it work in different languages, you might not be able to do literal translations, so you can choose your own words :) -->
 
     <string-array name="subjects">
 
-        <item>Father Christmas</item>
-        <item>the tooth fairy</item>
-        <item>the time traveller</item>
-        <item>the village idiot</item>
-        <item>the failed artist</item>
+        <item>Jultomten</item>
+        <item>Tandfen</item>
+        <item>tidsresenären</item>
+        <item>bydåren</item>
+        <item>den misslyckade artisten</item>
 
-        <item>no-one</item>
-        <item>everyone</item>
+        <item>ingen</item>
+        <item>alla</item>
 
-        <item>my dad</item>
-        <item>my father</item>
-        <item>my mum</item>
-        <item>my mother</item>
-        <item>my uncle</item>
-        <item>my grandpa</item>
-        <item>my grandfather</item>
-        <item>my gran</item>
-        <item>my grandmother</item>
-        <item>my granny</item>
-        <item>my son</item>
-        <item>my daughter</item>
-        <item>my best friend</item>
-        <item>my enemy</item>
-        <item>my neighbour</item>
-        <item>my guardian angel</item>
-        <item>my friend</item>
-        <item>my aunt</item>
-        <item>my brother</item>
-        <item>my sister</item>
-        <item>my nephew</item>
-        <item>my cousin</item>
-        <item>my niece</item>
-        <item>my wife</item>
-        <item>my husband</item>
+        <item>min pappa</item>
+        <item>min far</item>
+        <item>min mamma</item>
+        <item>min mor</item>
+        <item>min farbror</item>
+        <item>min farfar</item>
+        <item>min morfar</item>
+        <item>min mormor</item>
+        <item>min farmor</item>
+        <item>min son</item>
+        <item>min dotter</item>
+        <item>min bästa vän</item>
+        <item>min fiende</item>
+        <item>min granne</item>
+        <item>min skyddsängel</item>
+        <item>min vän</item>
+        <item>min moster</item>
+        <item>min bror</item>
+        <item>min syster</item>
+        <item>min brorson</item>
+        <item>min kusin</item>
+        <item>min brorsdotter</item>
+        <item>min fru</item>
+        <item>min man</item>
 
-        <item>the hamster</item>
-        <item>the cat</item>
-        <item>the lion</item>
-        <item>the bird</item>
-        <item>the penguin</item>
-        <item>the dog</item>
-        <item>the bat</item>
-        <item>the pig</item>
-        <item>the turtle</item>
-        <item>the fox</item>
-        <item>the badger</item>
-        <item>the frog</item>
-        <item>the snake</item>
-        <item>the tapir</item>
-        <item>the elephant</item>
-        <item>the giant spider</item>
-        <item>the lizard</item>
-        <item>the monkey</item>
-        <item>the zebra</item>
-        <item>the panda</item>
-        <item>the leopard</item>
-        <item>the trilobite</item>
-        <item>the llama</item>
-        <item>the koala</item>
-        <item>the kangaroo</item>
-        <item>the snail</item>
-        <item>the slug</item>
-        <item>the tiger</item>
-        <item>the horse</item>
-        <item>the dragon</item>
-        <item>the parrot</item>
-        <item>the butterfly</item>
-        <item>the moth</item>
-        <item>the crocodile</item>
-        <item>the eagle</item>
-        <item>the seagull</item>
-        <item>the toad</item>
-        <item>the cow</item>
-        <item>the sheep</item>
-        <item>the deer</item>
-        <item>the goose</item>
-        <item>the swan</item>
-        <item>the spider</item>
-        <item>the fish</item>
-        <item>the hedgehog</item>
-        <item>the mouse</item>
-        <item>the wasp</item>
-        <item>the beetle</item>
-        <item>the whale</item>
-        <item>the dolphin</item>
-        <item>the duck</item>
-        <item>the wasp</item>
-        <item>the rat</item>
-        <item>the squid</item>
-        <item>the bear</item>
-        <item>the octopus</item>
-        <item>the monster</item>
-        <item>the donkey</item>
-        <item>the skeleton</item>
-        <item>the zombie</item>
-        <item>the vampire</item>
-        <item>the giant</item>
-        <item>the werewolf</item>
-        <item>the wolf</item>
-        <item>the ogre</item>
-        <item>the shark</item>
+        <item>hamstern</item>
+        <item>katten</item>
+        <item>lejonet</item>
+        <item>fågeln</item>
+        <item>pingvinen</item>
+        <item>hunden</item>
+        <item>fladdermusen</item>
+        <item>grisen</item>
+        <item>sköldpaddan</item>
+        <item>räven</item>
+        <item>grävlingen</item>
+        <item>grodan</item>
+        <item>ormen</item>
+        <item>tapiren</item>
+        <item>elefanten</item>
+        <item>den stora spindeln</item>
+        <item>ödlan</item>
+        <item>apan</item>
+        <item>zebran</item>
+        <item>pandan</item>
+        <item>leoparden</item>
+        <item>trilobiten</item>
+        <item>laman</item>
+        <item>koalan</item>
+        <item>kängurun</item>
+        <item>snigeln</item>
+        <item>snigeln</item>
+        <item>tigern</item>
+        <item>hästen</item>
+        <item>draken</item>
+        <item>papegojan</item>
+        <item>fjärilen</item>
+        <item>malen</item>
+        <item>krokodilen</item>
+        <item>örnen</item>
+        <item>fiskmåsen</item>
+        <item>grodan</item>
+        <item>kon</item>
+        <item>fåret</item>
+        <item>hjorten</item>
+        <item>gåsen</item>
+        <item>svanen</item>
+        <item>spindeln</item>
+        <item>fisken</item>
+        <item>igelkotten</item>
+        <item>musen</item>
+        <item>getingen</item>
+        <item>skalbaggen</item>
+        <item>valen</item>
+        <item>delfinen</item>
+        <item>ankan</item>
+        <item>getingen</item>
+        <item>råttan</item>
+        <item>bläckfisken</item>
+        <item>björnen</item>
+        <item>bläckfisken</item>
+        <item>monstret</item>
+        <item>åsnan</item>
+        <item>skelettet</item>
+        <item>zombien</item>
+        <item>vampyren</item>
+        <item>jätten</item>
+        <item>varulven</item>
+        <item>vargen</item>
+        <item>trollet</item>
+        <item>hajen</item>
 
         <!--  <item>the plonker</item> -->
         <!--  <item>the cretin</item> -->
         <!--   <item>the moron</item> -->
-        <item>the jogger</item>
-        <item>the cyclist</item>
-        <item>the teacher</item>
-        <item>the priest</item>
-        <item>the policeman</item>
-        <item>the clown</item>
-        <item>the gnome</item>
-        <item>the botanist</item>
-        <item>the pirate</item>
-        <item>the alien</item>
-        <item>the sailor</item>
-        <item>the singer</item>
-        <item>the opera singer</item>
-        <item>the comedian</item>
-        <item>the train driver</item>
-        <item>the ninja</item>
-        <item>the mermaid</item>
-        <item>the magician</item>
-        <item>the knight</item>
-        <item>the warrior</item>
-        <item>the witch</item>
-        <item>the wizard</item>
-        <item>the scientist</item>
-        <item>the child</item>
-        <item>the teenager</item>
-        <item>the mathematician</item>
-        <item>the pure mathematician</item>
-        <item>the waiter</item>
-        <item>the waitress</item>
-        <item>the surgeon</item>
-        <item>the russian</item>
-        <item>the assassin</item>
-        <item>the gamer</item>
-        <item>the engineer</item>
-        <item>the biochemist</item>
-        <item>the dentist</item>
-        <item>the vet</item>
-        <item>the author</item>
-        <item>the writer</item>
-        <item>the poet</item>
-        <item>the fool</item>
-        <item>the actor</item>
-        <item>the geologist</item>
-        <item>the ghost</item>
+        <item>joggaren</item>
+        <item>cyklisten</item>
+        <item>läraren</item>
+        <item>prästen</item>
+        <item>polismannen</item>
+        <item>clownen</item>
+        <item>gnomen</item>
+        <item>botanisten</item>
+        <item>piraten</item>
+        <item>utomjordlingen</item>
+        <item>matrosen</item>
+        <item>sångaren</item>
+        <item>operasångaren</item>
+        <item>komikern</item>
+        <item>tågföraren</item>
+        <item>ninjan</item>
+        <item>sjöjungfrun</item>
+        <item>magikern</item>
+        <item>riddaren</item>
+        <item>krigaren</item>
+        <item>häxan</item>
+        <item>trollkarlen</item>
+        <item>forskaren</item>
+        <item>barnet</item>
+        <item>tonåringen</item>
+        <item>matematikern</item>
+        <item>servitören</item>
+        <item>servitrisen</item>
+        <item>kirurgen</item>
+        <item>Ryssen</item>
+        <item>lönnmördaren</item>
+        <item>spelaren</item>
+        <item>ingenjören</item>
+        <item>biokemisten</item>
+        <item>tandläkaren</item>
+        <item>veterinären</item>
+        <item>författaren</item>
+        <item>skribenten</item>
+        <item>poeten</item>
+        <item>dåren</item>
+        <item>skådespelaren</item>
+        <item>geologen</item>
+        <item>spöket</item>
         <!-- <item>the imbecile</item> -->
-        <item>the soldier</item>
-        <item>the pilot</item>
-        <item>the astronaut</item>
-        <item>the physicist</item>
+        <item>soldaten</item>
+        <item>politen</item>
+        <item>astronauten</item>
+        <item>fysikern</item>
         <!-- <item>the eejit</item>-->
         <!--  <item>the halfwit</item>-->
         <!--  <item>the elf</item>-->
         <!--  <item>the dwarf</item>-->
-        <item>the student</item>
-        <item>the king</item>
-        <item>the queen</item>
-        <item>the vegan</item>
-        <item>the vegetarian</item>
-        <item>the baby</item>
-        <item>the girl</item>
-        <item>the boy</item>
-        <item>the toddler</item>
-        <item>the German</item>
-        <item>the American</item>
-        <item>the Norwegian</item>
-        <item>the chemist</item>
-        <item>the doctor</item>
-        <item>the nurse</item>
-        <item>the viking</item>
+        <item>studenten</item>
+        <item>kungen</item>
+        <item>drottningen</item>
+        <item>veganen</item>
+        <item>vegetarianen</item>
+        <item>bebisen</item>
+        <item>flickan</item>
+        <item>pojken</item>
+        <item>småbarnet</item>
+        <item>Tysken</item>
+        <item>Amerikanen</item>
+        <item>Norrmannen</item>
+        <item>kemisten</item>
+        <item>doktorn</item>
+        <item>sjuksköterskan</item>
+        <item>vikingen</item>
 
 
         <!--   <item>the grim reaper</item> -->
