@@ -63,22 +63,21 @@
     <string name="settings_credits">View Credits</string>
     <string name="credits1" formatted="false">Skapad med kärlek av Luke Needham :)\n</string>
 	<string name="credits2" formatted="false">
-        \n\nAlso why not like the Facebook page!\nhttps://www.facebook.com/brailletutor/
-        \n\nMany thanks to add the volunteers who worked incredibly hard to add other languages to the app!
-        \nSwedish - Peter Lembke
-        \nADD YOURSELF! :)
-        \n\nMany thanks to all of my testers:\n
+        \n\nOch varför inte gilla Facebooksidan!\nhttps://www.facebook.com/brailletutor/
+        \n\nTack till alla frivilliga som har jobbat otroligt hårt med att lägga till fler språk i appen!
+        \nSvenska - Peter Lembke
+        \n\nTack till alla mina testare:\n
         Alice Blinkhorn\nDan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
-        All Braille rules and data from\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
+        Alla Brailleregler och data kommer från\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
         "Faster Does It" and "George Street Shuffle" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/</string>
-    <string name="settings_dictionaryGridViewLabel">Dictionary Style</string>
+    <string name="settings_dictionaryGridViewLabel">Ordbokens stil</string>
     <string name="settings_challengeOptionsTitle">Utmaningsinställningar</string>
     <string name="settings_ColourOptionsTitle">Färginställningar</string>
     <string name="settings_DictionaryOptionsTitle">Lexikoninställningar</string>
-    <string name="groupsign_title">Groupsigns</string>
-    <string name="wordsign_title">Wordsigns</string>
-    <string name="intiallettercontractions_title">Initial-letter Contractions</string>
-    <string name="finallettercontractions_title">Final-letter Contractions</string>
+    <string name="groupsign_title">Grupptecken</string>
+    <string name="wordsign_title">Ordtecken</string>
+    <string name="intiallettercontractions_title">Förstabokstanssammandragningar</string>
+    <string name="finallettercontractions_title">Sistabokstanssammandragningar</string>
     <string name="locked_until">"Är låst fram till nivå"</string>
     <string name="locked_until_plural">" är låsta fram till nivå"</string>
     <string name="locked_until_singular">" är låst fram till nivå"</string>
@@ -502,72 +501,68 @@
 
 
         <!--   <item>the grim reaper</item> -->
-        <item>the mayor</item>
-        <item>the president</item>
-        <item>the prime minister</item>
-        <item>the headmaster</item>
-        <item>the headmistress</item>
-        <item>the prisoner</item>
-        <item>the cleaner</item>
-        <item>the programmer</item>
-        <item>the headmistress</item>
-        <item>the businessman</item>
-        <item>the businesswoman</item>
-        <item>the geographer</item>
-        <item>the bandit</item>
-        <item>the thief</item>
-        <item>the musician</item>
-        <item>the composer</item>
-        <item>the pianist</item>
-        <item>the guest</item>
-        <item>the lodger</item>
-        <item>the painter</item>
-        <item>the builder</item>
-        <item>the madman</item>
-        <item>the lunatic</item>
-        <item>the prince</item>
-        <item>the princess</item>
+        <item>borgmästaren</item>
+        <item>presidenten</item>
+        <item>statsministern</item>
+        <item>rektorn</item>
+        <item>fången</item>
+        <item>lokalvårdaren</item>
+        <item>programmeraren</item>
+        <item>affärsmannen</item>
+        <item>affärskvinnan</item>
+        <item>geografen</item>
+        <item>banditen</item>
+        <item>tjuven</item>
+        <item>musikern</item>
+        <item>kompositören</item>
+        <item>pianisten</item>
+        <item>gästen</item>
+        <item>konstnären</item>
+        <item>byggaren</item>
+        <item>galningen</item>
+        <item>prinsessan</item>
+        <item>prinsen</item>
     </string-array>
 
     <string-array name="verbs">
-        <item>likes</item>
-        <item>eats</item>
-        <item>bites</item>
+        <item>gillar</item>
+        <item>äter</item>
+        <item>biter</item>
         <!-- <item>licks</item> -->
         <!-- <item>nibbles</item> -->
-        <item>loves</item>
-        <item>hates</item>
-        <item>watches</item>
-        <item>listens to</item>
-        <item>talks to</item>
-        <item>glares at</item>
-        <item>stares at</item>
-        <item>thinks about</item>
-        <item>looks at</item>
-        <item>observes</item>
-        <item>secretly fancies</item>
-        <item>examines</item>
-        <item>loathes</item>
-        <item>curses</item>
-        <item>hexes</item>
-        <item>waits for</item>
-        <item>runs towards</item>
-        <item>criticises</item>
-        <item>admires</item>
-        <item>hunts</item>
+        <item>älskar</item>
+        <item>hatar</item>
+        <item>ser</item>
+        <item>lyssnar på</item>
+        <item>talar med</item>
+        <item>glor på</item>
+        <item>stirrar på</item>
+        <item>tänker på</item>
+        <item>ser på</item>
+        <item>observerar</item>
+        <item>gillar i hemlighet</item>
+        <item>undersöker</item>
+        <item>avskyr</item>
+        <item>förbannar</item>
+        <item>kastar en trollformel</item>
+        <item>väntar på</item>
+        <item>springer mot</item>
+        <item>kritiserar</item>
+        <item>beundrar</item>
+        <item>jagar</item>
         <!--  <item>shoots</item>-->
-        <item>battles</item>
-        <item>despises</item>
-        <item>tolerates</item>
-        <item>dislikes</item>
-        <item>ignores</item>
-        <item>insults</item>
-        <item>respects</item>
-        <item>studies</item>
-        <item>guards</item>
+        <item>slåss mot</item>
+        <item>avskyr</item>
+        <item>tolererar</item>
+        <item>ogillar</item>
+        <item>ignorerar</item>
+        <item>förolämpar</item>
+        <item>respekterar</item>
+        <item>studerar</item>
+        <item>vaktar</item>
         <!--  <item>hits</item>-->
-        <item>critiques</item>
-        <item>fears</item>
+        <item>recenserar</item>
+        <item>fruktar</item>
         <!--  <item>kicks</item>
          <item>punches</item>
          <item>crushes</item>
@@ -578,201 +573,200 @@
          <item>was murdered by</item>
          <item>was killed by</item>
          <item>was abused by</item>-->
-        <item>supports</item>
-        <item>looks after</item>
-        <item>argues with</item>
-        <item>disagrees with</item>
-        <item>agrees with</item>
-        <item>advises</item>
-        <item>tickles</item>
-        <item>massages</item>
-        <item>believes in</item>
-        <item>sleeps on</item>
-        <item>lives with</item>
-        <item>pokes</item>
-        <item>fights</item>
-        <item>scoffs at</item>
-        <item>scorns</item>
-        <item>stalks</item>
-        <item>understands</item>
+        <item>stödjer</item>
+        <item>ser efter</item>
+        <item>argumenterar med</item>
+        <item>håller inte med</item>
+        <item>håller med</item>
+        <item>råder</item>
+        <item>kittlar</item>
+        <item>masserar</item>
+        <item>tror på</item>
+        <item>sover på</item>
+        <item>lever med</item>
+        <item>petar</item>
+        <item>slåss</item>
+        <!-- <item>scoffs at</item> -->
+        <item>ratar</item>
+        <item>förföljer</item>
+        <item>förstår</item>
         <!--  <item>touches</item>-->
-        <item>confuses</item>
-        <item>stares down</item>
-        <item>mocks</item>
-        <item>misses</item>
-        <item>trusts</item>
-        <item>dreams about</item>
+        <item>förvirrar</item>
+        <item>tittar ned på</item>
+        <item>hånar</item>
+        <item>saknar</item>
+        <item>litar på</item>
+        <item>drömmer om</item>
         <!--  <item>cuts open</item>-->
-        <item>banishes</item>
-        <item>exiles</item>
-        <item>condemns</item>
-        <item>trails after</item>
-        <item>smells like</item>
+        <item>förvisar</item>
+        <!-- <item>exiles</item> -->
+        <item>fördömmer</item>
+        <item>spårar</item>
         <item>follows</item>
-        <item>dissects</item>
-        <item>welcomes</item>
+        <item>dissikerar</item>
+        <item>välkomnar</item>
         <!--   <item>stabs</item>-->
-        <item>runs from</item>
-        <item>smells</item>
+        <item>springer från</item>
+        <item>luktar</item>
 
-        <item>discusses politics with</item>
-        <item>gives gifts to</item>
-        <item>mourns the loss of</item>
-        <item>knows a secret regarding</item>
+        <item>diskuterar politik med</item>
+        <item>ger gåvor till</item>
+        <item>sörjer förlusten av</item>
+        <item>känner till en hemlighet om</item>
         <!-- <item>hurls bricks at</item>-->
         <!-- <item>tenderly strokes</item>
 
         <item>hacks merrily away at</item>
         <item>decays in the presence of</item>-->
-        <item>cast a spell on</item>
-        <item>tries to impress</item>
-        <item>reads poetry to</item>
-        <item>writes novels about</item>
-        <item>pens lymericks about</item>
-        <item>sings lullabies to</item>
+        <item>slänger en trollformel på</item>
+        <item>försöker imponera på</item>
+        <item>läser poesi för</item>
+        <item>skriver noveller om</item>
+        <item>skriver limerickar om</item>
+        <item>sjunger vaggsånger för</item>
 
-        <item>is obsessed with</item>
-        <item>is worried about</item>
-        <item>is mistrustful of</item>
-        <item>is confused by</item>
-        <item>is excited by</item>
-        <item>is disgusted by</item>
-        <item>is repulsed by</item>
-        <item>is fascinated by</item>
-        <item>is hated by</item>
-        <item>is looking for</item>
-        <item>is hated by</item>
-        <item>is on a quest to find</item>
-        <item>is suspicious of</item>
-        <item>is scared of</item>
-        <item>is terrified of</item>
-        <item>is pleased with</item>
-        <item>is mourned by</item>
-        <item>is liked by</item>
-        <item>is loved by</item>
-        <item>does not care about</item>
-        <item>cannot understand</item>
-        <item>cannot abide</item>
-        <item>can see</item>
-        <item>cannot tolerate</item>
-        <item>discovered</item>
+        <item>är besatt av</item>
+        <item>oroar sig för</item>
+        <item>är misstrogen mot</item>
+        <item>är förvirrad över</item>
+        <item>är uppspelt för</item>
+        <item>är äcklad av</item>
+        <!-- <item>is repulsed by</item> -->
+        <item>är fascinerad av</item>
+        <item>är hatad av</item>
+        <item>letar efter</item>
+        <item>hatas av</item>
+        <item>har ett uppdrag att hitta</item>
+        <item>är misstänksam mot</item>
+        <item>är rädd för</item>
+        <item>är förskräkt för</item>
+        <item>är nöjd med</item>
+        <item>är sörjd av</item>
+        <item>är omtyckt av</item>
+        <item>är älskad av</item>
+        <item>bryr sig inte om</item>
+        <item>förstår inte</item>
+        <item>kan inte stå ut med</item>
+        <item>kan se</item>
+        <item>kan inte tolerera</item>
+        <item>upptäckte</item>
 
-        <item>was despised by</item>
-        <item>was liked by</item>
-        <item>was loved by</item>
-        <item>was hated by</item>
+        <item>var föraktad av</item>
+        <item>var omtykt av</item>
+        <item>var älskad av</item>
+        <item>var hatad av</item>
 
     </string-array>
 
     <string-array name="objects">
-        <item>me</item>
+        <item>mig</item>
 
-        <item>animals</item>
-        <item>pets</item>
-        <item>hamsters</item>
-        <item>cats</item>
-        <item>lions</item>
-        <item>birds</item>
-        <item>penguins</item>
-        <item>dogs</item>
-        <item>bats</item>
-        <item>pigs</item>
-        <item>turtles</item>
-        <item>foxes</item>
-        <item>badgers</item>
-        <item>frogs</item>
-        <item>snakes</item>
-        <item>red pandas</item>
-        <item>tapirs</item>
-        <item>elephants</item>
-        <item>giant spiders</item>
-        <item>lizards</item>
-        <item>monkeys</item>
-        <item>zebra</item>
-        <item>pandas</item>
-        <item>leopards</item>
-        <item>trilobites</item>
-        <item>llamas</item>
-        <item>koalas</item>
-        <item>kangaroos</item>
-        <item>snails</item>
-        <item>slugs</item>
-        <item>tigers</item>
-        <item>horses</item>
-        <item>dragons</item>
-        <item>parrots</item>
-        <item>butterflies</item>
-        <item>moths</item>
-        <item>crocodiles</item>
-        <item>eagles</item>
-        <item>seagulls</item>
-        <item>toads</item>
-        <item>cows</item>
-        <item>sheep</item>
-        <item>deer</item>
-        <item>geese</item>
-        <item>swans</item>
-        <item>spiders</item>
-        <item>insects</item>
-        <item>fish</item>
-        <item>hedgehogs</item>
-        <item>mice</item>
-        <item>wasps</item>
-        <item>beetles</item>
-        <item>whales</item>
-        <item>dolphins</item>
-        <item>ducks</item>
-        <item>wasps</item>
-        <item>rats</item>
-        <item>squids</item>
-        <item>bears</item>
-        <item>octopi</item>
-        <item>monsters</item>
-        <item>donkeys</item>
-        <item>skeletons</item>
+        <item>djur</item>
+        <item>husdjur</item>
+        <item>hamstrar</item>
+        <item>katter</item>
+        <item>lejon</item>
+        <item>fåglar</item>
+        <item>pingviner</item>
+        <item>hundar</item>
+        <item>fladdermöss</item>
+        <item>grisar</item>
+        <item>sköldpaddor</item>
+        <item>rävar</item>
+        <item>grävlingar</item>
+        <item>grodor</item>
+        <item>ormar</item>
+        <item>jättepandas</item>
+        <item>tapirer</item>
+        <item>elefanter</item>
+        <item>stora spindlar</item>
+        <item>ödlor</item>
+        <item>apor</item>
+        <item>zebror</item>
+        <item>pandor</item>
+        <item>leoparder</item>
+        <item>trilobiter</item>
+        <item>lamadjur</item>
+        <item>koalor</item>
+        <item>kängurur</item>
+        <item>sniglar</item>
+        <!-- <item>slugs</item> -->
+        <item>tigrar</item>
+        <item>hästar</item>
+        <item>drakar</item>
+        <item>papegojor</item>
+        <item>fjärilar</item>
+        <item>malar</item>
+        <item>krokodiler</item>
+        <item>örnar</item>
+        <item>fiskmåsar</item>
+        <item>paddor</item>
+        <item>kor</item>
+        <item>får</item>
+        <item>hjortar</item>
+        <item>gäss</item>
+        <item>svanar</item>
+        <item>spindlar</item>
+        <item>insekter</item>
+        <item>fiskar</item>
+        <item>igelkottar</item>
+        <item>möss</item>
+        <item>getingar</item>
+        <item>skalbaggar</item>
+        <item>valar</item>
+        <item>delfiner</item>
+        <item>ankor</item>
+        <item>getingar</item>
+        <item>råttor</item>
+        <item>bläckfiskar</item>
+        <item>björnar</item>
+        <!-- <item>octopi</item> -->
+        <item>monster</item>
+        <item>åsnor</item>
+        <item>skelett</item>
         <item>zombies</item>
-        <item>vampires</item>
-        <item>giants</item>
-        <item>werewolves</item>
-        <item>wolves</item>
-        <item>ogres</item>
-        <item>sharks</item>
+        <item>vampyrer</item>
+        <item>jättar</item>
+        <item>varulvar</item>
+        <item>vargar</item>
+        <item>troll</item>
+        <item>hajar</item>
 
-        <item>the television</item>
-        <item>the computer</item>
-        <item>the radio</item>
-        <item>the thing</item>
-        <item>the piano</item>
+        <item>TVn</item>
+        <item>datorn</item>
+        <item>radion</item>
+        <item>saken</item>
+        <item>pianot</item>
 
-        <item>plants</item>
-        <item>cacti</item>
-        <item>flowers</item>
-        <item>trees</item>
-        <item>bonsai trees</item>
-        <item>tulips</item>
-        <item>roses</item>
-        <item>daisies</item>
+        <item>plantor</item>
+        <item>kaktusar</item>
+        <item>blommor</item>
+        <item>träd</item>
+        <item>bonsai träd</item>
+        <item>tulpaner</item>
+        <item>rosor</item>
+        <item>tusenskönor</item>
 
-        <item>food</item>
-        <item>meat</item>
-        <item>eggs</item>
-        <item>burgers</item>
-        <item>toast</item>
-        <item>bread</item>
-        <item>pumpkins</item>
-        <item>mushrooms</item>
-        <item>carrots</item>
-        <item>vegetables</item>
-        <item>fruit</item>
-        <item>apples</item>
-        <item>oranges</item>
-        <item>satsumas</item>
-        <item>pineapples</item>
-        <item>pears</item>
+        <item>mat</item>
+        <item>kött</item>
+        <item>ägg</item>
+        <item>hamburgare</item>
+        <!-- <item>toast</item> -->
+        <item>bröd</item>
+        <item>pumpor</item>
+        <item>svampar</item>
+        <item>morötter</item>
+        <item>grönsaker</item>
+        <item>frukt</item>
+        <item>äpplen</item>
+        <item>apelsiner</item>
+        <item>satsuma</item>
+        <item>ananas</item>
+        <item>päron</item>
 
-        <item>people</item>
-        <item>men</item>
-        <item>women</item>
+        <item>folk</item>
+        <item>män</item>
+        <item>kvinnor</item>
         <!--  <item>idiots</item>
         <item>cretins</item>
         <item>eejits</item>
@@ -781,79 +775,79 @@
         <item>dwarves</item>
          <item>imbeciles</item>
         <item>morons</item> -->
-        <item>joggers</item>
-        <item>cyclists</item>
-        <item>teachers</item>
-        <item>priests</item>
-        <item>policemen</item>
-        <item>clowns</item>
-        <item>gnomes</item>
-        <item>pirates</item>
-        <item>aliens</item>
-        <item>sailors</item>
-        <item>singers</item>
-        <item>opera singers</item>
-        <item>comedians</item>
-        <item>train drivers</item>
-        <item>ninjas</item>
-        <item>mermaids</item>
-        <item>magicians</item>
-        <item>knights</item>
-        <item>geographers</item>
-        <item>warriors</item>
-        <item>witches</item>
-        <item>wizards</item>
-        <item>scientists</item>
-        <item>children</item>
-        <item>teenagers</item>
-        <item>mathematicians</item>
-        <item>pure mathematicians</item>
-        <item>waiters</item>
-        <item>waitresses</item>
-        <item>surgeons</item>
-        <item>russians</item>
-        <item>assassins</item>
-        <item>gamers</item>
-        <item>engineers</item>
-        <item>biochemists</item>
-        <item>dentists</item>
-        <item>vets</item>
-        <item>authors</item>
-        <item>writers</item>
-        <item>poets</item>
-        <item>fools</item>
-        <item>actors</item>
-        <item>geologists</item>
-        <item>ghosts</item>
-        <item>soldiers</item>
-        <item>pilots</item>
-        <item>astronauts</item>
-        <item>botanists</item>
-        <item>physicists</item>
-        <item>students</item>
-        <item>kings</item>
-        <item>queens</item>
-        <item>vegans</item>
-        <item>vegetarians</item>
-        <item>babies</item>
-        <item>girls</item>
-        <item>boys</item>
-        <item>vikings</item>
-        <item>toddlers</item>
-        <item>the French</item>
-        <item>Germans</item>
-        <item>Americans</item>
-        <item>the English</item>
-        <item>the Irish</item>
-        <item>the Welsh</item>
-        <item>the Scottish</item>
-        <item>the Spanish</item>
-        <item>Norwegians</item>
-        <item>chemists</item>
-        <item>doctors</item>
-        <item>nurses</item>
-        <item>everyone</item>
-        <item>no-one</item>
+        <item>joggare</item>
+        <item>cyklister</item>
+        <item>lärare</item>
+        <item>präster</item>
+        <item>poliser</item>
+        <item>clowner</item>
+        <item>jordandar</item>
+        <item>pirater</item>
+        <item>utomjordling</item>
+        <item>sjöman</item>
+        <item>sångare</item>
+        <item>operasångare</item>
+        <item>komiker</item>
+        <item>tågförare</item>
+        <item>ninjor</item>
+        <item>sjöjungfrur</item>
+        <item>magiker</item>
+        <item>riddare</item>
+        <item>geografer</item>
+        <item>krigare</item>
+        <item>häxor</item>
+        <item>trollkarlar</item>
+        <item>forskare</item>
+        <item>barn</item>
+        <item>tonåringar</item>
+        <item>matematiker</item>
+        <!-- <item>pure mathematicians</item> -->
+        <item>servitörer</item>
+        <item>servitriser</item>
+        <item>kirurger</item>
+        <item>ryssar</item>
+        <item>lönnmördare</item>
+        <item>spelare</item>
+        <item>ingenjörer</item>
+        <item>biokemister</item>
+        <item>tandläkare</item>
+        <item>veterinärer</item>
+        <item>författare</item>
+        <item>skribenter</item>
+        <item>poeter</item>
+        <item>dårar</item>
+        <item>skådespelare</item>
+        <item>geologer</item>
+        <item>spöken</item>
+        <item>soldater</item>
+        <item>piloter</item>
+        <item>astronauter</item>
+        <item>botanister</item>
+        <item>fysiker</item>
+        <item>studenter</item>
+        <item>kungar</item>
+        <item>drottningar</item>
+        <item>veganer</item>
+        <item>vegetarianer</item>
+        <item>bäbisar</item>
+        <item>flickor</item>
+        <item>pojkar</item>
+        <item>vikingar</item>
+        <item>småbarn</item>
+        <item>fransmännen</item>
+        <item>tyskarna</item>
+        <item>amerikanerna</item>
+        <item>engelsmännen</item>
+        <item>irländarna</item>
+        <item>welsharna</item>
+        <item>skottarna</item>
+        <item>spanjorerna</item>
+        <item>norrmännen</item>
+        <item>kemisterna</item>
+        <item>doktorerna</item>
+        <item>sjuksköterskorna</item>
+        <item>alla</item>
+        <item>ingen</item>
     </string-array>
 
     <string-array name="extra_pack">
