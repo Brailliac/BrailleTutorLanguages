@@ -282,7 +282,177 @@ public class SvenskaSymbolDatabase extends BrailleSymbolDatabase
             new BrailleSymbolDataEntry("emellan", STANDALONE, SHORTFORM, CellE, CellM, CellL), // [15][134][123] between
             new BrailleSymbolDataEntry("emellertid", STANDALONE, SHORTFORM, CellE, CellM, CellT), // [15][134][2345] emt. however
 
-            // Still 116 short forms left, I will add them too.
+            new BrailleSymbolDataEntry("från", STANDALONE, SHORTFORM, CellF), // [124] from
+            new BrailleSymbolDataEntry("fortfarande", STANDALONE, SHORTFORM, CellF, CellO, CellF), // [124][135][124] emt. still
+
+            new BrailleSymbolDataEntry("genom", STANDALONE, SHORTFORM, CellG), // [1245] g. trough
+            new BrailleSymbolDataEntry("gång", STANDALONE, SHORTFORM, CellG, CellG), // [1245][1245] gg. gangway
+            new BrailleSymbolDataEntry("gångs", STANDALONE, SHORTFORM, CellG, CellG, CellS), // [1245][1245][234] ggs. gangways
+            new BrailleSymbolDataEntry("gångar", STANDALONE, SHORTFORM, CellG, CellG, CellA, CellR), // [1245][1245][1][1235] ggar. tunnels (in general)
+            new BrailleSymbolDataEntry("gångars", STANDALONE, SHORTFORM, CellG, CellG, CellA, CellR, CellS), // [1245][1245][1][1235][234] ggar. tunnels (property)
+            new BrailleSymbolDataEntry("gångarna", STANDALONE, SHORTFORM, CellG, CellG, CellA, CellR, CellN, CellA), // [1245][1245][1][1235][1345][1] ggarna. the tunnels (in general)
+            new BrailleSymbolDataEntry("gångarnas", STANDALONE, SHORTFORM, CellG, CellG, CellA, CellR, CellN, CellA, CellS), // [1245][1245][1][1235][1345][1][234] ggarnas. the tunnels (property)
+            new BrailleSymbolDataEntry("gången", STANDALONE, SHORTFORM, CellG, CellG, CellWH), // [1245][1245][156] gg[156]. the tunnel
+            new BrailleSymbolDataEntry("gångens", STANDALONE, SHORTFORM, CellG, CellG, CellWH, CellS), // [1245][1245][156][234] gg[156]s. the tunnels (property)
+
+            new BrailleSymbolDataEntry("gånger", STANDALONE, SHORTFORM, CellG, CellG, CellWH), // [1245][1245][156] gg[156]. times (I have done it 5 times)
+            new BrailleSymbolDataEntry("gångers", STANDALONE, SHORTFORM, CellG, CellG, CellWH, CellS), // [1245][1245][156][234] gg[156]s. times (I will have 5 times suspension)
+            new BrailleSymbolDataEntry("gångerna", STANDALONE, SHORTFORM, CellG, CellG, CellWH, CellN, CellA), // [1245][1245][156][1345][1] gg[156]na. the times
+            new BrailleSymbolDataEntry("gångernas", STANDALONE, SHORTFORM, CellG, CellG, CellWH, CellN, CellA, CellS), // [1245][1245][156][1345][1][234] gg[156]nas. the times
+
+            new BrailleSymbolDataEntry("han", STANDALONE, SHORTFORM, CellH), // [125] h. he
+            new BrailleSymbolDataEntry("hans", STANDALONE, SHORTFORM, CellH, CellS), // [125][234] hs. his
+            new BrailleSymbolDataEntry("hon", STANDALONE, SHORTFORM, CellH, CellN), // [125][1345] hn. she
+            new BrailleSymbolDataEntry("hade", STANDALONE, SHORTFORM, CellH, CellTH), // [125][1456] h[1456]. had
+
+            // Still 97 short forms left, I will add them too.
+            // ****************  Below is work in progress *******************
+
+            new BrailleSymbolDataEntry("inga", STANDALONE, SHORTFORM, CellI), // [13] i. he
+            new BrailleSymbolDataEntry("ingas", STANDALONE, SHORTFORM, CellI, CellS), // [13][234] i. his
+            new BrailleSymbolDataEntry("ingen", STANDALONE, SHORTFORM, CellI, CellN), // [13][1345] i. she
+            new BrailleSymbolDataEntry("ingens", STANDALONE, SHORTFORM, CellI, CellTH), // [13][1456] i. had
+            new BrailleSymbolDataEntry("inget", STANDALONE, SHORTFORM, CellI), // [13] i. he
+            new BrailleSymbolDataEntry("ingets", STANDALONE, SHORTFORM, CellI, CellS), // [13][234] i. his
+            new BrailleSymbolDataEntry("ibland", STANDALONE, SHORTFORM, CellI, CellN), // [13][1345] i. she
+            new BrailleSymbolDataEntry("ingenting", STANDALONE, SHORTFORM, CellI, CellTH), // [13][1456] i. had
+            new BrailleSymbolDataEntry("igenom", STANDALONE, SHORTFORM, CellI), // [13] i. he
+
+            new BrailleSymbolDataEntry("jag", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("kan", STANDALONE, SHORTFORM, CellK), // [13] k. can
+            new BrailleSymbolDataEntry("kanske", STANDALONE, SHORTFORM, CellK), // [13] k. perhaps
+            new BrailleSymbolDataEntry("komma", STANDALONE, SHORTFORM, CellK), // [13] k. come
+            new BrailleSymbolDataEntry("kommer", STANDALONE, SHORTFORM, CellK), // [13] k. will come
+            new BrailleSymbolDataEntry("kommit", STANDALONE, SHORTFORM, CellK), // [13] k. have came
+            new BrailleSymbolDataEntry("kunna", STANDALONE, SHORTFORM, CellK), // [13] k. can (I want to be able to come)
+            new BrailleSymbolDataEntry("kunnat", STANDALONE, SHORTFORM, CellK), // [13] k. been able (I have known how to do that)
+            new BrailleSymbolDataEntry("kunde", STANDALONE, SHORTFORM, CellK), // [13] k. could (the I could)
+
+            new BrailleSymbolDataEntry("lika", STANDALONE, SHORTFORM, CellL), // [123] l. equal
+            new BrailleSymbolDataEntry("liksom", STANDALONE, SHORTFORM, CellL), // [123] l. as well as
+
+            new BrailleSymbolDataEntry("man", STANDALONE, SHORTFORM, CellM), // [134] m. I
+            new BrailleSymbolDataEntry("medan", STANDALONE, SHORTFORM, CellM), // [134] m. I
+            new BrailleSymbolDataEntry("många", STANDALONE, SHORTFORM, CellM), // [134] m. I
+            new BrailleSymbolDataEntry("mångas", STANDALONE, SHORTFORM, CellM), // [134] m. I
+            new BrailleSymbolDataEntry("mellan", STANDALONE, SHORTFORM, CellM), // [134] m. I
+            new BrailleSymbolDataEntry("men", STANDALONE, SHORTFORM, CellM), // [134] m. I
+            new BrailleSymbolDataEntry("måste", STANDALONE, SHORTFORM, CellM), // [134] m. I
+
+            new BrailleSymbolDataEntry("när", STANDALONE, SHORTFORM, CellN), // [1345] n. I
+            new BrailleSymbolDataEntry("någon", STANDALONE, SHORTFORM, CellN), // [1345] n. I
+            new BrailleSymbolDataEntry("någons", STANDALONE, SHORTFORM, CellN), // [1345] n. I
+            new BrailleSymbolDataEntry("någonting", STANDALONE, SHORTFORM, CellN), // [1345] n. I
+            new BrailleSymbolDataEntry("något", STANDALONE, SHORTFORM, CellN), // [1345] n. I
+            new BrailleSymbolDataEntry("naturligtvis", STANDALONE, SHORTFORM, CellN), // [1345] n. I
+            new BrailleSymbolDataEntry("några", STANDALONE, SHORTFORM, CellN), // [1345] n. I
+            new BrailleSymbolDataEntry("någras", STANDALONE, SHORTFORM, CellN), // [1345] n. I
+
+            new BrailleSymbolDataEntry("olika", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("honom", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("omkring", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("på", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("under", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("har", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("redan", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("som", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("sedan", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("omkring", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("själv", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("själva", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("självt", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("skall", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("skulle", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("sådan", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("sådana", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("sådant", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("särskilt", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("till", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("tills", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("tillbaka", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("utan", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("vid", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("vilka", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("vilkas", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("vilken", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("vilkens", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("vilket", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("vilkets", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("vill", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("ville", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("vad", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("över", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("överallt", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("mycket", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("efter", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("eftersom", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("är", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("ännu", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            new BrailleSymbolDataEntry("en", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("med", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("er", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("ett", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("för", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("före", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("förr", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("förra", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("först", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("första", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("inte", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("de", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("det", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("detta", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("dettas", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("den", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("denna", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("dennas", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("var", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("vara", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("varit", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("varandra", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("varandras", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            // Short write - Level 2. System is called K-75
+            // Three types: A. whole words, B. sound groups, C. shortened sound groups
+            // B. sound grooups - Rule is: Used as part of a word but must have normal letter at -
+
+            new BrailleSymbolDataEntry("-ing-", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("-ingen", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("-inger", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("-inget", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("-de-", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("-det-", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+            new BrailleSymbolDataEntry("-den-", STANDALONE, SHORTFORM, CellJ), // [245] j. I
+
+            // Short write - Level 2. System is called K-75
+            // Three types: A. whole words, B. sound groups, C. shortened sound groups
+            // C. shortened sound groups - Rule is: use stand alone.
+
+            new BrailleSymbolDataEntry("bl-a", STANDALONE, SHORTFORM, CellJ), // [245] j. bland annat (among other)
+            new BrailleSymbolDataEntry("dvs", STANDALONE, SHORTFORM, CellJ), // [245] j. det vill säga (viz)
+            new BrailleSymbolDataEntry("e-d", STANDALONE, SHORTFORM, CellJ), // [245] j. eller dylikt (etc)
+            new BrailleSymbolDataEntry("f-d", STANDALONE, SHORTFORM, CellJ), // [245] j. före detta (former)
+            new BrailleSymbolDataEntry("f-n", STANDALONE, SHORTFORM, CellJ), // [245] j. för närvarande (present)
+            new BrailleSymbolDataEntry("f-ö", STANDALONE, SHORTFORM, CellJ), // [245] j. för övrigt (moreover)
+            new BrailleSymbolDataEntry("m-fl", STANDALONE, SHORTFORM, CellJ), // [245] j. med flera (and others)
+            new BrailleSymbolDataEntry("m-m", STANDALONE, SHORTFORM, CellJ), // [245] j. med mera (etc)
+            new BrailleSymbolDataEntry("o-d", STANDALONE, SHORTFORM, CellJ), // [245] j. och dylikt (and the like)
+            new BrailleSymbolDataEntry("osv", STANDALONE, SHORTFORM, CellJ), // [245] j. och så vidare (and so on)
+            new BrailleSymbolDataEntry("s-k", STANDALONE, SHORTFORM, CellJ), // [245] j. så kallat (so called)
+            new BrailleSymbolDataEntry("t-ex", STANDALONE, SHORTFORM, CellJ), // [245] j. till exempel (for example)
 
     };
 
