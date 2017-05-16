@@ -6,7 +6,7 @@ import static com.lukeneedham.brailletutor.Braille.BrailleCellDatabase.*;
 import static com.lukeneedham.brailletutor.Braille.BrailleSymbolType.*;
 import static com.lukeneedham.brailletutor.Braille.BrailleSymbolUsageRule.*;
 
-public class UEBSymbolDatabase extends BrailleSymbolDatabase
+public class EspanolSymbolDatabase extends BrailleSymbolDatabase
 {
   /**
   * make the array of all the entries in the database
@@ -31,6 +31,7 @@ public class UEBSymbolDatabase extends BrailleSymbolDatabase
     new BrailleSymbolDataEntry("l", LETTER,  CellL),
     new BrailleSymbolDataEntry("m", LETTER,  CellM),
     new BrailleSymbolDataEntry("n", LETTER,  CellN),
+    new BrailleSymbolDataEntry("ñ", LETTER,  CellER),//Special letter used for certain words
     new BrailleSymbolDataEntry("o", LETTER,  CellO),
     new BrailleSymbolDataEntry("p", LETTER,  CellP),
     new BrailleSymbolDataEntry("q", LETTER,  CellQ),
@@ -43,6 +44,14 @@ public class UEBSymbolDatabase extends BrailleSymbolDatabase
     new BrailleSymbolDataEntry("x", LETTER,  CellX),
     new BrailleSymbolDataEntry("y", LETTER,  CellY),
     new BrailleSymbolDataEntry("z", LETTER,  CellZ),
+    
+    //Accent and diactricit letters
+    new BrailleSymbolDataEntry("á", LETTER,  CellOF),
+    new BrailleSymbolDataEntry("é", LETTER,  CellTHE),
+    new BrailleSymbolDataEntry("í", LETTER,  CellST),
+    new BrailleSymbolDataEntry("ó", LETTER,  CellING),
+    new BrailleSymbolDataEntry("ú", LETTER,  CellWITH),
+    new BrailleSymbolDataEntry("ü", LETTER,  CellOU),
 
     new BrailleSymbolDataEntry("but", STANDALONE, WORDSIGN, CellB),
     new BrailleSymbolDataEntry("can", STANDALONE, WORDSIGN, CellC),
@@ -114,9 +123,11 @@ public class UEBSymbolDatabase extends BrailleSymbolDatabase
     new BrailleSymbolDataEntry(",", R.string.braille_thousands_separator, PUNCTUATION, CellComma),
 
     new BrailleSymbolDataEntry(".", R.string.braille_fullstop, PUNCTUATION, CellFullstop),
-    new BrailleSymbolDataEntry("?", R.string.braille_questionmark, PUNCTUATION, CellQuestionmark),
+    new BrailleSymbolDataEntry("?", R.string.braille_questionmark, PUNCTUATION, CellEN), //Different in Spanish
+    new BrailleSymbolDataEntry("¿", R.string.braille_questionmark, PUNCTUATION, CellEN), //Different in Spanish
     new BrailleSymbolDataEntry("“", R.string.braille_openquote, PUNCTUATION, CellQuestionmark),
-    new BrailleSymbolDataEntry("!", R.string.braille_exclamationmark, PUNCTUATION, CellExclamationmark),
+    new BrailleSymbolDataEntry("!", R.string.braille_exclamationmark, PUNCTUATION, CellExclamationmark), //Same as English
+    new BrailleSymbolDataEntry("¡", R.string.braille_exclamationmark, PUNCTUATION, CellExclamationmark), //Same as English
     new BrailleSymbolDataEntry(",", R.string.braille_comma, PUNCTUATION, CellComma),
     new BrailleSymbolDataEntry(":", R.string.braille_colon, PUNCTUATION, CellColon),
     new BrailleSymbolDataEntry(";", R.string.braille_semicolon, PUNCTUATION, CellSemicolon),
