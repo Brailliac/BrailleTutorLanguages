@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="myemail">brailletutorapp@gmail.com</string>
+
     <string name="app_name">Braille Tutor</string>
     <string name="action_settings">Settings</string>
     <string name="braillekeyboardsubmitbuttontext">Submit</string>
@@ -9,7 +11,7 @@
     <string name="translate_button">Translation</string>
     <string name="practise_button">Practice</string>
     <string name="home_button">Home</string>
-    <string name="challenge_yourself_button">Challenge</string>
+    <string name="challenge_button">Challenge</string>
     <string name="dictionary_button">Dictionary</string>
     <string name="achievements_button">Achievements</string>
     <string name="themes_button">Themes</string>
@@ -30,22 +32,26 @@
     <string name="dot5input">Dot 5 input</string>
     <string name="dot6input">Dot 6 input</string>
     <string name="submit">Submit Button</string>
+    <string name="dots">Dots</string>
 
     <string name="reviewask">If you\'re enjoying the app it would be amazing if you could</string>
     <string name="clicktoreview">rate it 5 stars!</string>
     <string name="emailask">If you have any problems, questions or suggestions, please</string>
     <string name="clicktoemail">send me an email!</string>
+    <string name="emailvia">Send email via:</string>
+    <string name="emailerror">No email clients installed</string>
     <string name="resetapp">Reset App</string>
     <string name="resetinfo">Reset App? This will reset all your scores and settings, but not your themes</string>
+    <string name="reset">RESET</string>
     <string name="transfer_data">Transfer Data</string>
     <string name="receive_data">Receive Data</string>
     <string name="show_answer">Show Answer Button</string>
     <string name="start_challenge">Type to start!</string>
     <string name="start_practise">Start!</string>
     <string name="paused">Paused - type to resume!</string>
-    <string name="failure">:(</string>
-    <string name="success">:)</string>
-    <string name="newbesttime">:D</string>
+    <string name="failure_emote">:(</string>
+    <string name="success_emote">:)</string>
+    <string name="newbesttime_emote">:D</string>
     <string name="timeUp">Time\'s up!</string>
     <string name="outOfTime">Oops!\nYou ran out of time!</string>
     <string name="misspelt">Argh!\nYou misspelt something!</string>
@@ -60,32 +66,44 @@
     <string name="settings_soundOptionsTitle">Sound Settings</string>
     <string name="settings_translationOptionsTitle">Translation Settings</string>
     <string name="settings_credits">View Credits</string>
+    <string name="settings_database">Change Braille Code</string>
+
+    <string name="database_ueb">UEB</string>
+    <string name="database_swedish">Swedish</string>
+
+    <string name="database_ueb_desc">Unified English Braille - Modern standard for all English speaking countries</string>
+    <string name="database_swedish_desc">Standard in Sweden</string>
+
     <string name="credits1" formatted="false">Made with love by Luke Needham :)\n</string>
-	<string name="credits2" formatted="false">
+    <string name="credits2" formatted="false">
         \n\nAlso why not like the Facebook page!\nhttps://www.facebook.com/brailletutor/
-        \n\nMany thanks to add the volunteers who worked incredibly hard to add other languages to the app!
+        \n\nMany thanks to all the volunteers who worked incredibly hard to add other languages to the app!
+        \nSpanish - Oscar Escobar
         \nSwedish - Peter Lembke
-        \nADD YOURSELF! :)
         \n\nMany thanks to all of my testers:\n
         Alice Blinkhorn\nDan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
         All Braille rules and data from\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
         "Faster Does It" and "George Street Shuffle" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/</string>
-    <string name="settings_dictionaryGridViewLabel">Dictionary Style</string>
+
     <string name="settings_challengeOptionsTitle">Challenge Settings</string>
     <string name="settings_ColourOptionsTitle">Colour Settings</string>
     <string name="settings_DictionaryOptionsTitle">Dictionary Settings</string>
-    <string name="groupsign_title">Groupsigns</string>
-    <string name="wordsign_title">Wordsigns</string>
-    <string name="intiallettercontractions_title">Initial-letter Contractions</string>
-    <string name="finallettercontractions_title">Final-letter Contractions</string>
     <string name="locked_until">"Locked until level"</string>
-    <string name="locked_until_plural">" are locked until level"</string>
     <string name="locked_until_singular">" is locked until level"</string>
-    <string name="nothing_selected">You haven\'t selected anything to practise!</string>
+    <string name="nothing_selected">Select something to practise first!</string>
+    <string name="isoff">is off</string>
+
     <string name="bluetooth_not_available">Unfortunately your device does not support Bluetooth</string>
     <string name="bluetooth_transfercheck">Do you wish to transfer your data to #? This will replace all data on # with the data on your current device, and delete all the data on your current device.</string>
     <string name="bluetooth_receivecheck">Do you wish to search for connections? If a connection is found, all data on this device will be replaced with the received data.</string>
     <string name="cancel">CANCEL</string>
+    <string name="devicesfound">Devices Found:</string>
+    <string name="awatingconnection">Awaiting connection...</string>
+    <string name="connecting">Connecting...</string>
+    <string name="sendingdata">Sending data...</string>
+    <string name="recievingdata">Receiving data...</string>
+    <string name="transfersuccessful">Data was successfully transferred!</string>
+    <string name="error_differentversions">Your devices are running different versions of Braille Tutor! Please ensure they are both up-to date</string>
     <string name="transfer">TRANSFER</string>
     <string name="receive">RECEIVE</string>
     <string name="ok">OK</string>
@@ -93,14 +111,40 @@
     <string name="nopptionsavailable">No options available!</string>
     <string name="whatyouwanttopractise">What do you want to practise?</string>
 
-	<string name="newtheme">New Theme!</string>
+    <string name="nocheats">No cheats used!</string>
+    <string name="singlecheat">Only 1 cheat used!</string>
+    <string name="cheatsused">cheats used!</string>
+
+    <string name="singleattempt">You only took 1 attempt!</string>
+    <string name="attemptstaken">You took %d attempts!</string>
+    <string name="youknewpercent">You knew %d%% of the symbols!</string>
+
+    <string name="facebook_braillechallenge">Braille Tutor Challenge</string>
+    <string name="facebook_justscored">I just scored</string>
+    <string name="facebook_appname">Braille Tutor for Android</string>
+
+    <string name="opengift">Tap your gift to open it!</string>
+    <string name="newtheme">New Theme!</string>
     <string name="setTheme">Set Theme</string>
+    <string name="setnow">SET NOW</string>
     <string name="currentTheme">Current Theme</string>
     <string name="locked">Locked</string>
     <string name="buynow">Buy now</string>
     <string name="levelup">Level up</string>
     <string name="tounlock">to unlock</string>
     <string name="tapformoreinfo">Tap for more info</string>
+    <string name="starttypingtosearch">Use the submit button to search!</string>
+    <string name="noresults">No results found!</string>
+    <string name="noneyet">None yet!</string>
+    <string name="seconds">seconds</string>
+
+    <string name="level">Level</string>
+    <string name="unlocked">Unlocked:</string>
+    <string name="newmode">New Mode - %s!</string>
+    <string name="newdictionary">New Dictionary - %s!</string>
+
+    <string name="translate_perfect">Perfect:</string>
+    <string name="translate_input">Input:</string>
 
     <string name="levelupDropInfo">"A new random colour will next unlock at Level "</string>
     <string name="nextLevelDrop">"Next chance at level "</string>
@@ -170,14 +214,17 @@
     <string name="totalscore_title">Total Score:</string>
     <string name="currentlevel_title">Level:</string>
     <string name="tonextLevel_title">Next level in:</string>
-    <string name="highscore_title">Best score:</string>
-    <string name="scoremean_title">Average:</string>
+    <string name="bestscore">Best score:</string>
+    <string name="meanscore">Average:</string>
     <string name="settings_ColourPickerDescription">Choose Background Colour</string>
     <string name="settings_ColourSchemeButtonText">Change Colour Scheme</string>
     <string name="search_prompt">Start Typing</string>
     <string name="achievements_test_tab">Progress</string>
     <string name="achievements_challenge_tab">Challenge</string>
     <string name="achievements_misc_tab">Misc</string>
+    <string name="viewachievements">VIEW ACHIEVEMENTS</string>
+
+    <string name="newbesttime">New best time!</string>
 
     <string name="chooseLetters">Letters to practise:</string>
     <string name="chooseContractions">Contractions to practise:</string>
@@ -242,15 +289,8 @@
     <string name="doublecapitalsign_info_label">How to use the Double Capital Sign</string>
     <string name="italicsign_info_label">How to use the Italic Sign</string>
     <string name="doubleitalicsign_info_label">How to use the Double Italic Sign</string>
-    <string name="dictionary_alphabet_tab">Alphabet</string>
-    <string name="dictionary_numbers_tab">Numbers</string>
-    <string name="dictionary_punctuation_tab">Punctuation</string>
     <string name="dictionary_maths_tab">Maths</string>
-    <string name="dictionary_contracted_tab">Contractions</string>
-    <string name="dictionary_advancedcontracted_tab">Advanced Contractions</string>
-    <string name="dictionary_shortform_tab">Shortforms</string>
     <string name="search">Search</string>
-    <string name="search_results">Results</string>
 
     <string name="braille_number_sign">Number Sign</string>
     <string name="braille_decimal_point">Decimal Point</string>
@@ -261,27 +301,111 @@
     <string name="braille_semicolon">Semicolon</string>
     <string name="braille_apostrophe">Apostrophe</string>
     <string name="braille_questionmark">Question Mark</string>
+    <string name="braille_questionmark_inverse">Inverted Question Mark</string>
     <string name="braille_exclamationmark">Exclamation Mark</string>
+    <string name="braille_exclamationmark_inverse">Inverted Exclamation Mark</string>
     <string name="braille_hyphen">Hyphen</string>
     <string name="braille_slash">Slash</string>
     <string name="braille_openbracket">Open Bracket</string>
     <string name="braille_closebracket">Close Bracket</string>
     <string name="braille_openquote">Open Quote</string>
     <string name="braille_closequote">Close Quote</string>
+    <string name="braille_quote">Quote Mark</string>
     <string name="braille_capital">Capital Sign</string>
-    <string name="braille_capitalword">Capital Word Sign</string>
+    <string name="braille_capitalword">All Caps Sign</string>
     <string name="braille_italic">Italic Sign</string>
     <string name="braille_doubleitalic">All Italics Sign</string>
     <string name="braille_lettersign">Letter Sign</string>
     <string name="braille_elipsis">Ellipsis</string>
     <string name="braille_asterisk">Asterisk</string>
     <string name="braille_space">Space</string>
+    <string name="braille_percent">Percent</string>
+    <string name="braille_permille">Permille</string>
+    <string name="braille_cent">Cent</string>
+    <string name="braille_dollar">Dollar</string>
+    <string name="braille_euro">Euro</string>
+    <string name="braille_poundsterling">Pound Sterling</string>
+    <string name="braille_yen">Yen</string>
+    <string name="braille_degree">Degree</string>
+    <string name="braille_ampersand">Ampersand</string>
+    <string name="braille_copyright">Copyright</string>
+    <string name="braille_rights_reserved">Rights Reserved</string>
+    <string name="braille_tm">TM</string>
+    <string name="braille_dash">Dash</string>
+    <string name="braille_opensquarebracket">Open Square Bracket</string>
+    <string name="braille_closesquarebracket">Close Square Bracket</string>
+    <string name="braille_opencurlybrace">Open Brace</string>
+    <string name="braille_closecurlybrace">Close Brace</string>
+    <string name="braille_paragraph">Paragraph</string>
+    <string name="braille_dagger">Dagger</string>
+    <string name="braille_hash">Hash</string>
+    <string name="braille_at">At</string>
+    <string name="braille_backslash">Blackslash</string>
+    <string name="braille_underscore">Underscore</string>
+    <string name="braille_pipe">Pipe</string>
+    <string name="braille_tilde">Tilde</string>
+    <string name="braille_bullet">Bullet</string>
+    <string name="braille_bullet_white">White Bullet</string>
+    <string name="braille_bullet_square">Square Bullet</string>
+    <string name="braille_less_than">Less than</string>
+    <string name="braille_greater_than">Greater than</string>
+    <string name="braille_add">Add</string>
+    <string name="braille_equal">Equal</string>
+    <string name="braille_multiply_dot">Dot Product</string>
+    <string name="braille_multiply_cross">Cross Product</string>
+    <string name="braille_divide_line">Divide Line</string>
+    <string name="braille_root">Root</string>
 
     <string name="braille_dots5">Dots5</string>
     <string name="braille_dots45">Dots45</string>
     <string name="braille_dots456">Dots456</string>
     <string name="braille_dots46">Dots46</string>
     <string name="braille_dots56">Dots56</string>
+
+    <string name="braille_unknown">�</string>
+
+
+    <string name="symbol_unknown"></string>
+    <string name="symbol_unknown_desc"></string>
+    <string name="symbol_letter">Alphabet</string>
+    <string name="symbol_letter_desc"></string>
+    <string name="symbol_invisible"></string>
+    <string name="symbol_invisible_desc"></string>
+    <string name="symbol_punctuation">Punctuation</string>
+    <string name="symbol_punctuation_desc">Some symbols are made up of more than one Braille cell. Tap on any entry to bring up more information on it.</string>
+    <string name="symbol_number">Numbers</string>
+    <string name="symbol_number_desc">Numbers in Braille are signified by the <b>\'Numeric Indicator\'</b> (Number Sign), followed by the symbols for each number. Tap on any entry to bring up more information on it.</string>
+    <string name="symbol_maths">Maths</string>
+    <string name="symbol_maths_desc">MATHS</string>
+
+
+    <string name="symbol_wordsign">Wordsigns</string>
+    <string name="symbol_wordsign_desc">Wordsigns can generally only be used when they are standing alone. This means that they must form a word on their own, with no other letters in the word.</string>
+    <string name="symbol_groupsign">Groupsigns</string>
+    <string name="symbol_groupsign_desc">Groupsigns can generally be used wherever the letters they represent occur, whether this be alone or in a word with other letters. However some groupsigns have specific rules which must be obeyed. Tap on any entry for more information on its usage rules.</string>
+    <string name="symbol_initiallettercontraction">Initial-letter Contractions</string>
+    <string name="symbol_initiallettercontraction_desc">These contractions are made up of 2 cells. The first cell indicates which contraction should be read, and the second cell gives you the first few letters of the contraction. Tap on any entry for more information on its usage rules.</string>
+    <string name="symbol_finallettercontraction">Final-letter Contractions</string>
+    <string name="symbol_finallettercontraction_desc">These contractions are made up of 2 cells. The first cell indicates that the symbol should be read as a final-letter contraction, and the second cell gives you the last letter of the contraction. They can generally be used anywhere, except at the start of a word. Tap on any entry for more information on its usage rules.</string>
+    <string name="symbol_shortform">Shortforms</string>
+    <string name="symbol_shortform_desc">These shortforms allow you to abbreviate common words, by missing out some letters. They can generally only be used when standing alone. Tap on any entry for more information on its usage rules.</string>
+
+    <string name="category_contractions">Contractions</string>
+    <string name="category_advancedcontractions">Advanced Contractions</string>
+
+    <string name="symbol_short1">Short Level 1</string>
+    <string name="symbol_short1_desc"></string>
+    <string name="symbol_short2a">Short Level 2A</string>
+    <string name="symbol_short2a_desc"></string>
+    <string name="symbol_short2b">Short Level 2B</string>
+    <string name="symbol_short2b_desc"></string>
+    <string name="symbol_short2c">Short Level 2C</string>
+    <string name="symbol_short2c_desc"></string>
+    <string name="symbol_foreign">Foreign</string>
+    <string name="symbol_foreign_desc"></string>
+
+    <string name="category_short2">Short Level 2</string>
+
 
     <string name="braille_groupsigncontraction">Groupsign Contraction</string>
     <string name="braille_wordsigncontraction">Wordsign Contraction</string>
@@ -296,14 +420,6 @@
     <string name="doublecapitalignExplanation">The <b>Capitals Word Indicator</b> sets <b>\'Capitals Mode\'</b> for a whole word, after which it ends.\n\nThis means that the entire following word is capitalised.</string>
     <string name="italicsignExplanation">The <b>Italic Sign</b> makes the word to follow italic.</string>
     <string name="doubleitalicsignExplanation">The <b>Double Italic Sign</b> makes the passage to follow italic.</string>
-
-    <string name="dictexplanation_numbers">Numbers in Braille are signified by the <b>\'Numeric Indicator\'</b> (Number Sign), followed by the symbols for each number. Tap on any entry to bring up more information on it.</string>
-    <string name="dictexplanation_punctuation">Some symbols are made up of more than one Braille cell. Tap on any entry to bring up more information on it.</string>
-    <string name="dictexplanation_wordsign">Wordsigns can generally only be used when they are standing alone. This means that they must form a word on their own, with no other letters in the word.</string>
-    <string name="dictexplanation_groupsign">Groupsigns can generally be used wherever the letters they represent occur, whether this be alone or in a word with other letters. However some groupsigns have specific rules which must be obeyed. Tap on any entry for more information on its usage rules.</string>
-    <string name="dictexplanation_initiallettercontractions">These contractions are made up of 2 cells. The first cell indicates which contraction should be read, and the second cell gives you the first few letters of the contraction. Tap on any entry for more information on its usage rules.</string>
-    <string name="dictexplanation_finallettercontractions">These contractions are made up of 2 cells. The first cell indicates that the symbol should be read as a final-letter contraction, and the second cell gives you the last letter of the contraction. They can generally be used anywhere, except at the start of a word. Tap on any entry for more information on its usage rules.</string>
-    <string name="dictexplanation_shortforms">These shortforms allow you to abbreviate common words, by missing out some letters. They can generally only be used when standing alone. Tap on any entry for more information on its usage rules.</string>
 
     <string name="ruleTitle">Rule </string>
     <string name="theContraction">The contraction \'</string>

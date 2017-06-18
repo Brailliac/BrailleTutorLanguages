@@ -11,7 +11,7 @@
     <string name="translate_button">Traducci\u00F3n</string>
     <string name="practise_button">Practicar</string>
     <string name="home_button">Inicio</string>
-    <string name="challenge_yourself_button">Desaf\u00EDo</string>
+    <string name="challenge_button">Desaf\u00EDo</string>
     <string name="dictionary_button">Diccionario</string>
     <string name="achievements_button">Logros</string>
     <string name="themes_button">Temas</string>
@@ -45,9 +45,9 @@
     <string name="start_challenge">Escribe para comenzar!</string>
     <string name="start_practise">Comenzar!</string>
     <string name="paused">Pausado - escribe para continuar!</string>
-    <string name="failure">:(</string>
-    <string name="success">:)</string>
-    <string name="newbesttime">:D</string>
+    <string name="failure_emote">:(</string>
+    <string name="success_emote">:)</string>
+    <string name="newbesttime_emote">:D</string>
     <string name="timeUp">Se acab\u00F3 el tiempo!</string>
     <string name="outOfTime">Ups!\nSe te acab\u00F3 el tiempo!</string>
     <string name="misspelt">Argh!\nEscribiste mal algo!</string>
@@ -62,17 +62,25 @@
     <string name="settings_soundOptionsTitle">Sound Settings</string>
     <string name="settings_translationOptionsTitle">Translation Settings</string>
     <string name="settings_credits">View Credits</string>
+    <string name="settings_database">Change Braille Code</string>
+
+    <string name="database_ueb">UEB</string>
+    <string name="database_swedish">Swedish</string>
+
+    <string name="database_ueb_desc">Unified English Braille - Modern standard for all English speaking countries</string>
+    <string name="database_swedish_desc">Standard in Sweden</string>
+
     <string name="credits1" formatted="false">Made with love by Luke Needham :)\n</string>
 	<string name="credits2" formatted="false">
         \n\nAlso why not like the Facebook page!\nhttps://www.facebook.com/brailletutor/
         \n\nMany thanks to add the volunteers who worked incredibly hard to add other languages to the app!
+        \nSpanish - Oscar Escobar
         \nSwedish - Peter Lembke
-        \nADD YOURSELF! :)
         \n\nMany thanks to all of my testers:\n
         Alice Blinkhorn\nDan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
         All Braille rules and data from\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
         "Faster Does It" and "George Street Shuffle" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/</string>
-    <string name="settings_dictionaryGridViewLabel">Dictionary Style</string>
+
     <string name="settings_challengeOptionsTitle">Challenge Settings</string>
     <string name="settings_ColourOptionsTitle">Colour Settings</string>
     <string name="settings_DictionaryOptionsTitle">Dictionary Settings</string>
@@ -172,8 +180,8 @@
     <string name="totalscore_title">Total Score:</string>
     <string name="currentlevel_title">Level:</string>
     <string name="tonextLevel_title">Next level in:</string>
-    <string name="highscore_title">Best score:</string>
-    <string name="scoremean_title">Average:</string>
+    <string name="bestscore">Best score:</string>
+    <string name="meanscore">Average:</string>
     <string name="settings_ColourPickerDescription">Choose Background Colour</string>
     <string name="settings_ColourSchemeButtonText">Change Colour Scheme</string>
     <string name="search_prompt">Start Typing</string>

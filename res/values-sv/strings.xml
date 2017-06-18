@@ -11,7 +11,7 @@
     <string name="translate_button">Översättning</string>
     <string name="practise_button">Öva</string>
     <string name="home_button">Hem</string>
-    <string name="challenge_yourself_button">Utmaning</string>
+    <string name="challenge_button">Utmaning</string>
     <string name="dictionary_button">Lexikon</string>
     <string name="achievements_button">Bedrifter</string>
     <string name="themes_button">Teman</string>
@@ -44,9 +44,9 @@
     <string name="start_challenge">Skriv för att starta!</string>
     <string name="start_practise">Starta!</string>
     <string name="paused">Pausad - skriv för att återuppta!</string>
-    <string name="failure">:(</string>
-    <string name="success">:)</string>
-    <string name="newbesttime">:D</string>
+    <string name="failure_emote">:(</string>
+    <string name="success_emote">:)</string>
+    <string name="newbesttime_emote">:D</string>
     <string name="timeUp">Tiden är slut!</string>
     <string name="outOfTime">Oops!\nDu fick slut på tid!</string>
     <string name="misspelt">Argh!\nDu stavade något fel!</string>
@@ -70,7 +70,6 @@
         Alice Blinkhorn\nDan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
         Alla Brailleregler och data kommer från\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
         "Faster Does It" and "George Street Shuffle" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/</string>
-    <string name="settings_dictionaryGridViewLabel">Ordbokens stil</string>
     <string name="settings_challengeOptionsTitle">Utmaningsinställningar</string>
     <string name="settings_ColourOptionsTitle">Färginställningar</string>
     <string name="settings_DictionaryOptionsTitle">Lexikoninställningar</string>
@@ -170,8 +169,8 @@
     <string name="totalscore_title">Total Poäng:</string>
     <string name="currentlevel_title">Nivå:</string>
     <string name="tonextLevel_title">Nästa nivå om:</string>
-    <string name="highscore_title">Bästa poäng:</string>
-    <string name="scoremean_title">Medel:</string>
+    <string name="bestscore">Bästa poäng:</string>
+    <string name="meanscore">Medel:</string>
     <string name="settings_ColourPickerDescription">Välj Bakgrundsfärg</string>
     <string name="settings_ColourSchemeButtonText">Ändra Färgschema</string>
     <string name="search_prompt">Börja Skriv</string>

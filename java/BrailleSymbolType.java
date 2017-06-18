@@ -1,19 +1,39 @@
 package com.lukeneedham.brailletutor.Braille;
 
+import android.content.Context;
+
 /**
- * Created by Luke on 01/08/2016.
+ * Created by Luke on 15/06/2017.
  */
-public enum BrailleSymbolType
+
+public class BrailleSymbolType
 {
-    LETTER, PUNCTUATION, GROUPSIGN, WORDSIGN, INITIALLETTERCONTRACTION, FINALLETTERCONTRACTION, SHORTFORM, INVISIBLE, NUMBER;
+	private int nameRes;
+	private int descRes;
 
-    public boolean isAdvancedContraction()
-    {
-        return this.equals(INITIALLETTERCONTRACTION) || this.equals(FINALLETTERCONTRACTION);
-    }
+	public BrailleSymbolType(int n, int d)
+	{
+		nameRes = n;
+		descRes = d;
+	}
 
-    public boolean isContraction()
-    {
-        return this.equals(GROUPSIGN) || this.equals(WORDSIGN);
-    }
+	public int getNameRes()
+	{
+		return nameRes;
+	}
+
+	public int getDescRes()
+	{
+		return descRes;
+	}
+
+	public String getName(Context c)
+	{
+		return c.getResources().getString(nameRes);
+	}
+
+	public String getDesc(Context c)
+	{
+		return c.getResources().getString(descRes);
+	}
 }
