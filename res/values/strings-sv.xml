@@ -11,7 +11,7 @@
     <string name="translate_button">Översättning</string>
     <string name="practise_button">Öva</string>
     <string name="home_button">Hem</string>
-    <string name="challenge_yourself_button">Utmaning</string>
+    <string name="challenge_button">Utmaning</string>
     <string name="dictionary_button">Lexikon</string>
     <string name="achievements_button">Bedrifter</string>
     <string name="themes_button">Teman</string>
@@ -44,9 +44,9 @@
     <string name="start_challenge">Skriv för att starta!</string>
     <string name="start_practise">Starta!</string>
     <string name="paused">Pausad - skriv för att återuppta!</string>
-    <string name="failure">:(</string>
-    <string name="success">:)</string>
-    <string name="newbesttime">:D</string>
+    <string name="failure_emote">:(</string>
+    <string name="success_emote">:)</string>
+    <string name="newbesttime_emote">:D</string>
     <string name="timeUp">Tiden är slut!</string>
     <string name="outOfTime">Oops!\nDu fick slut på tid!</string>
     <string name="misspelt">Argh!\nDu stavade något fel!</string>
@@ -70,16 +70,10 @@
         Alice Blinkhorn\nDan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
         Alla Brailleregler och data kommer från\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
         "Faster Does It" and "George Street Shuffle" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/</string>
-    <string name="settings_dictionaryGridViewLabel">Ordbokens stil</string>
     <string name="settings_challengeOptionsTitle">Utmaningsinställningar</string>
     <string name="settings_ColourOptionsTitle">Färginställningar</string>
     <string name="settings_DictionaryOptionsTitle">Lexikoninställningar</string>
-    <string name="groupsign_title">Grupptecken</string>
-    <string name="wordsign_title">Ordtecken</string>
-    <string name="intiallettercontractions_title">Förstabokstanssammandragningar</string>
-    <string name="finallettercontractions_title">Sistabokstanssammandragningar</string>
     <string name="locked_until">"Är låst fram till nivå"</string>
-    <string name="locked_until_plural">" är låsta fram till nivå"</string>
     <string name="locked_until_singular">" är låst fram till nivå"</string>
     <string name="nothing_selected">Du har inte valt något att öva på!</string>
     <string name="bluetooth_not_available">Tyvärr har din enhet inte inte stöd för Bluetooth</string>
@@ -170,8 +164,8 @@
     <string name="totalscore_title">Total Poäng:</string>
     <string name="currentlevel_title">Nivå:</string>
     <string name="tonextLevel_title">Nästa nivå om:</string>
-    <string name="highscore_title">Bästa poäng:</string>
-    <string name="scoremean_title">Medel:</string>
+    <string name="bestscore">Bästa poäng:</string>
+    <string name="meanscore">Medel:</string>
     <string name="settings_ColourPickerDescription">Välj Bakgrundsfärg</string>
     <string name="settings_ColourSchemeButtonText">Ändra Färgschema</string>
     <string name="search_prompt">Börja Skriv</string>
@@ -242,15 +236,8 @@
     <string name="doublecapitalsign_info_label">Hur du använder dubbla versaltecken</string>
     <string name="italicsign_info_label">Hur du använder tecken för kursiv skrift</string>
     <string name="doubleitalicsign_info_label">Hur du använder dubbel kursiv skrift</string>
-    <string name="dictionary_alphabet_tab">Alfabetet</string>
-    <string name="dictionary_numbers_tab">Nummer</string>
-    <string name="dictionary_punctuation_tab">Skiljetecken</string>
-    <string name="dictionary_maths_tab">Matematik</string>
-    <string name="dictionary_contracted_tab">Kortskrift</string> <!-- Level 1 - short words -->
-    <string name="dictionary_advancedcontracted_tab">Avancerad kortskrift</string> <!-- Level 2 ABC - more short words, sounds in words, sentences -->
-    <string name="dictionary_shortform_tab">Shortforms</string> <!-- I'll check the grouping of signs and we can discuss over email. -->
+
     <string name="search">Sök</string>
-    <string name="search_results">Resultat</string>
 
     <string name="braille_number_sign">Siffertecken</string>
     <string name="braille_decimal_point">Decimaltecken</string> <!-- comma -->
@@ -258,7 +245,7 @@
     <string name="braille_fullstop">Fullt Stopp</string>
     <string name="braille_comma">Komma</string>
     <string name="braille_colon">Kolon</string>
-    <string name="braille_semicolon">SemiKolon</string>
+    <string name="braille_semicolon">Semicolon</string>
     <string name="braille_apostrophe">Apostrof</string>
     <string name="braille_questionmark">Frågetecken</string>
     <string name="braille_exclamationmark">Utropstecken</string>
@@ -291,19 +278,11 @@
     <string name="braille_shortform">Kortform</string>
 
     <string name="numbersExplanation">Med nummertecknet går du in i <b>\'numeriskt läge\'</b> för resten av meningen.\n\nDet betyder att alla tecken efter nummertecknet ska läsas som siffror tills nummerläget avslutas.\n\nNumeriskt läge avslutas med mellanslag, bokstavstecknet eller vilket tecken som helst som inte finns i nummerläget.</string>
-    <string name="lettersignExplanation">Några Brailletecken kan ha mer än en betydelse; an uncontracted meaning and a contracted or numerical meaning.\n\nIn cases where this may be confusing for the reader, the <b>\'Uncontracted Indicator\'</b> (Letter Sign) is placed before the character to set <b>\'Uncontracted Mode\'</b>.\n\nThis tells the reader that the next symbol is not a contraction or a numeric value; it should be read as a letter or punctuation.</string>
+    <string name="lettersignExplanation">Några Brailletecken kan ha mer än en betydelse; de kan finnas i en icke sammandragen mening eller i en sammandragen mening eller som siffror.\n\nI de lägen då detta kan vara otydligt för läsaren så används <b>\'Uncontracted Indicator\'</b> (Bokstavstecken) placeras före tecknet för att få <b>\'Normalt Läge\'</b>.\n\nDet här berättar för läsaren att nästa tecken inte är en sammandragning eller siffror; det ska läsas som bokstäver eller skiljetecken.</string>
     <string name="capitalsignExplanation">Tecknet som kommer efter ett <b>\'Versaltecken\'</b> är en versal.\n\nMed versaltecknet går du in i <b>\'Versalläge\'</b>, och det slutar efter första bokstaven.\n\nMed kortskrift så är det bara första tecknet som är en versal.</string>
-    <string name="doublecapitalignExplanation">Med <b>Versalordstecknet</b> får du <b>\'Versalläge\'</b> för ett helt ord, och sedan avslutas läget.\n\nDet här betyder att hela ordet är i versaler.</string>
+    <string name="capitalwordExplanation">Med <b>Versalordstecknet</b> får du <b>\'Versalläge\'</b> för ett helt ord, och sedan avslutas läget.\n\nDet här betyder att hela ordet är i versaler.</string>
     <string name="italicsignExplanation">Med <b>Kursivtecknet</b> blir hela det efterföljande ordet kursivt.</string>
     <string name="doubleitalicsignExplanation">Med <b>Dubbla kursivtecken</b> blir hela avsnittet i kursiv stil.</string>
-
-    <string name="dictexplanation_numbers">Siffror i Braille börjar med ett <b>\'Nummertecken\'</b> och sedan en symbol för varje siffra. Klicka på ett ämne för att få mer information.</string>
-    <string name="dictexplanation_punctuation">Some symbols are made up of more than one Braille cell. Klicka på ett ämne för att få mer information.</string>
-    <string name="dictexplanation_wordsign">Tecken som representerar ett ord kan vanligtvis bara användas enskilt. Det betyder at de måste forma ett ord på egen hand utan att du fyller på med mer bokstäver i ordet.</string>
-    <string name="dictexplanation_groupsign">Grupptecken kan generellt användas där bokstäverna dom representerar finns, oavsett om de står självständiga eller i ett ord tillsammans med andra bokstäver. Emellertid har några grupptecken specifika regler som måste följas. Klicka på ett ämne för att få mer information hur du använder detta.</string>
-    <string name="dictexplanation_initiallettercontractions">Dessa förkortningar består av två tecken. Första tecknet talar om vilken förkortning som ska läsas, andra tecknet ger dig de första bokstäverna i förkortningen. Klicka på ett ämne för att få mer information hur du använder detta.</string>
-    <string name="dictexplanation_finallettercontractions">Dessa förkortningar består av två tecken. Första tecknet talar om att tecknet ska läsas som en slutbokstäversförkortning, och andra tecknet ger dig de sista bokstäverna i förkortningen. Dessa kan generellt användas över allt, utom i börna av ett ord. Klicka på ett ämne för att få mer information hur du använder detta.</string>
-    <string name="dictexplanation_shortforms">Med de här kortformerna kan du förkorta valigt förekommande ord genom att undvika vissa bokstäver. De kan generellt användas enbart när de förekommer enskilt. Klicka på ett ämne för att få mer information hur du använder detta.</string>
 
     <string name="ruleTitle">Regel </string>
     <string name="theContraction">Sammandragningen \'</string>
@@ -853,5 +832,139 @@
     <string-array name="extra_pack">
 
     </string-array>
+
+    <string name="attemptstaken">Du behövde %d försök!</string>
+    <string name="awatingconnection">Väntar på anslutning...</string>
+    <string name="braille_add">Lägg till</string>
+    <string name="braille_ampersand">Och-tecken</string>
+    <string name="braille_at">Snabel-A</string>
+    <string name="braille_backslash">Omvänt snedstreck</string>
+    <string name="braille_bullet">Listtecken Kula</string>
+    <string name="braille_bullet_square">Fyrkantig Punkt</string>
+    <string name="braille_bullet_white">Vit Punkt</string>
+    <string name="braille_cent">Centtecken</string>
+    <string name="braille_closecurlybrace">Höger Klammerparentes</string> <!-- } -->
+    <string name="braille_closesquarebracket">Höger Hakparentes</string> <!-- ] -->
+    <string name="braille_copyright">Copyrighttecken</string>
+    <string name="braille_dagger">Dagger</string> <!-- Is this a single sign? -->
+    <string name="braille_dash">Snedstreck</string>
+    <string name="braille_degree">Grader</string>
+    <string name="braille_divide_line">Divide Line</string>
+    <string name="braille_dollar">Dollartecken</string>
+    <string name="braille_equal">Likhetstecken</string>
+    <string name="braille_euro">Eurotecken</string>
+    <string name="braille_exclamationmark_inverse">Inverterat utropstecken</string> <!-- Note that a normal ! are used before a statement phrase in spanish -->
+    <string name="braille_greater_than">Större än</string>
+    <string name="braille_hash">Hash-tecknet</string>
+    <string name="braille_less_than">Mindre än</string>
+    <string name="braille_multiply_cross">Multiplikationstecken (kryss)</string>
+    <string name="braille_multiply_dot">Multiplikationstecken (punkt)</string>
+    <string name="braille_opencurlybrace">Vänster Klammerparentes</string> <!-- { -->
+    <string name="braille_opensquarebracket">Vänster Hakparentes</string> <!-- [ -->
+    <string name="braille_paragraph">Paragraftecken</string>
+    <string name="braille_percent">Procent</string>
+    <string name="braille_permille">Promille</string>
+    <string name="braille_pipe">Lodstreck</string>
+    <string name="braille_poundsterling">Pundtecken</string>
+    <string name="braille_questionmark_inverse">Inverterat frågetecken</string> <!-- Note that a normal ? are used before a question phrase in spanish -->
+    <string name="braille_quote">Citattecken</string> <!-- " -->
+    <string name="braille_rights_reserved">Registreringstecken</string>
+    <string name="braille_root">Rottecknet</string>
+    <string name="braille_tilde">Tilde fristående</string> <!-- Tilde stand alone (Tilde fristående) (45,25) or tilde above letter (Tilde över bokstav) (346,25)-->
+    <string name="braille_tm">Trade Mark-tecken</string>
+    <string name="braille_underscore">Understreck</string>
+    <string name="braille_yen">Yentecken</string>
+    <string name="category_advancedcontractions">Avancerade sammandragningar</string>
+    <string name="category_contractions">Sammandragningar</string>
+    <string name="category_short2">Kortskrift Nivå 2</string>
+    <string name="cheatsused">fusk används!</string>
+    <string name="connecting">Ansluter...</string>
+    <string name="database_swedish">Svenska</string>
+    <string name="database_swedish_desc">Standard i Sverige</string>
+    <string name="database_ueb">UEB</string>
+    <string name="database_ueb_desc">Unified English Braille - Modern standard för alla Engelsk-
+        språkiga länder
+    </string>
+    <string name="devicesfound">Enhet funnen:</string>
+    <string name="dots">Punkter</string>
+    <string name="emailerror">Ingen epostklient installerad</string>
+    <string name="emailvia">Sänd epost via:</string>
+    <string name="error_differentversions">Dina enheter kör olika versioner av Braille
+        Tutor! Var vänlig och se till att de är båda uppdaterade
+    </string>
+    <string name="facebook_appname">Braille Tutor för Android</string>
+    <string name="facebook_braillechallenge">Braille Tutor Utmaning</string>
+    <string name="facebook_justscored">Jag fick poäng</string>
+    <string name="level">Nivå</string>
+    <string name="isoff">är avstängd</string>
+    <string name="newbesttime">Ny bästa tid!</string>
+    <string name="newdictionary">Ny Ordbok - %s!</string>
+    <string name="newmode">Nytt Läge - %s!</string>
+    <string name="nocheats">Inga fusk användes!</string>
+    <string name="noneyet">Ingen ännu!</string>
+    <string name="noresults">Inga resultat hittades!</string>
+    <string name="opengift">Knacka på din gåva för att öppna den!</string>
+    <string name="recievingdata">Mottar data...</string>
+    <string name="reset">ÅTERSTÄLL</string>
+    <string name="seconds">sekunder</string>
+    <string name="sendingdata">Skickar data...</string>
+    <string name="setnow">SÄTT NU</string>
+    <string name="settings_database">Ändra Braille Kod</string>
+    <string name="singleattempt">Du behövde bara 1 försök!</string>
+    <string name="singlecheat">Bara ett fusk användes!</string>
+    <string name="starttypingtosearch">Använd knappen för att söka!</string>
+    <string name="symbol_finallettercontraction">Sistabokstavssammandragningar</string>
+    <string name="symbol_finallettercontraction_desc">De här sammandragningarna består av 2 tecken,
+        där andra tecknet vanligtvis representerar den sista bokstanev/bokstäverna! De kan användas
+        överallt utom i början av ett ord
+    </string>
+    <string name="symbol_foreign">Utländska tecken</string>
+    <string name="symbol_groupsign">Grupptecken</string>
+    <string name="symbol_groupsign_desc">Grupptecken representerar vanliga bokstavsgrupper! De kan vanligtvis
+        användas där gruppen finns i ordet, men det finns vissa undantag! Klicka på ett tecken för mer
+        information.
+    </string>
+    <string name="symbol_initiallettercontraction">Förstabokstavssammadragningar</string>
+    <string name="symbol_initiallettercontraction_desc">Dessa sammandragningar består av två tecken,
+        där det andra tecknet vanligtvis representerar första bokstäverna! Några av dem har underliga
+        användningsregler, så var försiktig! Klicka på et tecken för mer information.
+    </string>
+    <string name="symbol_foreign_desc">Dessa tecken används för att representera bokstäver i andra språk!</string>
+    <string name="symbol_letter">Alfabetet</string>
+    <string name="symbol_letter_desc">Alfabetet - de flesta texter i braille använder dessa!</string>
+    <string name="symbol_maths">Matematik</string>
+    <string name="symbol_maths_desc">Används för att representera matematsika symboler!</string>
+    <string name="symbol_number">Siffror</string>
+    <string name="symbol_number_desc">De tecken som kommer efter ett nummertecken ska läsas som siffror! Bokstäverna
+        \'a\' - \'i\' motsvarar to \'1\' - \'9\', och \'j\' är \'0\'.
+    </string>
+    <string name="symbol_punctuation">Skiljetecken</string>
+    <string name="symbol_punctuation_desc">Varning: Det är inte alla skiljetecken i Braille som klarar sig med ett tecken,
+        Några skiljetecken behöver två tecken!
+    </string>
+    <string name="symbol_short1">Kortskrift Nivå 1</string>
+    <string name="symbol_short2a">kortskrift Nivå 2A</string>
+    <string name="symbol_shortform">Kortskrift</string>
+    <string name="symbol_shortform_desc">Med kortskrift kan du förkorta vanliga ord genom att skippa
+        några bokstäver! Dessa ord ska vanligtvis inte sättas ihop med andra tecken.
+    </string>
+    <string name="symbol_short2b">Kortskrift Nivå 2B</string>
+    <string name="symbol_short2c">Kortskrift Nivå 2C</string>
+    <string name="symbol_wordsign">Helordsförkortningar</string>
+    <string name="symbol_wordsign_desc">Helordsförkortningar representerar vanliga ord och skrivs ofta som
+        första bokstaven eller bokstäverna i ordet.
+        De förekommer ensamma med mellanslag på båda sidor.
+    </string>
+    <string name="transfersuccessful">Dataöverföringen lyckades!</string>
+    <string name="translate_input">Inmatning:</string>
+    <string name="translate_perfect">Perfekt:</string>
+    <string name="unlocked">Låst upp:</string>
+    <string name="viewachievements">VISA FRAMGÅNGAR</string>
+    <string name="youknewpercent">Du kunde %d%% av tecknen!</string>
+    <string name="symbol_short1_desc">Med kortskrift nivå 1 kan du förkorta vanliga ord till et tecken!</string>
+    <string name="symbol_short2a_desc">Tecknen representerar vanligt förekommande ord, men med mer än ett tecken!
+    </string>
+    <string name="symbol_short2b_desc">Tecknen representerar vanliga ljud inom ett ord!</string>
+    <string name="symbol_short2c_desc">Tecknen representerar förkortningar av vanliga fraser!</string>
 
 </resources>
