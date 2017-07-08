@@ -36,4 +36,17 @@ public class BrailleSymbolType
 	{
 		return c.getResources().getString(descRes);
 	}
+
+	public boolean equals(Object obj)
+	{
+		try
+		{
+			BrailleSymbolType type = (BrailleSymbolType) obj;
+			return nameRes == type.getNameRes() && descRes == type.getDescRes();
+		}
+		catch(ClassCastException ex)
+		{
+			return false;
+		}
+	}
 }

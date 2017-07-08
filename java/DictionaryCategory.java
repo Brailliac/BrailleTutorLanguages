@@ -10,17 +10,20 @@ public class DictionaryCategory
 {
 	private int nameRes;
 
+	private String icon;
+
 	private BrailleSymbolType[] subpages;
 
 	private int unlockLevel;
 
 	private boolean translationToggle = false;
 
-	public DictionaryCategory(int n, int l, BrailleSymbolType... ps)
+	public DictionaryCategory(int n, int l,  String i, BrailleSymbolType... ps)
 	{
 		nameRes = n;
 		unlockLevel = l;
 		subpages = ps;
+		icon = i;
 	}
 
 	public DictionaryCategory setTranslateToggle(boolean t)
@@ -32,6 +35,11 @@ public class DictionaryCategory
 	public int getNameRes()
 	{
 		return nameRes;
+	}
+
+	public String getIcon()
+	{
+		return icon;
 	}
 
 	public String getName(Context c)
@@ -66,9 +74,17 @@ public class DictionaryCategory
 			DictionaryCategory cat = (DictionaryCategory) obj;
 			return (nameRes == cat.getNameRes()) && (unlockLevel == cat.getUnlockLevel());
 		}
-		catch(ClassCastException ex)
+		catch (ClassCastException ex)
 		{
-			return false;
+			try
+			{
+				BrailleSymbolType type = (BrailleSymbolType) obj;
+				return subpages.length == 1 && subpages[0].equals(type);
+			}
+			catch (ClassCastException ex2)
+			{
+				return false;
+			}
 		}
 	}
 }

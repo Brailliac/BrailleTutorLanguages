@@ -12,33 +12,71 @@ import java.util.Arrays;
  */
 public class BrailleSymbolDataEntry
 {
+	public static final int NOTHING = 0;
+	public static final int SHOW_LETTERS_REP = 1;
+	public static final int SHOW_INFO = 2;
+	public static final int SHOW_USAGE_RULE = 3;
+
 	private final BrailleSymbol symbol; // store the list of cells and encapsulate methods on them
-	private String lettersRepresented; // the literal ascii to be read when reading this symbol - like "and", "?". Use NO_STRING when the symbol has to literal meaning (modifiers)
+	private String[] possibleLettersRepresented; // the literal ascii to be read when reading this symbol - like "and", "?". Use NO_STRING when the symbol has to literal meaning (modifiers)
 	private int descriptiveNameRes = -1; // the descriptive title of the symbol - like "Question mark" - should be an int referencing the value in strings.xml
 	private BrailleSymbolUsageRule ruleForUsage = BrailleSymbolUsageRule.ANYWHERE; // rule for where the symbol can be used
 	private BrailleSymbolType type; // type of symbol
+	private int onEntryClickType;
+	private int extraInfoRes;
 
-	public BrailleSymbolDataEntry(String nameIn, BrailleSymbolType typeIn, BrailleCell... cellsIn)
+	private boolean fillEntryWidth = false;
+
+	public BrailleSymbolDataEntry(String nameIn, BrailleSymbolType typeIn, int onClick, BrailleCell... cellsIn)
 	{
 		symbol = new BrailleSymbol(cellsIn);
-		lettersRepresented = nameIn;
+		possibleLettersRepresented = new String[] {nameIn};
 		type = typeIn;
+		onEntryClickType = onClick;
 	}
 
-	public BrailleSymbolDataEntry(String nameIn, BrailleSymbolUsageRule ruleForUsageIn, BrailleSymbolType typeIn, BrailleCell... cellsIn)
+	public BrailleSymbolDataEntry(String nameIn, BrailleSymbolUsageRule ruleForUsageIn, BrailleSymbolType typeIn, int onClick, BrailleCell... cellsIn)
 	{
 		symbol = new BrailleSymbol(cellsIn);
-		lettersRepresented = nameIn;
+		possibleLettersRepresented = new String[] {nameIn};
 		ruleForUsage = ruleForUsageIn;
 		type = typeIn;
+		onEntryClickType = onClick;
 	}
 
-	public BrailleSymbolDataEntry(String nameIn, int descRes, BrailleSymbolType typeIn, BrailleCell... cellsIn)
+	public BrailleSymbolDataEntry(String nameIn, int descRes, BrailleSymbolType typeIn, int onClick, BrailleCell... cellsIn)
 	{
 		symbol = new BrailleSymbol(cellsIn);
-		lettersRepresented = nameIn;
+		possibleLettersRepresented = new String[] {nameIn};
 		descriptiveNameRes = descRes;
 		type = typeIn;
+		onEntryClickType = onClick;
+	}
+
+	public BrailleSymbolDataEntry(String[] nameIn, BrailleSymbolUsageRule ruleForUsageIn, BrailleSymbolType typeIn, int onClick, BrailleCell... cellsIn)
+	{
+		symbol = new BrailleSymbol(cellsIn);
+		possibleLettersRepresented = nameIn;
+		ruleForUsage = ruleForUsageIn;
+		type = typeIn;
+		onEntryClickType = onClick;
+	}
+
+	public BrailleSymbolDataEntry setExtraInfoRes(int res)
+	{
+		extraInfoRes = res;
+		return this;
+	}
+
+	public BrailleSymbolDataEntry setFillWidth(boolean fill)
+	{
+		fillEntryWidth = fill;
+		return this;
+	}
+
+	public boolean isFillEntryWidth()
+	{
+		return fillEntryWidth;
 	}
 
 	public DictionaryCategory getCategory(BrailleSymbolDatabase db)
@@ -51,6 +89,22 @@ public class BrailleSymbolDataEntry
 		return null;
 	}
 
+	public String getOnClickText(Context c)
+	{
+		switch(onEntryClickType)
+		{
+			case SHOW_LETTERS_REP:
+				return getFirstLettersRepresented();
+			case SHOW_INFO:
+				return c.getString(extraInfoRes);
+			case SHOW_USAGE_RULE:
+				return getRuleDescription(c);
+			case NOTHING:
+			default:
+				return "";
+		}
+	}
+
 	public BrailleSymbolUsageRule getRuleForUsage()
 	{
 		return ruleForUsage;
@@ -61,16 +115,21 @@ public class BrailleSymbolDataEntry
 		return type;
 	}
 
-	public String getLettersRepresented()
+	public String getFirstLettersRepresented()
 	{
-		return lettersRepresented;
+		return possibleLettersRepresented[0];
+	}
+
+	public String[] getAllLettersRepresented()
+	{
+		return possibleLettersRepresented;
 	}
 
 	public String getDescriptiveName(Context c)
 	{
 		if (descriptiveNameRes == -1)
 		{
-			return getLettersRepresented();
+			return getFirstLettersRepresented();
 		}
 		else
 		{
@@ -100,7 +159,7 @@ public class BrailleSymbolDataEntry
 
 	public String toString()
 	{
-		return getLettersRepresented();
+		return getFirstLettersRepresented();
 	}
 
 	public String getRuleDescription(Context c)
