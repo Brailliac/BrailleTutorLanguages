@@ -61,7 +61,7 @@
     <string name="settings_vibrationOption">Vibrationer</string>
     <string name="settings_soundOptionsTitle">Ljudinställningar</string>
     <string name="settings_translationOptionsTitle">Översättningsinställningar</string>
-    <string name="settings_credits">View Credits</string>
+    <string name="settings_credits">Visa bidragsgivare</string>
     <string name="credits1" formatted="false">Skapad med kärlek av Luke Needham :)\n</string>
     <string name="credits2" formatted="false">
         \n\nOch varför inte gilla Facebooksidan!\nhttps://www.facebook.com/brailletutor/
@@ -300,8 +300,8 @@
     <string name="rule_samePronounciation">\' kan bara användas när bokstäverna det representerar uttalas på samma sätt som originalordet</string>
 	<string name="rule_dontFollow_A_Or_O_And_UN_notPrefix">\' kan bara användas när bokstäverna det representerar inte kommer efter bokstäverna \'a\' eller \'o\', och bokstäverna \'un\' inte formar ett prefix</string>
 
-	<string name="rule_optionalSurroundedPlainBothSides">\' can be used when standing alone, or when surrounded on either, or both, sides, with non-short-write symbols</string>
-	<string name="rule_optionalSurroundedPlainStart">\' can be used when standing alone, or when preceded by non-short-write symbols</string>
+	<string name="rule_optionalSurroundedPlainBothSides">\' kan användas enskilt, eller omgiven på ena eller båda sidor av vanliga tecken</string>
+	<string name="rule_optionalSurroundedPlainStart">\' kan användas enskilt, eller när den föregås av ett vanligt tecken</string>
 
     <string name="placeholderad">Du borde se \'Earthlings\'</string>
 
