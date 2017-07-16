@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- for Swedish -->
+
+    <string name="app_name">Braille Tutor</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="braillekeyboardsubmitbuttontext">Skicka</string>
+    <string name="braillekeyboardretrybuttontext">Försök igen</string>
+    <string name="test_yourself_button">Testa dig själv</string>
+    <string name="translate_button">Översättning</string>
+    <string name="practise_button">Öva</string>
+    <string name="home_button">Hem</string>
+    <string name="challenge_button">Utmaning</string>
+    <string name="dictionary_button">Lexikon</string>
+    <string name="achievements_button">Bedrifter</string>
+    <string name="themes_button">Teman</string>
+    <string name="settings_button">Inställningar</string>
+    <string name="romanModeLined">Översätt\nTill\nBraille</string>
+    <string name="brailleModeLined">Översätt\nFrån\nBraille</string>
+    <string name="romanMode">Öva Till Braille</string>
+    <string name="brailleMode">Öva Från Braille</string>
+    <string name="readingMode">Läsläge</string>
+    <string name="back">Tillbaka</string>
+    <string name="next">Nästa</string>
+
+    <string name="dot1input">Punkt 1 indata</string>
+    <string name="dot2input">Punkt 2 indata</string>
+    <string name="dot3input">Punkt 3 indata</string>
+    <string name="dot4input">Punkt 4 indata</string>
+    <string name="dot5input">Punkt 5 indata</string>
+    <string name="dot6input">Punkt 6 indata</string>
+    <string name="submit_button">Skicka</string>
+    <string name="cheat_button">Fuska</string>
+
+    <string name="reviewask">Om du tycker om appen skulle det vara fantastiskt om du kunde</string>
+    <string name="clicktoreview">betygsätta den till 5 stjärnor!</string>
+    <string name="emailask">Om du har några problem, frågor eller förslag, var snäll och</string>
+    <string name="clicktoemail">skicka mig ett epost!</string>
+    <string name="resetapp">Återställ appen</string>
+    <string name="resetinfo">Återställ appen? Det här kommer att nollställa alla dina poäng och inställningar, men inte dina teman</string>
+    <string name="transfer_data">Överför Data</string>
+    <string name="receive_data">Ta emot Data</string>
+    <string name="show_answer">Visa Svar Knappen</string>
+    <string name="start_challenge">Skriv för att starta!</string>
+    <string name="start_practise">Starta!</string>
+    <string name="paused">Pausad - skriv för att återuppta!</string>
+    <string name="failure_emote">:(</string>
+    <string name="success_emote">:)</string>
+    <string name="newbesttime_emote">:D</string>
+    <string name="timeUp">Tiden är slut!</string>
+    <string name="outOfTime">Oops!\nDu fick slut på tid!</string>
+    <string name="misspelt">Argh!\nDu stavade något fel!</string>
+    <string name="inarow">i rad!</string>
+
+    <string name="settings_musicOption">Musik</string>
+    <string name="settings_soundOption">Ljud</string>
+    <string name="settings_fontOption">Mjukt Typsnitt</string>
+    <string name="settings_advContOption">Avancerade sammandragningar</string>
+    <string name="settings_rectoVerso">Recto Verso Mode</string>
+    <string name="settings_vibrationOption">Vibrationer</string>
+    <string name="settings_soundOptionsTitle">Ljudinställningar</string>
+    <string name="settings_translationOptionsTitle">Översättningsinställningar</string>
+    <string name="settings_credits">View Credits</string>
+    <string name="credits1" formatted="false">Skapad med kärlek av Luke Needham :)\n</string>
+    <string name="credits2" formatted="false">
+        \n\nOch varför inte gilla Facebooksidan!\nhttps://www.facebook.com/brailletutor/
+        \n\nTack till alla frivilliga som har jobbat otroligt hårt med att lägga till fler språk i appen!
+        \nSvenska - Peter Lembke
+        \n\nTack till alla mina testare:\n
+        Alice Blinkhorn\nDan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
+        Alla Brailleregler och data kommer från\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
+        "Faster Does It" and "George Street Shuffle" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/</string>
+    <string name="settings_challengeOptionsTitle">Utmaningsinställningar</string>
+    <string name="settings_ColourOptionsTitle">Färginställningar</string>
+    <string name="settings_DictionaryOptionsTitle">Lexikoninställningar</string>
+    <string name="locked_until">"Är låst fram till nivå"</string>
+    <string name="locked_until_singular">" är låst fram till nivå"</string>
+    <string name="nothing_selected">Du har inte valt något att öva på!</string>
+    <string name="bluetooth_not_available">Tyvärr har din enhet inte inte stöd för Bluetooth</string>
+    <string name="bluetooth_transfercheck">Vill du överföra din data till #? Detta kommer att ersätta din data i # med den data som finns i din enhet, och radera all data i din enhet.</string>
+    <string name="bluetooth_receivecheck">Vill du söka efter anslutningar? Om en anslutning är hittad, då kommer all data på enheten att bli ersatt med den mottagna datan.</string>
+    <string name="cancel">AVBRYT</string>
+    <string name="transfer">ÖVERFÖR</string>
+    <string name="receive">TA EMOT</string>
+    <string name="ok">OK</string>
+
+    <string name="nopptionsavailable">Inga val är tillgängliga!</string>
+    <string name="whatyouwanttopractise">Vad vill du öva på?</string>
+
+    <string name="newtheme">Nytt Tema!</string>
+    <string name="setTheme">Välj Tema</string>
+    <string name="currentTheme">Nuvarande Tema</string>
+    <string name="locked">Låst</string>
+    <string name="buynow">Köp nu</string>
+    <string name="levelup">En nivå upp</string>
+    <string name="tounlock">för att låsa upp</string>
+    <string name="tapformoreinfo">Tryck för mer info</string>
+
+    <string name="levelupDropInfo">"En ny slumpvis färg kommer att låsas upp på Nivå "</string>
+    <string name="nextLevelDrop">"Nästa chans på nivå "</string>
+
+    <string name="to_earn">To earn:</string>
+    <string name="achievement">Bedrift</string>
+
+    <string name="ach_loyal">Lojal</string>
+    <string name="ach_loyal_desc">Du har sett appen ändras över tid, och du har beslutat att behålla den. Tack!</string>
+    <string name="ach_loyal_unlock">vara en långtidsanvändare av appen</string>
+
+    <string name="ach_challengescore_18">Hare</string>
+    <string name="ach_challengescore_18_desc">Grattis! Du slutförde utmaningen på under 18 sekunder!</string>
+    <string name="ach_challengescore_18_unlock">slutför en utmaning på under 18 sekunder</string>
+
+    <string name="ach_challengescore_11">Svärdfisk</string>
+    <string name="ach_challengescore_11_desc">Du har lyckats sluföra en utmaning på under 11 sekunder! Det är under 1 sekund per bokstav!</string>
+    <string name="ach_challengescore_11_unlock">slutför en utmaning på under 11 sekunder</string>
+
+    <string name="ach_challengescore_8">Gepard</string>
+    <string name="ach_challengescore_8_desc">Du blir snabbare! Att klara en utmaning på under 8 sekunder är ingen genomsnittlig prestation!</string>
+    <string name="ach_challengescore_8_unlock">slutför en utmaning på under 8 sekunder</string>
+
+    <string name="ach_challengescore_5">Falk</string>
+    <string name="ach_challengescore_5_desc">Dina skrivkunskaper i Braille är otroliga! En hel utmaning översatt på under 5 sekunder!</string>
+    <string name="ach_challengescore_5_unlock">slutför en utmaning på under 5 sekunder</string>
+
+    <string name="ach_challengescore_3">Falk</string>
+    <string name="ach_challengescore_3_desc">En del människor kanske tvivlar på att det är möjligt att slutföra en utmaning på under 3 sekunder. Tydligen har de aldrig träffat dig!</string>
+    <string name="ach_challengescore_3_unlock">slutför en utmaning på under 3 sekunder</string>
+
+    <string name="theme_name_plain">Enkel</string>
+    <string name="theme_desc_plain">Det enklaste, tråkigaste temat</string>
+    <string name="theme_name_plain_white">Vit</string>
+    <string name="theme_name_plain_grey">Grå</string>
+    <string name="theme_name_plain_red">Röd</string>
+    <string name="theme_name_plain_orange">Orange</string>
+    <string name="theme_name_plain_yellow">Gul</string>
+    <string name="theme_name_plain_green">Grön</string>
+    <string name="theme_name_plain_teal">Kricka</string>
+    <string name="theme_name_plain_lightblue">Ljusblå</string>
+    <string name="theme_name_plain_blue">Blå</string>
+    <string name="theme_name_plain_pink">Rosa</string>
+    <string name="theme_name_plain_purple">Lila</string>
+
+    <string name="theme_name_dark">Mörk</string>
+    <string name="theme_desc_dark">Den är väldigt mörk</string>
+    <string name="theme_name_dark_red">Röd</string>
+    <string name="theme_name_dark_purple">Lila</string>
+    <string name="theme_name_dark_redpurple">Rödlila</string>
+    <string name="theme_name_dark_bluepurple">Blålila</string>
+    <string name="theme_name_dark_darkbluepurple">Mörkblålila</string>
+
+    <string name="theme_name_beach">Strand</string>
+    <string name="theme_desc_beach">Lyssna på vågorna medan du Braillar</string>
+    <string name="theme_name_beach_white">Strand Vit</string>
+
+    <string name="theme_name_garden">Trädgård</string>
+    <string name="theme_desc_garden">Odla vackra blommor - och dina Braillekunskaper! Det här temat lägger till: \n- En ny bakgrund\n- 21 nya Braille knappdesigner\n- Tar bort all reklam för evigt</string>
+    <string name="theme_name_garden_white">Trädgård</string>
+
+    <string name="view_unlocks">Visa Upplåsningar</string>
+
+    <string name="yoursecretket">Din användarkod är:</string>
+    <string name="input">INMATNING</string>
+
+    <string name="totalscore_title">Total Poäng:</string>
+    <string name="currentlevel_title">Nivå:</string>
+    <string name="tonextLevel_title">Nästa nivå om:</string>
+    <string name="bestscore">Bästa poäng:</string>
+    <string name="meanscore">Medel:</string>
+    <string name="settings_ColourPickerDescription">Välj Bakgrundsfärg</string>
+    <string name="settings_ColourSchemeButtonText">Ändra Färgschema</string>
+    <string name="search_prompt">Börja Skriv</string>
+    <string name="achievements_test_tab">Framsteg</string>
+    <string name="achievements_challenge_tab">Utmaning</string>
+    <string name="achievements_misc_tab">Blandat</string>
+
+    <string name="chooseLetters">Bokstäver att öva på:</string>
+    <string name="chooseContractions">Förkortningar att öva på:</string>
+    <string name="contractions">Förkortningar</string>
+    <string name="advancedcontractions">Avancerade Förkortningar</string>
+
+    <string name="challenge1">Översätt den här meningen&#8230;</string>
+    <string name="challenge2">Mot klockan!</string>
+    <string name="challenge3">Pausa om du behöver vila&#8230;</string>
+    <string name="challenge4">Och fortsätt genom att skriva!</string>
+
+    <string name="chooseprac1">Klicka på alfabetsknappen&#8230;</string>
+    <string name="chooseprac2">För att välja de bokstäver du vill öva på!</string>
+    <string name="chooseprac3">Klicka på de andra lexikonen&#8230;</string>
+    <string name="chooseprac4">För att slå på eller av dem!</string>
+    <string name="chooseprac5">Klicka på Lägesknappen&#8230;</string>
+    <string name="chooseprac6">För att ändra översättningsriktning!</string>
+
+    <string name="practisebraille1">Använd Brailles rutnät för att översätta bokstaven&#8230;</string>
+    <string name="practisebraille2">Och klicka här för att kontrollera svaret!</string>
+    <string name="practisebraille3">Om du fastnar, klicka här för att fuska!</string>
+    <string name="practisebraille4">Tjäna poäng för att öka din totala poäng&#8230;</string>
+    <string name="practisebraille5">Och nå nästa Nivå för att låsa upp nya finesser!</string>
+    <string name="practisebraille6">Se hur noggrann du är i procent&#8230;</string>
+    <string name="practisebraille7">Och din nuvarande upprepningsföljd!</string>
+    <string name="practisebraille8">Använd tangentbordet när du översätter från Braille!</string>
+    <string name="practisebraille9">Några tecken i Braille har flera betydelser&#8230;</string>
+    <string name="practisebraille10">Kontrollera vilken betydelse som behövs!</string>
+
+    <string name="translatebraille1">Översätt den slumpvis konstruerade meningen!</string>
+    <string name="translatebraille2">Se din poäng för meningen&#8230;</string>
+    <string name="translatebraille3">Blir lagd till din totala poäng när du är klar!</string>
+    <string name="translatebraille4">Klicka här för att se hur bra din översättning är!</string>
+    <string name="translatebraille5">Använd förkortningar för att få extra poäng&#8230;</string>
+    <string name="translatebraille6">Och se om du kunde ha använt någon extra förkortning!</string>
+
+    <string name="translateroman1">Översätt den framslumpade meningen!</string>
+    <string name="translateroman2">Bläddra för att se längre meningar!</string>
+    <string name="translateroman3">Klicka här för att söka upp okända tecken&#8230;</string>
+    <string name="translateroman4">Men försök att inte fuska för mycket!</string>
+
+    <string name="transferinfo1">Överför data mellan enheter via Bluetooth!</string>
+    <string name="transferinfo2">Välj Överför data på enheten du vill sända från&#8230;</string>
+    <string name="transferinfo3">Välj sedan Mottag data på den enhet du vill motta data på!</string>
+    <string name="transferinfo4">Vänta på att enheten ska dyka upp, välj den sedan för överföringen!</string>
+    <string name="transferinfo5">Stäng ingenting så länge överföringen pågår!</string>
+
+    <string name="rectoversoinfo1">Öva på att skriva Braille som du gör med papper och penna!</string>
+    <string name="rectoversoinfo2">Tänk dig att du präglar punkter på baksidan&#8230;</string>
+    <string name="rectoversoinfo3">Så att de är rättvända på framtidan!</string>
+    <string name="rectoversoinfo4">Det här kräver att du matar in punkterna spegelvänt&#8230;</string>
+    <string name="rectoversoinfo5">som om de vore vända på mitten!</string>
+
+    <string name="num_lock">Sifferläge</string>
+    <string name="caps_lock">Versalläge</string>
+    <string name="allcaps_lock">Ordversalläge</string>
+
+    <string name="dictionary_info">Specialtecken - noteringar</string>
+    <string name="numbers_info_label">Hur du använder siffror</string>
+    <string name="lettersign_info_label">Hur du använder bokstavstecknet</string>
+    <string name="capitalsign_info_label">Hur du använder tecknet för versaler</string>
+    <string name="doublecapitalsign_info_label">Hur du använder dubbla versaltecken</string>
+    <string name="italicsign_info_label">Hur du använder tecken för kursiv skrift</string>
+    <string name="doubleitalicsign_info_label">Hur du använder dubbel kursiv skrift</string>
+
+    <string name="search">Sök</string>
+
+    <string name="braille_number_sign">Siffertecken</string>
+    <string name="braille_decimal_point">Decimalkomma</string> <!-- comma -->
+    <string name="braille_thousands_separator">Tusenseparator</string>
+    <string name="braille_fullstop">Fullt Stopp</string>
+    <string name="braille_comma">Komma</string>
+    <string name="braille_colon">Kolon</string>
+    <string name="braille_semicolon">Semicolon</string>
+    <string name="braille_apostrophe">Apostrof</string>
+    <string name="braille_questionmark">Frågetecken</string>
+    <string name="braille_exclamationmark">Utropstecken</string>
+    <string name="braille_hyphen">Bindestreck</string>
+    <string name="braille_slash">Snedstreck</string>
+    <string name="braille_openbracket">Vänster parentes</string>
+    <string name="braille_closebracket">Höger parentes</string>
+    <string name="braille_openquote">Vänster citattecken</string>
+    <string name="braille_closequote">Höger citattecken</string>
+    <string name="braille_capital">Versaltecken</string>
+    <string name="braille_capitalword">Versaltecken ord</string>
+    <string name="braille_italic">Kursivt tecken</string>
+    <string name="braille_doubleitalic">Kursiv text</string>
+    <string name="braille_lettersign">Bokstavstecken</string>
+    <string name="braille_elipsis">Ellips</string>
+    <string name="braille_asterisk">Stjärna</string>
+    <string name="braille_space">Mellanslag</string>
+
+    <string name="braille_dots5">Dots5</string>
+    <string name="braille_dots45">Dots45</string>
+    <string name="braille_dots456">Dots456</string>
+    <string name="braille_dots46">Dots46</string>
+    <string name="braille_dots56">Dots56</string>
+
+    <string name="braille_groupsigncontraction">Grupptecken förkortningar</string>
+    <string name="braille_wordsigncontraction">Ordtecken förkortningar</string>
+    <string name="braille_letter">Bokstav</string>
+    <string name="braille_number">Nummer</string>
+    <string name="braille_advancedcontraction">Avancerade förkortningar</string>
+    <string name="braille_shortform">Kortform</string>
+
+    <string name="numbersExplanation">Med nummertecknet går du in i <b>\'numeriskt läge\'</b> för resten av meningen.\n\nDet betyder att alla tecken efter nummertecknet ska läsas som siffror tills nummerläget avslutas.\n\nNumeriskt läge avslutas med mellanslag, bokstavstecknet eller vilket tecken som helst som inte finns i nummerläget.</string>
+    <string name="lettersignExplanation">Några Brailletecken kan ha mer än en betydelse; de kan finnas i en icke sammandragen mening eller i en sammandragen mening eller som siffror.\n\nI de lägen då detta kan vara otydligt för läsaren så används <b>\'Uncontracted Indicator\'</b> (Bokstavstecken) placeras före tecknet för att få <b>\'Normalt Läge\'</b>.\n\nDet här berättar för läsaren att nästa tecken inte är en sammandragning eller siffror; det ska läsas som bokstäver eller skiljetecken.</string>
+    <string name="capitalsignExplanation">Tecknet som kommer efter ett <b>\'Versaltecken\'</b> är en versal.\n\nMed versaltecknet går du in i <b>\'Versalläge\'</b>, och det slutar efter första bokstaven.\n\nMed kortskrift så är det bara första tecknet som är en versal.</string>
+    <string name="capitalwordExplanation">Med <b>Versalordstecknet</b> får du <b>\'Versalläge\'</b> för ett helt ord, och sedan avslutas läget.\n\nDet här betyder att hela ordet är i versaler.</string>
+    <string name="italicsignExplanation">Med <b>Kursivtecknet</b> blir hela det efterföljande ordet kursivt.</string>
+    <string name="doubleitalicsignExplanation">Med <b>Dubbla kursivtecken</b> blir hela avsnittet i kursiv stil.</string>
+
+    <string name="ruleTitle">Regel </string>
+    <string name="theContraction">Sammandragningen \'</string>
+    <string name="rule_anywhere">\' kan användas över allt där tecknen förekommer</string>
+    <string name="rule_standAlone">\' kan bara anändas enskilt</string>
+    <string name="rule_notAtStart">\' kan användas i början av ett ord</string>
+    <string name="rule_firstSyllable">\' kan bara användas som första bokstav i ett ord</string>
+    <string name="rule_surrounded">\' kan bara användas när är omslutet av andra bokstäver</string>
+    <string name="rule_wordMeaningRetained">\' kan bara användas när betydelsen av originalordet är densamma</string>
+    <string name="rule_short_A">\' kan bara användas när \'a\' betonas kort</string>
+    <string name="rule_stressFirst_E_AndDontFollow_I_Or_E">\' kan bara använas när betoningen är på första \'e\', och det inte kommer efter bokstäverna \'i\' eller \'e\'</string>
+    <string name="rule_oneSyllable">\' kan bara användas när bokstäverna den representerar uttalas som en stavelse</string>
+    <string name="rule_oneSyllableOr_ONEY_NotAfter_O">\' kan bara användas när bokstäverna den representerar uttalas som en stavelse, eller används för att avsluta ett ord med bokstäverna \'oney\'. Det kan aldrig användas efter bokstäverna \'o\'</string>
+    <string name="rule_samePronounciation">\' kan bara användas när bokstäverna det representerar uttalas på samma sätt som originalordet</string>
+	<string name="rule_dontFollow_A_Or_O_And_UN_notPrefix">\' kan bara användas när bokstäverna det representerar inte kommer efter bokstäverna \'a\' eller \'o\', och bokstäverna \'un\' inte formar ett prefix</string>
+
+	<string name="rule_optionalSurroundedPlainBothSides">\' can be used when standing alone, or when surrounded on either, or both, sides, with non-short-write symbols</string>
+	<string name="rule_optionalSurroundedPlainStart">\' can be used when standing alone, or when preceded by non-short-write symbols</string>
+
+    <string name="placeholderad">Du borde se \'Earthlings\'</string>
+
+    <!-- words used to generate random (but grammatically correct!!) sentences to translate. It works like: Subject + Verb + Object. To make it work in different languages, you might not be able to do literal translations, so you can choose your own words :) -->
+
+    <string-array name="subjects">
+
+        <item>Jultomten</item>
+        <item>Tandfen</item>
+        <item>tidsresenären</item>
+        <item>bydåren</item>
+        <item>den misslyckade artisten</item>
+
+        <item>ingen</item>
+        <item>alla</item>
+
+        <item>min pappa</item>
+        <item>min far</item>
+        <item>min mamma</item>
+        <item>min mor</item>
+        <item>min farbror</item>
+        <item>min farfar</item>
+        <item>min morfar</item>
+        <item>min mormor</item>
+        <item>min farmor</item>
+        <item>min son</item>
+        <item>min dotter</item>
+        <item>min bästa vän</item>
+        <item>min fiende</item>
+        <item>min granne</item>
+        <item>min skyddsängel</item>
+        <item>min vän</item>
+        <item>min moster</item>
+        <item>min bror</item>
+        <item>min syster</item>
+        <item>min brorson</item>
+        <item>min kusin</item>
+        <item>min brorsdotter</item>
+        <item>min fru</item>
+        <item>min man</item>
+
+        <item>hamstern</item>
+        <item>katten</item>
+        <item>lejonet</item>
+        <item>fågeln</item>
+        <item>pingvinen</item>
+        <item>hunden</item>
+        <item>fladdermusen</item>
+        <item>grisen</item>
+        <item>sköldpaddan</item>
+        <item>räven</item>
+        <item>grävlingen</item>
+        <item>grodan</item>
+        <item>ormen</item>
+        <item>tapiren</item>
+        <item>elefanten</item>
+        <item>den stora spindeln</item>
+        <item>ödlan</item>
+        <item>apan</item>
+        <item>zebran</item>
+        <item>pandan</item>
+        <item>leoparden</item>
+        <item>trilobiten</item>
+        <item>laman</item>
+        <item>koalan</item>
+        <item>kängurun</item>
+        <item>snigeln</item>
+        <item>snigeln</item>
+        <item>tigern</item>
+        <item>hästen</item>
+        <item>draken</item>
+        <item>papegojan</item>
+        <item>fjärilen</item>
+        <item>malen</item>
+        <item>krokodilen</item>
+        <item>örnen</item>
+        <item>fiskmåsen</item>
+        <item>grodan</item>
+        <item>kon</item>
+        <item>fåret</item>
+        <item>hjorten</item>
+        <item>gåsen</item>
+        <item>svanen</item>
+        <item>spindeln</item>
+        <item>fisken</item>
+        <item>igelkotten</item>
+        <item>musen</item>
+        <item>getingen</item>
+        <item>skalbaggen</item>
+        <item>valen</item>
+        <item>delfinen</item>
+        <item>ankan</item>
+        <item>getingen</item>
+        <item>råttan</item>
+        <item>bläckfisken</item>
+        <item>björnen</item>
+        <item>bläckfisken</item>
+        <item>monstret</item>
+        <item>åsnan</item>
+        <item>skelettet</item>
+        <item>zombien</item>
+        <item>vampyren</item>
+        <item>jätten</item>
+        <item>varulven</item>
+        <item>vargen</item>
+        <item>trollet</item>
+        <item>hajen</item>
+
+        <!--  <item>the plonker</item> -->
+        <!--  <item>the cretin</item> -->
+        <!--   <item>the moron</item> -->
+        <item>joggaren</item>
+        <item>cyklisten</item>
+        <item>läraren</item>
+        <item>prästen</item>
+        <item>polismannen</item>
+        <item>clownen</item>
+        <item>gnomen</item>
+        <item>botanisten</item>
+        <item>piraten</item>
+        <item>utomjordlingen</item>
+        <item>matrosen</item>
+        <item>sångaren</item>
+        <item>operasångaren</item>
+        <item>komikern</item>
+        <item>tågföraren</item>
+        <item>ninjan</item>
+        <item>sjöjungfrun</item>
+        <item>magikern</item>
+        <item>riddaren</item>
+        <item>krigaren</item>
+        <item>häxan</item>
+        <item>trollkarlen</item>
+        <item>forskaren</item>
+        <item>barnet</item>
+        <item>tonåringen</item>
+        <item>matematikern</item>
+        <item>servitören</item>
+        <item>servitrisen</item>
+        <item>kirurgen</item>
+        <item>Ryssen</item>
+        <item>lönnmördaren</item>
+        <item>spelaren</item>
+        <item>ingenjören</item>
+        <item>biokemisten</item>
+        <item>tandläkaren</item>
+        <item>veterinären</item>
+        <item>författaren</item>
+        <item>skribenten</item>
+        <item>poeten</item>
+        <item>dåren</item>
+        <item>skådespelaren</item>
+        <item>geologen</item>
+        <item>spöket</item>
+        <!-- <item>the imbecile</item> -->
+        <item>soldaten</item>
+        <item>politen</item>
+        <item>astronauten</item>
+        <item>fysikern</item>
+        <!-- <item>the eejit</item>-->
+        <!--  <item>the halfwit</item>-->
+        <!--  <item>the elf</item>-->
+        <!--  <item>the dwarf</item>-->
+        <item>studenten</item>
+        <item>kungen</item>
+        <item>drottningen</item>
+        <item>veganen</item>
+        <item>vegetarianen</item>
+        <item>bebisen</item>
+        <item>flickan</item>
+        <item>pojken</item>
+        <item>småbarnet</item>
+        <item>Tysken</item>
+        <item>Amerikanen</item>
+        <item>Norrmannen</item>
+        <item>kemisten</item>
+        <item>doktorn</item>
+        <item>sjuksköterskan</item>
+        <item>vikingen</item>
+
+
+        <!--   <item>the grim reaper</item> -->
+        <item>borgmästaren</item>
+        <item>presidenten</item>
+        <item>statsministern</item>
+        <item>rektorn</item>
+        <item>fången</item>
+        <item>lokalvårdaren</item>
+        <item>programmeraren</item>
+        <item>affärsmannen</item>
+        <item>affärskvinnan</item>
+        <item>geografen</item>
+        <item>banditen</item>
+        <item>tjuven</item>
+        <item>musikern</item>
+        <item>kompositören</item>
+        <item>pianisten</item>
+        <item>gästen</item>
+        <item>konstnären</item>
+        <item>byggaren</item>
+        <item>galningen</item>
+        <item>prinsessan</item>
+        <item>prinsen</item>
+    </string-array>
+
+    <string-array name="verbs">
+        <item>gillar</item>
+        <item>äter</item>
+        <item>biter</item>
+        <!-- <item>licks</item> -->
+        <!-- <item>nibbles</item> -->
+        <item>älskar</item>
+        <item>hatar</item>
+        <item>ser</item>
+        <item>lyssnar på</item>
+        <item>talar med</item>
+        <item>glor på</item>
+        <item>stirrar på</item>
+        <item>tänker på</item>
+        <item>ser på</item>
+        <item>observerar</item>
+        <item>gillar i hemlighet</item>
+        <item>undersöker</item>
+        <item>avskyr</item>
+        <item>förbannar</item>
+        <item>kastar en trollformel</item>
+        <item>väntar på</item>
+        <item>springer mot</item>
+        <item>kritiserar</item>
+        <item>beundrar</item>
+        <item>jagar</item>
+        <!--  <item>shoots</item>-->
+        <item>slåss mot</item>
+        <item>avskyr</item>
+        <item>tolererar</item>
+        <item>ogillar</item>
+        <item>ignorerar</item>
+        <item>förolämpar</item>
+        <item>respekterar</item>
+        <item>studerar</item>
+        <item>vaktar</item>
+        <!--  <item>hits</item>-->
+        <item>recenserar</item>
+        <item>fruktar</item>
+        <!--  <item>kicks</item>
+         <item>punches</item>
+         <item>crushes</item>
+         <item>abused</item>
+         <item>abuses</item>
+         <item>shouts at</item>
+         <item>slaps</item>
+         <item>was murdered by</item>
+         <item>was killed by</item>
+         <item>was abused by</item>-->
+        <item>stödjer</item>
+        <item>ser efter</item>
+        <item>argumenterar med</item>
+        <item>håller inte med</item>
+        <item>håller med</item>
+        <item>råder</item>
+        <item>kittlar</item>
+        <item>masserar</item>
+        <item>tror på</item>
+        <item>sover på</item>
+        <item>lever med</item>
+        <item>petar</item>
+        <item>slåss</item>
+        <!-- <item>scoffs at</item> -->
+        <item>ratar</item>
+        <item>förföljer</item>
+        <item>förstår</item>
+        <!--  <item>touches</item>-->
+        <item>förvirrar</item>
+        <item>tittar ned på</item>
+        <item>hånar</item>
+        <item>saknar</item>
+        <item>litar på</item>
+        <item>drömmer om</item>
+        <!--  <item>cuts open</item>-->
+        <item>förvisar</item>
+        <!-- <item>exiles</item> -->
+        <item>fördömmer</item>
+        <item>spårar</item>
+        <item>follows</item>
+        <item>dissikerar</item>
+        <item>välkomnar</item>
+        <!--   <item>stabs</item>-->
+        <item>springer från</item>
+        <item>luktar</item>
+
+        <item>diskuterar politik med</item>
+        <item>ger gåvor till</item>
+        <item>sörjer förlusten av</item>
+        <item>känner till en hemlighet om</item>
+        <!-- <item>hurls bricks at</item>-->
+        <!-- <item>tenderly strokes</item>
+
+        <item>hacks merrily away at</item>
+        <item>decays in the presence of</item>-->
+        <item>slänger en trollformel på</item>
+        <item>försöker imponera på</item>
+        <item>läser poesi för</item>
+        <item>skriver noveller om</item>
+        <item>skriver limerickar om</item>
+        <item>sjunger vaggsånger för</item>
+
+        <item>är besatt av</item>
+        <item>oroar sig för</item>
+        <item>är misstrogen mot</item>
+        <item>är förvirrad över</item>
+        <item>är uppspelt för</item>
+        <item>är äcklad av</item>
+        <!-- <item>is repulsed by</item> -->
+        <item>är fascinerad av</item>
+        <item>är hatad av</item>
+        <item>letar efter</item>
+        <item>hatas av</item>
+        <item>har ett uppdrag att hitta</item>
+        <item>är misstänksam mot</item>
+        <item>är rädd för</item>
+        <item>är förskräkt för</item>
+        <item>är nöjd med</item>
+        <item>är sörjd av</item>
+        <item>är omtyckt av</item>
+        <item>är älskad av</item>
+        <item>bryr sig inte om</item>
+        <item>förstår inte</item>
+        <item>kan inte stå ut med</item>
+        <item>kan se</item>
+        <item>kan inte tolerera</item>
+        <item>upptäckte</item>
+
+        <item>var föraktad av</item>
+        <item>var omtykt av</item>
+        <item>var älskad av</item>
+        <item>var hatad av</item>
+
+    </string-array>
+
+    <string-array name="objects">
+        <item>mig</item>
+
+        <item>djur</item>
+        <item>husdjur</item>
+        <item>hamstrar</item>
+        <item>katter</item>
+        <item>lejon</item>
+        <item>fåglar</item>
+        <item>pingviner</item>
+        <item>hundar</item>
+        <item>fladdermöss</item>
+        <item>grisar</item>
+        <item>sköldpaddor</item>
+        <item>rävar</item>
+        <item>grävlingar</item>
+        <item>grodor</item>
+        <item>ormar</item>
+        <item>jättepandas</item>
+        <item>tapirer</item>
+        <item>elefanter</item>
+        <item>stora spindlar</item>
+        <item>ödlor</item>
+        <item>apor</item>
+        <item>zebror</item>
+        <item>pandor</item>
+        <item>leoparder</item>
+        <item>trilobiter</item>
+        <item>lamadjur</item>
+        <item>koalor</item>
+        <item>kängurur</item>
+        <item>sniglar</item>
+        <!-- <item>slugs</item> -->
+        <item>tigrar</item>
+        <item>hästar</item>
+        <item>drakar</item>
+        <item>papegojor</item>
+        <item>fjärilar</item>
+        <item>malar</item>
+        <item>krokodiler</item>
+        <item>örnar</item>
+        <item>fiskmåsar</item>
+        <item>paddor</item>
+        <item>kor</item>
+        <item>får</item>
+        <item>hjortar</item>
+        <item>gäss</item>
+        <item>svanar</item>
+        <item>spindlar</item>
+        <item>insekter</item>
+        <item>fiskar</item>
+        <item>igelkottar</item>
+        <item>möss</item>
+        <item>getingar</item>
+        <item>skalbaggar</item>
+        <item>valar</item>
+        <item>delfiner</item>
+        <item>ankor</item>
+        <item>getingar</item>
+        <item>råttor</item>
+        <item>bläckfiskar</item>
+        <item>björnar</item>
+        <!-- <item>octopi</item> -->
+        <item>monster</item>
+        <item>åsnor</item>
+        <item>skelett</item>
+        <item>zombies</item>
+        <item>vampyrer</item>
+        <item>jättar</item>
+        <item>varulvar</item>
+        <item>vargar</item>
+        <item>troll</item>
+        <item>hajar</item>
+
+        <item>TVn</item>
+        <item>datorn</item>
+        <item>radion</item>
+        <item>saken</item>
+        <item>pianot</item>
+
+        <item>plantor</item>
+        <item>kaktusar</item>
+        <item>blommor</item>
+        <item>träd</item>
+        <item>bonsai träd</item>
+        <item>tulpaner</item>
+        <item>rosor</item>
+        <item>tusenskönor</item>
+
+        <item>mat</item>
+        <item>kött</item>
+        <item>ägg</item>
+        <item>hamburgare</item>
+        <!-- <item>toast</item> -->
+        <item>bröd</item>
+        <item>pumpor</item>
+        <item>svampar</item>
+        <item>morötter</item>
+        <item>grönsaker</item>
+        <item>frukt</item>
+        <item>äpplen</item>
+        <item>apelsiner</item>
+        <item>satsuma</item>
+        <item>ananas</item>
+        <item>päron</item>
+
+        <item>folk</item>
+        <item>män</item>
+        <item>kvinnor</item>
+        <!--  <item>idiots</item>
+        <item>cretins</item>
+        <item>eejits</item>
+        <item>halfwits</item>
+        <item>elves</item>
+        <item>dwarves</item>
+         <item>imbeciles</item>
+        <item>morons</item> -->
+        <item>joggare</item>
+        <item>cyklister</item>
+        <item>lärare</item>
+        <item>präster</item>
+        <item>poliser</item>
+        <item>clowner</item>
+        <item>jordandar</item>
+        <item>pirater</item>
+        <item>utomjordling</item>
+        <item>sjöman</item>
+        <item>sångare</item>
+        <item>operasångare</item>
+        <item>komiker</item>
+        <item>tågförare</item>
+        <item>ninjor</item>
+        <item>sjöjungfrur</item>
+        <item>magiker</item>
+        <item>riddare</item>
+        <item>geografer</item>
+        <item>krigare</item>
+        <item>häxor</item>
+        <item>trollkarlar</item>
+        <item>forskare</item>
+        <item>barn</item>
+        <item>tonåringar</item>
+        <item>matematiker</item>
+        <!-- <item>pure mathematicians</item> -->
+        <item>servitörer</item>
+        <item>servitriser</item>
+        <item>kirurger</item>
+        <item>ryssar</item>
+        <item>lönnmördare</item>
+        <item>spelare</item>
+        <item>ingenjörer</item>
+        <item>biokemister</item>
+        <item>tandläkare</item>
+        <item>veterinärer</item>
+        <item>författare</item>
+        <item>skribenter</item>
+        <item>poeter</item>
+        <item>dårar</item>
+        <item>skådespelare</item>
+        <item>geologer</item>
+        <item>spöken</item>
+        <item>soldater</item>
+        <item>piloter</item>
+        <item>astronauter</item>
+        <item>botanister</item>
+        <item>fysiker</item>
+        <item>studenter</item>
+        <item>kungar</item>
+        <item>drottningar</item>
+        <item>veganer</item>
+        <item>vegetarianer</item>
+        <item>bäbisar</item>
+        <item>flickor</item>
+        <item>pojkar</item>
+        <item>vikingar</item>
+        <item>småbarn</item>
+        <item>fransmännen</item>
+        <item>tyskarna</item>
+        <item>amerikanerna</item>
+        <item>engelsmännen</item>
+        <item>irländarna</item>
+        <item>welsharna</item>
+        <item>skottarna</item>
+        <item>spanjorerna</item>
+        <item>norrmännen</item>
+        <item>kemisterna</item>
+        <item>doktorerna</item>
+        <item>sjuksköterskorna</item>
+        <item>alla</item>
+        <item>ingen</item>
+    </string-array>
+
+    <string-array name="extra_pack">
+
+    </string-array>
+
+    <string name="attemptstaken">Du behövde %d försök!</string>
+    <string name="awatingconnection">Väntar på anslutning...</string>
+    <string name="braille_add">Lägg till</string>
+    <string name="braille_ampersand">Och-tecken</string>
+    <string name="braille_at">Snabel-A</string>
+    <string name="braille_backslash">Omvänt snedstreck</string>
+    <string name="braille_bullet">Listtecken Kula</string>
+    <string name="braille_bullet_square">Fyrkantig Punkt</string>
+    <string name="braille_bullet_white">Vit Punkt</string>
+    <string name="braille_cent">Centtecken</string>
+    <string name="braille_closecurlybrace">Höger Klammerparentes</string> <!-- } -->
+    <string name="braille_closesquarebracket">Höger Hakparentes</string> <!-- ] -->
+    <string name="braille_copyright">Copyrighttecken</string>
+    <string name="braille_dagger">Kors</string> <!-- † -->
+    <string name="braille_dash">Snedstreck</string>
+    <string name="braille_degree">Grader</string>
+    <string name="braille_divide_line">Divide Line</string>
+    <string name="braille_dollar">Dollartecken</string>
+    <string name="braille_equal">Likhetstecken</string>
+    <string name="braille_euro">Eurotecken</string>
+    <string name="braille_exclamationmark_inverse">Inverterat utropstecken</string> <!-- Note that a normal ! are used before a statement phrase in spanish -->
+    <string name="braille_greater_than">Större än</string>
+    <string name="braille_hash">Hash-tecknet</string>
+    <string name="braille_less_than">Mindre än</string>
+    <string name="braille_multiply_cross">Multiplikationstecken (kryss)</string>
+    <string name="braille_multiply_dot">Multiplikationstecken (punkt)</string>
+    <string name="braille_opencurlybrace">Vänster Klammerparentes</string> <!-- { -->
+    <string name="braille_opensquarebracket">Vänster Hakparentes</string> <!-- [ -->
+    <string name="braille_paragraph">Paragraftecken</string>
+    <string name="braille_percent">Procent</string>
+    <string name="braille_permille">Promille</string>
+    <string name="braille_pipe">Lodstreck</string>
+    <string name="braille_poundsterling">Pundtecken</string>
+    <string name="braille_questionmark_inverse">Inverterat frågetecken</string> <!-- Note that a normal ? are used before a question phrase in spanish -->
+    <string name="braille_quote">Citattecken</string> <!-- " -->
+    <string name="braille_rights_reserved">Registreringstecken</string>
+    <string name="braille_root">Rottecknet</string>
+    <string name="braille_tilde">Tilde fristående</string> <!-- Tilde stand alone (Tilde fristående) (45,25) or tilde above letter (Tilde över bokstav) (346,25)-->
+    <string name="braille_tm">Trade Mark-tecken</string>
+    <string name="braille_underscore">Understreck</string>
+    <string name="braille_yen">Yentecken</string>
+    <string name="category_advancedcontractions">Avancerade sammandragningar</string>
+    <string name="category_contractions">Sammandragningar</string>
+    <string name="category_short2">Kortskrift Nivå 2</string>
+    <string name="cheatsused">fusk används!</string>
+    <string name="connecting">Ansluter...</string>
+    <string name="database_swedish">Svenska</string>
+    <string name="database_swedish_desc">Standard i Sverige</string>
+    <string name="database_ueb">UEB</string>
+    <string name="database_ueb_desc">Unified English Braille - Modern standard för alla Engelsk-språkiga länder</string>
+    <string name="devicesfound">Enhet funnen:</string>
+    <string name="dots">Punkter</string>
+    <string name="emailerror">Ingen epostklient installerad</string>
+    <string name="emailvia">Sänd epost via:</string>
+    <string name="error_differentversions">Dina enheter kör olika versioner av Braille Tutor! Var vänlig och se till att de är båda uppdaterade</string>
+    <string name="facebook_appname">Braille Tutor för Android</string>
+    <string name="facebook_braillechallenge">Braille Tutor Utmaning</string>
+    <string name="facebook_justscored">Jag fick poäng</string>
+    <string name="level">Nivå</string>
+    <string name="isoff">är avstängd</string>
+    <string name="newbesttime">Ny bästa tid!</string>
+    <string name="newdictionary">Ny Ordbok - %s!</string>
+    <string name="newmode">Nytt Läge - %s!</string>
+    <string name="nocheats">Inga fusk användes!</string>
+    <string name="noneyet">Ingen ännu!</string>
+    <string name="noresults">Inga resultat hittades!</string>
+    <string name="opengift">Knacka på din gåva för att öppna den!</string>
+    <string name="recievingdata">Mottar data...</string>
+    <string name="reset">ÅTERSTÄLL</string>
+    <string name="seconds">sekunder</string>
+    <string name="sendingdata">Skickar data...</string>
+    <string name="setnow">SÄTT NU</string>
+    <string name="settings_database">Ändra Braille Kod</string>
+    <string name="singleattempt">Du behövde bara 1 försök!</string>
+    <string name="singlecheat">Bara ett fusk användes!</string>
+    <string name="starttypingtosearch">Använd knappen för att söka!</string>
+    <string name="symbol_finallettercontraction">Sistabokstavssammandragningar</string>
+    <string name="symbol_finallettercontraction_desc">De här sammandragningarna består av 2 tecken, där andra tecknet vanligtvis representerar den sista bokstanev/bokstäverna! De kan användas överallt utom i början av ett ord</string>
+    <string name="symbol_foreign">Utländska tecken</string>
+    <string name="symbol_groupsign">Grupptecken</string>
+    <string name="symbol_groupsign_desc">Grupptecken representerar vanliga bokstavsgrupper! De kan vanligtvis användas där gruppen finns i ordet, men det finns vissa undantag! Klicka på ett tecken för mer information.</string>
+    <string name="symbol_initiallettercontraction">Förstabokstavssammadragningar</string>
+    <string name="symbol_initiallettercontraction_desc">Dessa sammandragningar består av två tecken, där det andra tecknet vanligtvis representerar första bokstäverna! Några av dem har underliga användningsregler, så var försiktig! Klicka på et tecken för mer information.</string>
+    <string name="symbol_foreign_desc">Dessa tecken används för att representera bokstäver i andra språk!</string>
+    <string name="symbol_letter">Alfabetet</string>
+    <string name="symbol_letter_desc">Alfabetet - de flesta texter i braille använder dessa!</string>
+    <string name="symbol_maths">Matematik</string>
+    <string name="symbol_maths_desc">Används för att representera matematsika symboler!</string>
+    <string name="symbol_number">Siffror</string>
+    <string name="symbol_number_desc">De tecken som kommer efter ett nummertecken ska läsas som siffror! Bokstäverna \'a\' - \'i\' motsvarar to \'1\' - \'9\', och \'j\' är \'0\'.</string>
+    <string name="symbol_punctuation">Skiljetecken</string>
+    <string name="symbol_punctuation_desc">Varning: Det är inte alla skiljetecken i Braille som klarar sig med ett tecken, Några skiljetecken behöver två tecken!</string>
+    <string name="symbol_short1">Kortskrift Nivå 1</string>
+    <string name="symbol_short2a">kortskrift Nivå 2A</string>
+    <string name="symbol_shortform">Kortskrift</string>
+    <string name="symbol_shortform_desc">Med kortskrift kan du förkorta vanliga ord genom att skippa några bokstäver! Dessa ord ska vanligtvis inte sättas ihop med andra tecken.</string>
+    <string name="symbol_short2b">Kortskrift Nivå 2B</string>
+    <string name="symbol_short2c">Kortskrift Nivå 2C</string>
+    <string name="symbol_wordsign">Helordsförkortningar</string>
+    <string name="symbol_wordsign_desc">Helordsförkortningar representerar vanliga ord och skrivs ofta som första bokstaven eller bokstäverna i ordet. De förekommer ensamma med mellanslag på båda sidor.</string>
+    <string name="transfersuccessful">Dataöverföringen lyckades!</string>
+    <string name="translate_input">Inmatning:</string>
+    <string name="translate_perfect">Perfekt:</string>
+    <string name="unlocked">Låst upp:</string>
+    <string name="viewachievements">VISA FRAMGÅNGAR</string>
+    <string name="youknewpercent">Du kunde %d%% av tecknen!</string>
+    <string name="symbol_short1_desc">Med kortskrift nivå 1 kan du förkorta vanliga ord till et tecken!</string>
+    <string name="symbol_short2a_desc">Tecknen representerar vanligt förekommande ord, men med mer än ett tecken!</string>
+    <string name="symbol_short2b_desc">Tecknen representerar vanliga ljud inom ett ord!</string>
+    <string name="symbol_short2c_desc">Tecknen representerar förkortningar av vanliga fraser!</string>
+
+</resources>
