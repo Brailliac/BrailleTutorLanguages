@@ -342,7 +342,7 @@ public class SvenskaSymbolDatabase extends BrailleSymbolDatabase
 
 			// Short write - Level 2. System is called K-75
 			// Three types: A. whole words, B. sound groups, C. shortened sound groups
-			// B. sound grooups - Rule is: Used as part of a word but must have normal letter(s) at -
+			// B. sound groups - Rule is: Used as part of a word but must have normal letter(s) at -
 
 			new BrailleSymbolDataEntry("ing", OPTIONAL_SURROUNDED_BOTHSIDES_ONLY_BY_PLAIN, SHORT_2B, SHOW_USAGE_RULE, CellQuestionmark), // [236] [236].
 			new BrailleSymbolDataEntry("ingen", OPTIONAL_SURROUNDED_START_ONLY_BY_PLAIN, SHORT_2B, SHOW_USAGE_RULE, CellQuestionmark, CellGH), // [236][126] [236][126].

@@ -943,7 +943,7 @@
     <string name="unlocked">Låst upp:</string>
     <string name="viewachievements">VISA FRAMGÅNGAR</string>
     <string name="youknewpercent">Du kunde %d%% av tecknen!</string>
-    <string name="symbol_short1_desc">Med kortskrift nivå 1 kan du förkorta vanliga ord till et tecken!</string>
+    <string name="symbol_short1_desc">Med kortskrift nivå 1 kan du förkorta vanliga ord till ett tecken!</string>
     <string name="symbol_short2a_desc">Tecknen representerar vanligt förekommande ord, men med mer än ett tecken!</string>
     <string name="symbol_short2b_desc">Tecknen representerar vanliga ljud inom ett ord!</string>
     <string name="symbol_short2c_desc">Tecknen representerar förkortningar av vanliga fraser!</string>
