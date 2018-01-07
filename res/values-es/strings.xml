@@ -1,963 +1,941 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <!-- for Spanish -->
+	<!-- for Spanish -->
 
-    <string name="app_name">Braille Tutor</string>
-    <string name="action_settings">Ajustes</string>
-    <string name="braillekeyboardsubmitbuttontext">Enviar</string>
-    <string name="braillekeyboardretrybuttontext">Reintentar</string>
-    <string name="test_yourself_button">Pru\u00E9bate</string>
-    <string name="translate_button">Traducci\u00F3n</string>
-    <string name="practise_button">Practicar</string>
-    <string name="home_button">Inicio</string>
-    <string name="challenge_button">Desaf\u00EDo</string>
-    <string name="dictionary_button">Diccionario</string>
-    <string name="achievements_button">Logros</string>
-    <string name="themes_button">Temas</string>
-    <string name="settings_button">Ajustes</string>
-    <string name="romanModeLined">Traducir\nA\nBraille</string>
-    <string name="brailleModeLined">Traducir\nDe\nBraille</string>
-    <string name="romanMode">Practicar en Braille</string>
-    <string name="brailleMode">Practicar desde Braille</string>
-    <string name="readingMode">Modo Lectura</string>
+	<string name="app_name">Braille Tutor</string>
+	<string name="action_settings">Ajustes</string>
+	<string name="braillekeyboardsubmitbuttontext">Enviar</string>
+	<string name="braillekeyboardretrybuttontext">Reintentar</string>
+	<string name="test_yourself_button">Pru\u00E9bate</string>
+	<string name="translate_button">Traducci\u00F3n</string>
+	<string name="practise_button">Practicar</string>
+	<string name="home_button">Inicio</string>
+	<string name="challenge_button">Desaf\u00EDo</string>
+	<string name="dictionary_button">Diccionario</string>
+	<string name="achievements_button">Logros</string>
+	<string name="themes_button">Temas</string>
+	<string name="settings_button">Ajustes</string>
+	<string name="romanModeLined">Traducir\nA\nBraille</string>
+	<string name="brailleModeLined">Traducir\nDe\nBraille</string>
+	<string name="romanMode">Practicar en Braille</string>
+	<string name="brailleMode">Practicar desde Braille</string>
+	<string name="readingMode">Modo Lectura</string>
 
-    <string name="back">Atras</string>
-    <string name="next">Siguiente</string>
+	<string name="back">Atras</string>
+	<string name="next">Siguiente</string>
 
-    <string name="dot1input">Entrada punto 1</string>
-    <string name="dot2input">Entrada punto 2</string>
-    <string name="dot3input">Entrada punto 3</string>
-    <string name="dot4input">Entrada punto 4</string>
-    <string name="dot5input">Entrada punto 5</string>
-    <string name="dot6input">Entrada punto 6</string>
-    <string name="submit">Bot\u00F3n Enviar</string>
+	<string name="dot1input">Entrada punto 1</string>
+	<string name="dot2input">Entrada punto 2</string>
+	<string name="dot3input">Entrada punto 3</string>
+	<string name="dot4input">Entrada punto 4</string>
+	<string name="dot5input">Entrada punto 5</string>
+	<string name="dot6input">Entrada punto 6</string>
 
-    <string name="reviewask">Si est\u00E1s disfrutando de esta app ser\u00EDa genial si</string>
-    <string name="clicktoreview">La calificas con 5 estrellas!</string>
-    <string name="emailask">Si tienes cualquier problema, preguntas o sugerencias, por favor</string>
-    <string name="clicktoemail">Env\u00EDame un correo!</string>
-    <string name="resetapp">Reiniciar App</string>
-    <string name="resetinfo">Reiniciar App? Esto reiniciar\u00E1 todos tus puntajes y ajustes, pero no tus temas</string>
-    <string name="transfer_data">Transferir Datos</string>
-    <string name="receive_data">Recibir Datos</string>
-    <string name="show_answer">Mostrar Bot\u00F3n de respuesta</string>
-    <string name="start_challenge">Escribe para comenzar!</string>
-    <string name="start_practise">Comenzar!</string>
-    <string name="paused">Pausado - escribe para continuar!</string>
-    <string name="failure_emote">:(</string>
-    <string name="success_emote">:)</string>
-    <string name="newbesttime_emote">:D</string>
-    <string name="timeUp">Se acab\u00F3 el tiempo!</string>
-    <string name="outOfTime">Ups!\nSe te acab\u00F3 el tiempo!</string>
-    <string name="misspelt">Argh!\nEscribiste mal algo!</string>
-    <string name="inarow">seguidas!</string>
+	<string name="reviewask">Si est\u00E1s disfrutando de esta app ser\u00EDa genial si</string>
+	<string name="clicktoreview">La calificas con 5 estrellas!</string>
+	<string name="emailask">Si tienes cualquier problema, preguntas o sugerencias, por favor</string>
+	<string name="clicktoemail">Env\u00EDame un correo!</string>
+	<string name="resetapp">Reiniciar App</string>
+	<string name="resetinfo">Reiniciar App? Esto reiniciar\u00E1 todos tus puntajes y ajustes, pero no tus temas</string>
+	<string name="transfer_data">Transferir Datos</string>
+	<string name="receive_data">Recibir Datos</string>
+	<string name="show_answer">Mostrar Bot\u00F3n de respuesta</string>
+	<string name="start_challenge">Escribe para comenzar!</string>
+	<string name="start_practise">Comenzar!</string>
+	<string name="paused">Pausado - escribe para continuar!</string>
+	<string name="failure_emote">:(</string>
+	<string name="success_emote">:)</string>
+	<string name="newbesttime_emote">:D</string>
+	<string name="timeUp">Se acab\u00F3 el tiempo!</string>
+	<string name="outOfTime">Ups!\nSe te acab\u00F3 el tiempo!</string>
+	<string name="misspelt">Argh!\nEscribiste mal algo!</string>
+	<string name="inarow">seguidas!</string>
 
-    <string name="settings_musicOption">M\u00FAsica</string>
-    <string name="settings_soundOption">Sonidos</string>
-    <string name="settings_fontOption">Smooth Font</string>
-    <string name="settings_advContOption">Advanced Contractions</string>
-    <string name="settings_rectoVerso">Recto Verso Mode</string>
-    <string name="settings_vibrationOption">Vibration</string>
-    <string name="settings_soundOptionsTitle">Sound Settings</string>
-    <string name="settings_translationOptionsTitle">Translation Settings</string>
-    <string name="settings_credits">View Credits</string>
-    <string name="settings_database">Change Braille Code</string>
+	<string name="settings_musicOption">M\u00FAsica</string>
+	<string name="settings_soundOption">Sonidos</string>
+	<string name="settings_fontOption">Suavizar fuente</string>
+	<string name="settings_advContOption">Contracciones avanzadas</string>
+	<string name="settings_rectoVerso">Modo Recto Verso</string>
+	<string name="settings_vibrationOption">Vibraci\u00F3n</string>
+	<string name="settings_soundOptionsTitle">Opciones de sonido</string>
+	<string name="settings_translationOptionsTitle">Opcciones de traducci\u00F3n</string>
+	<string name="settings_credits">Ver Cr\u00E9ditos</string>
+	<string name="settings_database">Cambiar C\u00F3digo Braille</string>
 
-    <string name="database_ueb">UEB</string>
-    <string name="database_swedish">Swedish</string>
+	<string name="database_ueb">UEB</string>
+	<string name="database_swedish">Sueco</string>
 
-    <string name="database_ueb_desc">Unified English Braille - Modern standard for all English speaking countries</string>
-    <string name="database_swedish_desc">Standard in Sweden</string>
+	<string name="database_ueb_desc">Braille Ingl\u00E9s Unificado(UEB) - Est\u00E1ndar moderno para todos los pa\u00EDses de habla inglesa</string>
+	<string name="database_swedish_desc">Est\u00E1ndar en Suecia</string>
 
-    <string name="credits1" formatted="false">Made with love by Luke Needham :)\n</string>
+	<string name="credits1" formatted="false">Hecho con amor por Luke Needham :)\n</string>
 	<string name="credits2" formatted="false">
-        \n\nAlso why not like the Facebook page!\nhttps://www.facebook.com/brailletutor/
-        \n\nMany thanks to add the volunteers who worked incredibly hard to add other languages to the app!
-        \nSpanish - Oscar Escobar
-        \nSwedish - Peter Lembke
-        \n\nMany thanks to all of my testers:\n
-        Alice Blinkhorn\nDan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
-        All Braille rules and data from\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
+        \n\n\u00A1A dem\u00E1s por qu\u00E9 no dar like en Facebook!\nhttps://www.facebook.com/brailletutor/
+        \n\n!Muchas gracias que a\u00F1adir a los voluntarios que trabajaron realmente duro para a\u00F1adir otros idiomas a la aplicaci\u00F3n!
+        \nEspa\u00F1ol - Fran Blanco, Oscar Escobar
+        \nSueco - Peter Lembke
+        \n\nMuchas gracias a todos mis testers:\n
+        Dan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
+        Todas las reglas e informaci\u00F3n de Braille de\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
         "Faster Does It" and "George Street Shuffle" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/</string>
 
-    <string name="settings_challengeOptionsTitle">Challenge Settings</string>
-    <string name="settings_ColourOptionsTitle">Colour Settings</string>
-    <string name="settings_DictionaryOptionsTitle">Dictionary Settings</string>
-    <string name="locked_until">"Locked until level"</string>
-    <string name="locked_until_singular">" is locked until level"</string>
-    <string name="nothing_selected">You haven\'t selected anything to practise!</string>
-    <string name="bluetooth_not_available">Unfortunately your device does not support Bluetooth</string>
-    <string name="bluetooth_transfercheck">Do you wish to transfer your data to #? This will replace all data on # with the data on your current device, and delete all the data on your current device.</string>
-    <string name="bluetooth_receivecheck">Do you wish to search for connections? If a connection is found, all data on this device will be replaced with the received data.</string>
-    <string name="cancel">CANCEL</string>
-    <string name="transfer">TRANSFER</string>
-    <string name="receive">RECEIVE</string>
-    <string name="ok">OK</string>
+	<string name="settings_challengeOptionsTitle">Ajustes de Reto</string>
+	<string name="settings_ColourOptionsTitle">Ajustes de Color</string>
+	<string name="settings_DictionaryOptionsTitle">Ajustes de Diccionario</string>
+	<string name="locked_until">"Bloqueado hasta nivel"</string>
+	<string name="locked_until_singular">" est\u00E1 bloqueado hasta el nivel"</string>
+	<string name="nothing_selected">\u00A1No has seleccionado nada para practicar!</string>
+	<string name="bluetooth_not_available">Desafortunadamente tu dispositivo no acepta Bluetooth</string>
+	<string name="bluetooth_transfercheck">\u00A1Deseas transferir tus datos a #? \u00E9sto reemplazar\u00E1 todos tus datos # con los datos actuales en tu dispositivo, y borrar\u00E1 todos los datos del mismo.</string>
+	<string name="bluetooth_receivecheck">\u00BFDeseas buscar conexiones? Si una conexi\u00F3n es encontrada, todos los datos en \u00E9ste dispositivo ser\u00E1n reemplazados con los datos recividos.</string>
+	<string name="cancel">CANCELAR</string>
+	<string name="transfer">TRANSFERIR</string>
+	<string name="receive">RECIVIR</string>
+	<string name="ok">OK</string>
 
-    <string name="nopptionsavailable">No options available!</string>
-    <string name="whatyouwanttopractise">What do you want to practise?</string>
+	<string name="nopptionsavailable">\u00A1No hay opciones disponibles!</string>
+	<string name="whatyouwanttopractise">\u00BFQu\u00E9 quieres practicar?</string>
 
-	<string name="newtheme">New Theme!</string>
-    <string name="setTheme">Set Theme</string>
-    <string name="currentTheme">Current Theme</string>
-    <string name="locked">Locked</string>
-    <string name="buynow">Buy now</string>
-    <string name="levelup">Level up</string>
-    <string name="tounlock">to unlock</string>
-    <string name="tapformoreinfo">Tap for more info</string>
+	<string name="newtheme">\u00A1Nuevo Tema!</string>
+	<string name="setTheme">Establecer Tema</string>
+	<string name="currentTheme">Tema Actual</string>
+	<string name="locked">Bloqueado</string>
+	<string name="buynow">Compra ahora</string>
+	<string name="levelup">Sube de nivel</string>
+	<string name="tounlock">para desbloquear</string>
+	<string name="tapformoreinfo">Da para m\u00E1s informaci\u00F3n</string>
 
-    <string name="levelupDropInfo">"A new random colour will next unlock at Level "</string>
-    <string name="nextLevelDrop">"Next chance at level "</string>
+	<string name="levelupDropInfo">"Un nuevo color aleatorio de desbloquear\u00E1 en el nivel "</string>
+	<string name="nextLevelDrop">"Pr\u00F3xima oportunidad en el nivel "</string>
 
-    <string name="to_earn">To earn:</string>
-    <string name="achievement">Achievement</string>
+	<string name="to_earn">Para recibir:</string>
+	<string name="achievement">Logro</string>
 
-    <string name="ach_loyal">Loyal</string>
-    <string name="ach_loyal_desc">You\'ve seen the app change over the months, and you\'ve decided to stick with it. Thanks!</string>
-    <string name="ach_loyal_unlock">be a long time user of the app</string>
+	<string name="ach_loyal">Leal</string>
+	<string name="ach_loyal_desc">Has visto la aplicaci\u00F3n cambiar durante meses, y has decidido mantenerte en ella.!Gracias\u00A1</string>
+	<string name="ach_loyal_unlock">se un usuario prolongado en la aplicaci\u00F3n</string>
 
-    <string name="ach_challengescore_18">Hare</string>
-    <string name="ach_challengescore_18_desc">Congratulations! You completed a challenge in under 18 seconds!</string>
-    <string name="ach_challengescore_18_unlock">complete a challenge in under 18 seconds</string>
+	<string name="ach_challengescore_18">Liebre</string>
+	<string name="ach_challengescore_18_desc">\u00A1Enhorabuena! \u00A1Has completado el reto en menos de 18 segundos!</string>
+	<string name="ach_challengescore_18_unlock">completa un reto en menos de 18 segundos</string>
 
-    <string name="ach_challengescore_11">Swordfish</string>
-    <string name="ach_challengescore_11_desc">You\'ve managed to complete a challenge in less than 11 seconds! That\'s under 1 second per letter!</string>
-    <string name="ach_challengescore_11_unlock">complete a challenge in under 11 seconds</string>
+	<string name="ach_challengescore_11">Pez espada</string>
+	<string name="ach_challengescore_11_desc">\u00A1Has conseguido completar el reto en menos de 11 segundos! \u00A1Est\u00E1 por debajo de 1 segundo por letra!</string>
+	<string name="ach_challengescore_11_unlock">completa un reto en menos de 11 segundos</string>
 
-    <string name="ach_challengescore_8">Cheetah</string>
-    <string name="ach_challengescore_8_desc">You\'re getting quicker! Beating a challenge in 8 seconds is no mean feat!</string>
-    <string name="ach_challengescore_8_unlock">complete a challenge in under 8 seconds</string>
+	<string name="ach_challengescore_8">Leopardo</string>
+	<string name="ach_challengescore_8_desc">\u00A1Est\u00E1s haci\u00E9ndote m\u00E1s r\u00E1pido! \u00A1Superar un reto en 8 segundos no es tarea f\u00E1cil!</string>
+	<string name="ach_challengescore_8_unlock">completa un reto en menos de 8 segundos</string>
 
-    <string name="ach_challengescore_5">Falcon</string>
-    <string name="ach_challengescore_5_desc">Your braille typing skills are incredible! A whole challenge translated in under 5 seconds!</string>
-    <string name="ach_challengescore_5_unlock">complete a challenge in under 5 seconds</string>
+	<string name="ach_challengescore_5">Halc\u00F3n</string>
+	<string name="ach_challengescore_5_desc">\u00A1Tus abilidades de Braille son incre\u00EDbles! \u00A1Un nuevo reto traducido en menos de 5 segundos!</string>
+	<string name="ach_challengescore_5_unlock">completa un reto en menos de 5 segundos</string>
 
-    <string name="ach_challengescore_3">Falcon</string>
-    <string name="ach_challengescore_3_desc">Some people may doubt it\'s possible to complete a challenge in under 3 seconds. Clearly they\'ve never met you!</string>
-    <string name="ach_challengescore_3_unlock">complete a challenge in under 3 seconds</string>
+	<string name="ach_challengescore_3">Halc\u00F3n</string>
+	<string name="ach_challengescore_3_desc">Algunos pueden dudar que sea posible completar un reto en menos de 3 segundos. \u00A1Claramente no te conocen!</string>
+	<string name="ach_challengescore_3_unlock">completa un reto en menos de 3 segundos</string>
 
-    <string name="theme_name_plain">Plain</string>
-    <string name="theme_desc_plain">The most basic, most boring theme</string>
-    <string name="theme_name_plain_white">White</string>
-    <string name="theme_name_plain_grey">Grey</string>
-    <string name="theme_name_plain_red">Red</string>
-    <string name="theme_name_plain_orange">Orange</string>
-    <string name="theme_name_plain_yellow">Yellow</string>
-    <string name="theme_name_plain_green">Green</string>
-    <string name="theme_name_plain_teal">Teal</string>
-    <string name="theme_name_plain_lightblue">Light Blue</string>
-    <string name="theme_name_plain_blue">Blue</string>
-    <string name="theme_name_plain_pink">Pink</string>
-    <string name="theme_name_plain_purple">Purple</string>
+	<string name="theme_name_plain">Simple</string>
+	<string name="theme_desc_plain">El tema m\u00E1s b\u00E1sico y aburrido</string>
+	<string name="theme_name_plain_white">Blanco</string>
+	<string name="theme_name_plain_grey">Gris</string>
+	<string name="theme_name_plain_red">Rojo</string>
+	<string name="theme_name_plain_orange">Naranja</string>
+	<string name="theme_name_plain_yellow">Amarillo</string>
+	<string name="theme_name_plain_green">Verde</string>
+	<string name="theme_name_plain_teal">Verde Azulado</string>
+	<string name="theme_name_plain_lightblue">Azul Claro</string>
+	<string name="theme_name_plain_blue">Azul</string>
+	<string name="theme_name_plain_pink">Rosa</string>
+	<string name="theme_name_plain_purple">Morado</string>
 
-    <string name="theme_name_dark">Dark</string>
-    <string name="theme_desc_dark">It\'s very dark</string>
-    <string name="theme_name_dark_red">Red</string>
-    <string name="theme_name_dark_purple">Purple</string>
-    <string name="theme_name_dark_redpurple">Red</string>
-    <string name="theme_name_dark_bluepurple">Red</string>
-    <string name="theme_name_dark_darkbluepurple">Red</string>
+	<string name="theme_name_dark">Oscuro</string>
+	<string name="theme_desc_dark">Es muy oscuro</string>
+	<string name="theme_name_dark_red">Rojo</string>
+	<string name="theme_name_dark_purple">Morado</string>
+	<string name="theme_name_dark_redpurple">Rojo</string>
+	<string name="theme_name_dark_bluepurple">Rojo</string>
+	<string name="theme_name_dark_darkbluepurple">Rojo</string>
 
-    <string name="theme_name_beach">Beach</string>
-    <string name="theme_desc_beach">Listen to the waves while brailling</string>
-    <string name="theme_name_beach_white">Beach White</string>
+	<string name="theme_name_beach">Playa</string>
+	<string name="theme_desc_beach">Escucha las olas mientras escribes Braille</string>
+	<string name="theme_name_beach_white">Blanco Playa</string>
 
-    <string name="theme_name_garden">Garden</string>
-    <string name="theme_desc_garden">Grow beautiful flowers - and your braille knowledge! This theme adds:\n- A brand new background\n- 21 new braille button designs\n- Removes all adverts forever</string>
-    <string name="theme_name_garden_white">Garden</string>
+	<string name="theme_name_garden">Jard\u00EDn</string>
+	<string name="theme_desc_garden">Haz crecer flores maravillosas - \u00A1Y tu conocimiento del Braille! \u00E9ste tema incluye:\n- Un nuevo fondo\n- 21 nuevos dise\u00F1os de botones Braille\n- Elimina todos los anuncios para siempre</string>
+	<string name="theme_name_garden_white">Garden</string>
 
-    <string name="view_unlocks">View Unlocks</string>
+	<string name="view_unlocks">Ver Desbloqueados</string>
 
-    <string name="yoursecretket">Your user code is:</string>
-    <string name="input">INPUT</string>
+	<string name="yoursecretket">Tu c\u00F3digo de usiario es:</string>
+	<string name="input">INPUT</string>
 
-    <string name="totalscore_title">Total Score:</string>
-    <string name="currentlevel_title">Level:</string>
-    <string name="tonextLevel_title">Next level in:</string>
-    <string name="bestscore">Best score:</string>
-    <string name="meanscore">Average:</string>
-    <string name="settings_ColourPickerDescription">Choose Background Colour</string>
-    <string name="settings_ColourSchemeButtonText">Change Colour Scheme</string>
-    <string name="search_prompt">Start Typing</string>
-    <string name="achievements_test_tab">Progress</string>
-    <string name="achievements_challenge_tab">Challenge</string>
-    <string name="achievements_misc_tab">Misc</string>
+	<string name="totalscore_title">Puntuaci\u00F3n Total:</string>
+	<string name="currentlevel_title">Nivel:</string>
+	<string name="tonextLevel_title">Siguiente nivel en:</string>
+	<string name="bestscore">Mejor puntuaci\u00F3n:</string>
+	<string name="meanscore">Media:</string>
+	<string name="settings_ColourPickerDescription">Elegir color de fondo</string>
+	<string name="settings_ColourSchemeButtonText">Cambiar color de fondo</string>
+	<string name="search_prompt">Comenzar tecleo</string>
+	<string name="achievements_test_tab">Progreso</string>
+	<string name="achievements_challenge_tab">Reto</string>
+	<string name="achievements_misc_tab">Miscel\u00E1neo</string>
 
-    <string name="chooseLetters">Letters to practise:</string>
-    <string name="chooseContractions">Contractions to practise:</string>
-    <string name="contractions">Contractions</string>
-    <string name="advancedcontractions">Advanced Contractions</string>
+	<string name="chooseLetters">Letras para practicar:</string>
+	<string name="chooseContractions">Contracciones para practicar:</string>
+	<string name="contractions">Contracciones</string>
+	<string name="advancedcontractions">Contracciones Avanzadas</string>
 
-    <string name="challenge1">Translate this sentence&#8230;</string>
-    <string name="challenge2">Against the clock!</string>
-    <string name="challenge3">Pause if you need a break&#8230;</string>
-    <string name="challenge4">And resume by typing!</string>
+	<string name="challenge1">Traduce \u00E9sta frase&#8230;</string>
+	<string name="challenge2">\u00A1Contra el reloj!</string>
+	<string name="challenge3">Pausa si necesitas un respiro&#8230;</string>
+	<string name="challenge4">\u00A1Y contin\u00FAa tecleando!</string>
 
-    <string name="chooseprac1">Click the Alphabet button&#8230;</string>
-    <string name="chooseprac2">To select the letters to practise!</string>
-    <string name="chooseprac3">Click the other dictionaries&#8230;</string>
-    <string name="chooseprac4">To turn them on or off!</string>
-    <string name="chooseprac5">Click the Mode button&#8230;</string>
-    <string name="chooseprac6">To change translation direction!</string>
+	<string name="chooseprac1">Pincha en el bot\u00F3n de Alfabeto&#8230;</string>
+	<string name="chooseprac2">\u00A1Para seleccionar las letras que practicar!</string>
+	<string name="chooseprac3">Pincha en otro diccionarios&#8230;</string>
+	<string name="chooseprac4">\u00A1Para apagarlos o encenderlos!</string>
+	<string name="chooseprac5">Pincha en el bot\u00F3n Modo&#8230;</string>
+	<string name="chooseprac6">\u00A1Para cambiar la direcci\u00F3n de la traducci\u00F3n!</string>
 
-    <string name="practisebraille1">Use the braille grid to translate the given letter&#8230;</string>
-    <string name="practisebraille2">And click here to check your answer!</string>
-    <string name="practisebraille3">If you\'re stuck click here to cheat!</string>
-    <string name="practisebraille4">Earn points to increase your total score&#8230;</string>
-    <string name="practisebraille5">And level up to unlock new features!</string>
-    <string name="practisebraille6">Check out your percentage accuracy&#8230;</string>
-    <string name="practisebraille7">And your current streak!</string>
-    <string name="practisebraille8">When translating from braille, use the keyboard!</string>
-    <string name="practisebraille9">Some braille characters have multiple meanings&#8230;</string>
-    <string name="practisebraille10">Check which meaning is needed!</string>
+	<string name="practisebraille1">Usa la cuadr\u00EDcula Braille para traducir la letra dada&#8230;</string>
+	<string name="practisebraille2">\u00A1Y pincha aqu\u00ED para comprobar tu respuesta!</string>
+	<string name="practisebraille3">\u00A1Si est\u00E1s atascado pincha aqu\u00ED para hacer trampas!</string>
+	<string name="practisebraille4">Gana puntos para aumentar tu puntuaci\u00F3n total&#8230;</string>
+	<string name="practisebraille5">\u00A1Y sube de nivel para desbloquear nuevas caracter\u00EDsticas!</string>
+	<string name="practisebraille6">Comprueba tu porcentaje de acierto&#8230;</string>
+	<string name="practisebraille7">\u00A1Y tu racha actual!</string>
+	<string name="practisebraille8">Cuando traduzcas del Braille, \u00A1usa teclado!</string>
+	<string name="practisebraille9">Algunos caracteres Braille tienen varios significados&#8230;</string>
+	<string name="practisebraille10">\u00A1Comprueba qu\u00E9 significado es necesario!</string>
 
-    <string name="translatebraille1">Translate the random sentence given!</string>
-    <string name="translatebraille2">Check your score for the sentence&#8230;</string>
-    <string name="translatebraille3">To be added to your total when you finish!</string>
-    <string name="translatebraille4">Click here to see how good your translation is!</string>
-    <string name="translatebraille5">Use contractions to get extra points&#8230;</string>
-    <string name="translatebraille6">And see if you could have used any extra contractions!</string>
+	<string name="translatebraille1">\u00A1Traduce la frase aleatoria dada!</string>
+	<string name="translatebraille2">Comprueba tu puntuaci\u00F3n por la frase&#8230;</string>
+	<string name="translatebraille3">\u00A1Para ser a\u00F1adida a tu total cuando acabes!</string>
+	<string name="translatebraille4">\u00A1Pincha aqu\u00ED para ver lo buena que es tu traducci\u00F3n!</string>
+	<string name="translatebraille5">Usa contracciones para ganar puntos extra&#8230;</string>
+	<string name="translatebraille6">\u00A1Y comprueba si podr\u00EDas haber usado m\u00E1s contracciones!</string>
 
-    <string name="translateroman1">Translate the random sentence given!</string>
-    <string name="translateroman2">Scroll to see longer sentences!</string>
-    <string name="translateroman3">Click here to lookup unknown characters&#8230;</string>
-    <string name="translateroman4">But try not to cheat too much!</string>
+	<string name="translateroman1">\u00A1Traduce la frase aleatoria dada!</string>
+	<string name="translateroman2">\u00A1Despl\u00E1zate para ver frases mayores!</string>
+	<string name="translateroman3">Pincha aqu\u00ED para ver caracteres desconocidos&#8230;</string>
+	<string name="translateroman4">\u00A1Pero intenta no hacer demasiadas trampas!</string>
 
-    <string name="transferinfo1">Transfer data between devices via Bluetooth!</string>
-    <string name="transferinfo2">Select Transfer Data on the device to send from&#8230;</string>
-    <string name="transferinfo3">Then select Receive Data on the device to receive to!</string>
-    <string name="transferinfo4">Wait for the receiver to appear, then select it to transfer!</string>
-    <string name="transferinfo5">Don\'t close anything while data is transferring!</string>
+	<string name="transferinfo1">\u00A1Transfiere informaci\u00F3n entre dispositivos via Bluetooth!</string>
+	<string name="transferinfo2">Selecciona Transferir Informaci\u00F3n en el dispositivo del que enviar&#8230;</string>
+	<string name="transferinfo3">Luego selecciona Recibir Informaci\u00F3n en el dispositivo receptor</string>
+	<string name="transferinfo4">Espera al receptor aparecer, \u00A1luego selecciona transferir!</string>
+	<string name="transferinfo5">\u00A1No cierres nada mientras la informaci\u00F3n se transfiere!</string>
 
-    <string name="rectoversoinfo1">Practise writing braille as with a slate and stylus!</string>
-    <string name="rectoversoinfo2">Imagine you are impressing the dots on the back&#8230;</string>
-    <string name="rectoversoinfo3">So that they are the right way around on the front!</string>
-    <string name="rectoversoinfo4">This requires you to input the dots back-to-front&#8230;</string>
-    <string name="rectoversoinfo5">As if flipped down the middle!</string>
+	<string name="rectoversoinfo1">\u00A1Practica Braille como con tabla y punz\u00F3n!</string>
+	<string name="rectoversoinfo2">Imagina que est\u00E1s colocando los puntos por detr\u00E1s&#8230;</string>
+	<string name="rectoversoinfo3">\u00A1Para que est\u00E9n derechos al frente!</string>
+	<string name="rectoversoinfo4">\u00C9sto requiere que coloques los puntos al rev\u00E9s&#8230;</string>
+	<string name="rectoversoinfo5">\u00A1Como doblado por la mitad!</string>
 
-    <string name="num_lock">Numeric Mode</string>
-    <string name="allcaps_lock">Word Caps Mode</string>
+	<string name="num_lock">Modo Num\u00E9rico</string>
+	<string name="allcaps_lock">Modo May\u00FAsculas</string>
 
-    <string name="dictionary_info">Special Character Notes</string>
-    <string name="numbers_info_label">How to use numbers</string>
-    <string name="lettersign_info_label">How to use the Letter Sign</string>
-    <string name="capitalsign_info_label">How to use the Capital Sign</string>
-    <string name="doublecapitalsign_info_label">How to use the Double Capital Sign</string>
-    <string name="italicsign_info_label">How to use the Italic Sign</string>
-    <string name="doubleitalicsign_info_label">How to use the Double Italic Sign</string>
-    <string name="search">Search</string>
+	<string name="dictionary_info">Notas de Caracteres Especiales</string>
+	<string name="numbers_info_label">C\u00F3mo usar n\u00FAmeros</string>
+	<string name="lettersign_info_label">C\u00F3mo usar el Signo de Letra</string>
+	<string name="capitalsign_info_label">C\u00F3mo usar el Signo de May\u00FAscula</string>
+	<string name="doublecapitalsign_info_label">C\u00F3mo usar el Signo de Doble May\u00FAscula</string>
+	<string name="italicsign_info_label">C\u00F3mo usar el Signo de Cursiva</string>
+	<string name="doubleitalicsign_info_label">C\u00F3mo usar el Signo de Doble Cursiva</string>
+	<string name="search">Buscar</string>
 
-    <string name="braille_number_sign">Number Sign</string>
-    <string name="braille_decimal_point">Decimal Point</string>
-    <string name="braille_thousands_separator">Thousands Separator</string>
-    <string name="braille_fullstop">Full Stop</string>
-    <string name="braille_comma">Comma</string>
-    <string name="braille_colon">Colon</string>
-    <string name="braille_semicolon">Semicolon</string>
-    <string name="braille_apostrophe">Apostrophe</string>
-    <string name="braille_questionmark">Question Mark</string>
-    <string name="braille_exclamationmark">Exclamation Mark</string>
-    <string name="braille_hyphen">Hyphen</string>
-    <string name="braille_slash">Slash</string>
-    <string name="braille_openbracket">Open Bracket</string>
-    <string name="braille_closebracket">Close Bracket</string>
-    <string name="braille_openquote">Open Quote</string>
-    <string name="braille_closequote">Close Quote</string>
-    <string name="braille_capital">Capital Sign</string>
-    <string name="braille_capitalword">Capital Word Sign</string>
-    <string name="braille_italic">Italic Sign</string>
-    <string name="braille_doubleitalic">All Italics Sign</string>
-    <string name="braille_lettersign">Letter Sign</string>
-    <string name="braille_elipsis">Ellipsis</string>
-    <string name="braille_asterisk">Asterisk</string>
-    <string name="braille_space">Space</string>
+	<string name="braille_number_sign">Signo de N\u00FAmero</string>
+	<string name="braille_decimal_point">Punto Deciaml</string>
+	<string name="braille_thousands_separator">Separador de Miles</string>
+	<string name="braille_fullstop">Punto</string>
+	<string name="braille_comma">Coma</string>
+	<string name="braille_colon">Dos puntos</string>
+	<string name="braille_semicolon">Punto y coma</string>
+	<string name="braille_apostrophe">Ap\u00F3strofe</string>
+	<string name="braille_questionmark">Signo de Interrogaci\u00F3n</string>
+	<string name="braille_exclamationmark">Signo de Exclamaci\u00F3n</string>
+	<string name="braille_hyphen">Gui\u00F3n</string>
+	<string name="braille_slash">Barra</string>
+	<string name="braille_openbracket">Par\u00E9ntesis Abierto</string>
+	<string name="braille_closebracket">Par\u00E9ntesis Cerrado</string>
+	<string name="braille_openquote">Abrir Comillas</string>
+	<string name="braille_closequote">Cerrar Comillas</string>
+	<string name="braille_capital">Signo de May\u00FAscula</string>
+	<string name="braille_capitalword">Signo de Palabra May\u00FAscula</string>
+	<string name="braille_italic">Signo de Cursiva</string>
+	<string name="braille_doubleitalic">Todos los Signos de Cursiva</string>
+	<string name="braille_lettersign">Signo de Letra</string>
+	<string name="braille_elipsis">Puntos Suspensivos</string>
+	<string name="braille_asterisk">Asterisco</string>
+	<string name="braille_space">Espacio</string>
 
-    <string name="braille_dots5">Dots5</string>
-    <string name="braille_dots45">Dots45</string>
-    <string name="braille_dots456">Dots456</string>
-    <string name="braille_dots46">Dots46</string>
-    <string name="braille_dots56">Dots56</string>
+	<string name="braille_dots5">Puntos5</string>
+	<string name="braille_dots45">Puntos45</string>
+	<string name="braille_dots456">Puntos456</string>
+	<string name="braille_dots46">Puntos46</string>
+	<string name="braille_dots56">Puntos56</string>
 
-    <string name="braille_groupsigncontraction">Groupsign Contraction</string>
-    <string name="braille_wordsigncontraction">Wordsign Contraction</string>
-    <string name="braille_letter">Letter</string>
-    <string name="braille_number">Number</string>
-    <string name="braille_advancedcontraction">Advanced Contraction</string>
-    <string name="braille_shortform">Shortform</string>
+	<string name="braille_groupsigncontraction">Signo de Contracciones de Grupo</string>
+	<string name="braille_wordsigncontraction">Signo de Contracciones de Palabra</string>
+	<string name="braille_letter">Letra</string>
+	<string name="braille_number">N\u00FAmero</string>
+	<string name="braille_advancedcontraction">Contracciones Avanzadas</string>
+	<string name="braille_shortform">Abreviatura</string>
 
-    <string name="numbersExplanation">The Number Sign sets <b>\'Numeric Mode\'</b> for the remainder of the sentence.\n\nThis means that all Braille characters after the Number Sign should be read as numbers until Numeric Mode ends.\n\nNumeric Mode is ended by spaces, the Letter Sign or any other character not shown in the numbers dictionary.</string>
-    <string name="lettersignExplanation">Some Braille characters can have more than one meaning; an uncontracted meaning and a contracted or numerical meaning.\n\nIn cases where this may be confusing for the reader, the <b>\'Uncontracted Indicator\'</b> (Letter Sign) is placed before the character to set <b>\'Uncontracted Mode\'</b>.\n\nThis tells the reader that the next symbol is not a contraction or a numeric value; it should be read as a letter or punctuation.</string>
-    <string name="capitalsignExplanation">The next letter to come after a <b>\'Capitalisation Indicator\'</b> (Capital Sign) is a capital letter.\n\nThe use of the Capital Sign sets <b>\'Capitals Mode\'</b>, which ends after the first letter.\n\nFor contractions, only the first letter in the contraction is capitalised.</string>
-    <string name="italicsignExplanation">The <b>Italic Sign</b> makes the word to follow italic.</string>
-    <string name="doubleitalicsignExplanation">The <b>Double Italic Sign</b> makes the passage to follow italic.</string>
+	<string name="numbersExplanation">El Signo de N\u00FAmero establece <b>\'Modo Nmum\u00E9rico\'</b> para el resto de la frase.\n\n\u00E9sto quiere decir que todos los caracteres Braille despu\u00E9s del Signo de N\u00FAmero deben leerse como n\u00FAmeros hasta el final del Modo Num\u00E9rico.\n\nEl Modo Num\u00E9rico acaba en espacios, el Signo de Letra u otro car\u00E1cter no mostrado en el diccionario de n\u00FAmeros.</string>
+	<string name="lettersignExplanation">Algunos caracteres Braille pueden tener m\u00E1s de un significado; un significado con contracci\u00F3n y uno con contracci\u00F3n o num\u00E9rico.\n\nEn casos donde sea confuso para el lector, , el <b>\'Signo Sin Contracci\u00F3n\'</b> (Signo de Letra) es colocado antes del car\u00E1cter <b>\'Modo Sin Contracci\u00F3n\'</b>.\n\n\u00E9sto cuenta al lector que el siguiente s\u00EDmbolo no es una contracci\u00F3n o un valor num\u00E9rico; debe ser le\u00EDdo como una letra o puntuaci\u00F3n.</string>
+	<string name="capitalsignExplanation">La siguiente letra despu\u00E9s de <b>\'Indicador de May\u00FAscula\'</b> (Signo de May\u00FAscula) Es un aletra may\u00FAscula.\n\n El uso del Signo de May\u00FAscula establece <b>\'Modo May\u00FAscula\'</b>,que acaba despu\u00E9s de la primera letra.\n\nPara contracciones, solo la primera letra de la contracci\u00F3n se coloca en may\u00FAscula.</string>
+	<string name="italicsignExplanation">El <b>Signo de Cursiva</b> convierte la siguiente palabra a cursiva.</string>
+	<string name="doubleitalicsignExplanation">El <b>Signo de Doble Cursiva</b> convierte el siguiente pasage a cursiva.</string>
 
-    <string name="ruleTitle">Rule </string>
-    <string name="theContraction">The contraction \'</string>
+	<string name="ruleTitle">Regla </string>
+	<string name="theContraction">La Contracci\u00F3n \'</string>
 
-    <string name="placeholderad">You should watch \'Earthlings\'</string>
+	<string name="placeholderad">Deber\u00EDas ver \'Terr\u00EDcolas\'</string>
 
-<!-- words used to generate random (but grammatically correct!!) sentences to translate. It works like: Subject + Verb + Object. To make it work in different languages, you might not be able to do literal translations, so you can choose your own words :) -->
+	<!-- words used to generate random (but grammatically correct!!) sentences to translate. It works like: Subject + Verb + Object. To make it work in different languages, you might not be able to do literal translations, so you can choose your own words :) -->
 
-    <string-array name="subjects">
+	<string-array name="subjects">
 
-        <item>Father Christmas</item>
-        <item>the tooth fairy</item>
-        <item>the time traveller</item>
-        <item>the village idiot</item>
-        <item>the failed artist</item>
+		<item>Pap\u00E1 Noel</item>
+		<item>el hada de los dientes</item>
+		<item>el viajero del tiempo</item>
+		<item>el tonto del pueblo</item>
+		<item>el artista fallido</item>
 
-        <item>no-one</item>
-        <item>everyone</item>
+		<item>nadie</item>
+		<item>todo el mundo</item>
 
-        <item>my dad</item>
-        <item>my father</item>
-        <item>my mum</item>
-        <item>my mother</item>
-        <item>my uncle</item>
-        <item>my grandpa</item>
-        <item>my grandfather</item>
-        <item>my gran</item>
-        <item>my grandmother</item>
-        <item>my granny</item>
-        <item>my son</item>
-        <item>my daughter</item>
-        <item>my best friend</item>
-        <item>my enemy</item>
-        <item>my neighbour</item>
-        <item>my guardian angel</item>
-        <item>my friend</item>
-        <item>my aunt</item>
-        <item>my brother</item>
-        <item>my sister</item>
-        <item>my nephew</item>
-        <item>my cousin</item>
-        <item>my niece</item>
-        <item>my wife</item>
-        <item>my husband</item>
+		<item>mi pap\u00E1</item>
+		<item>mi padre</item>
+		<item>mi mam\u00E1</item>
+		<item>mi madre</item>
+		<item>mi t\u00EDo</item>
+		<item>mi abuelito</item>
+		<item>mi abuelo</item>
+		<item>mi viejo/a</item>
+		<item>mi abuela</item>
+		<item>mi abuelita</item>
+		<item>mi hijo</item>
+		<item>mi hija</item>
+		<item>mi mejor amigo</item>
+		<item>mi enemigo</item>
+		<item>mi vecino</item>
+		<item>mi \u00E1ngel de la guarda</item>
+		<item>mi amigo</item>
+		<item>mi t\u00EDa</item>
+		<item>mi hermano</item>
+		<item>mi hermana</item>
+		<item>mi sobrino</item>
+		<item>mi primo</item>
+		<item>mi sobrina</item>
+		<item>mi esposa</item>
+		<item>mi marido</item>
 
-        <item>the hamster</item>
-        <item>the cat</item>
-        <item>the lion</item>
-        <item>the bird</item>
-        <item>the penguin</item>
-        <item>the dog</item>
-        <item>the bat</item>
-        <item>the pig</item>
-        <item>the turtle</item>
-        <item>the fox</item>
-        <item>the badger</item>
-        <item>the frog</item>
-        <item>the snake</item>
-        <item>the tapir</item>
-        <item>the elephant</item>
-        <item>the giant spider</item>
-        <item>the lizard</item>
-        <item>the monkey</item>
-        <item>the zebra</item>
-        <item>the panda</item>
-        <item>the leopard</item>
-        <item>the trilobite</item>
-        <item>the llama</item>
-        <item>the koala</item>
-        <item>the kangaroo</item>
-        <item>the snail</item>
-        <item>the slug</item>
-        <item>the tiger</item>
-        <item>the horse</item>
-        <item>the dragon</item>
-        <item>the parrot</item>
-        <item>the butterfly</item>
-        <item>the moth</item>
-        <item>the crocodile</item>
-        <item>the eagle</item>
-        <item>the seagull</item>
-        <item>the toad</item>
-        <item>the cow</item>
-        <item>the sheep</item>
-        <item>the deer</item>
-        <item>the goose</item>
-        <item>the swan</item>
-        <item>the spider</item>
-        <item>the fish</item>
-        <item>the hedgehog</item>
-        <item>the mouse</item>
-        <item>the wasp</item>
-        <item>the beetle</item>
-        <item>the whale</item>
-        <item>the dolphin</item>
-        <item>the duck</item>
-        <item>the wasp</item>
-        <item>the rat</item>
-        <item>the squid</item>
-        <item>the bear</item>
-        <item>the octopus</item>
-        <item>the monster</item>
-        <item>the donkey</item>
-        <item>the skeleton</item>
-        <item>the zombie</item>
-        <item>the vampire</item>
-        <item>the giant</item>
-        <item>the werewolf</item>
-        <item>the wolf</item>
-        <item>the ogre</item>
-        <item>the shark</item>
+		<item>el hamster</item>
+		<item>el gato</item>
+		<item>el le\u00F3n</item>
+		<item>el p\u00E1jaro</item>
+		<item>el ping\u00FAino</item>
+		<item>el perro</item>
+		<item>el murci\u00E9lago</item>
+		<item>el cerdo</item>
+		<item>la tortuga</item>
+		<item>el zorro</item>
+		<item>el tej\u00F3n</item>
+		<item>la rana</item>
+		<item>la serpiente</item>
+		<item>el tapir</item>
+		<item>el elefante</item>
+		<item>la tar\u00E1ntula</item>
+		<item>el lagarto</item>
+		<item>el mono</item>
+		<item>la zebra</item>
+		<item>el panda</item>
+		<item>el leopardo</item>
+		<item>el trilobite</item>
+		<item>la llama</item>
+		<item>el koala</item>
+		<item>el kanguro</item>
+		<item>el caracol</item>
+		<item>la babosa</item>
+		<item>el tigre</item>
+		<item>el caballo</item>
+		<item>el drag\u00F3n</item>
+		<item>el loro</item>
+		<item>la mariposa</item>
+		<item>la polilla</item>
+		<item>el cocodrilo</item>
+		<item>el \u00E1guila</item>
+		<item>la gaviota</item>
+		<item>el sapo</item>
+		<item>la vaca</item>
+		<item>la oveja</item>
+		<item>el ciervo</item>
+		<item>el ganso</item>
+		<item>el cisne</item>
+		<item>la ara\u00F1a</item>
+		<item>el pez</item>
+		<item>el erizo</item>
+		<item>el rat\u00F3n</item>
+		<item>la avispa</item>
+		<item>el escarabajo</item>
+		<item>la ballena</item>
+		<item>el delf\u00EDn</item>
+		<item>el pato</item>
+		<item>la avispa</item>
+		<item>la rata</item>
+		<item>el calamar</item>
+		<item>el oso</item>
+		<item>el pulpo</item>
+		<item>el monstruo</item>
+		<item>el mono</item>
+		<item>el esqueleto</item>
+		<item>el zombie</item>
+		<item>el vampiro</item>
+		<item>el gigante</item>
+		<item>el hombre lobo</item>
+		<item>el lobo</item>
+		<item>el ogro</item>
+		<item>el tibur\u00F3n</item>
 
-        <!--  <item>the plonker</item> -->
-        <!--  <item>the cretin</item> -->
-        <!--   <item>the moron</item> -->
-        <item>the jogger</item>
-        <item>the cyclist</item>
-        <item>the teacher</item>
-        <item>the priest</item>
-        <item>the policeman</item>
-        <item>the clown</item>
-        <item>the gnome</item>
-        <item>the botanist</item>
-        <item>the pirate</item>
-        <item>the alien</item>
-        <item>the sailor</item>
-        <item>the singer</item>
-        <item>the opera singer</item>
-        <item>the comedian</item>
-        <item>the train driver</item>
-        <item>the ninja</item>
-        <item>the mermaid</item>
-        <item>the magician</item>
-        <item>the knight</item>
-        <item>the warrior</item>
-        <item>the witch</item>
-        <item>the wizard</item>
-        <item>the scientist</item>
-        <item>the child</item>
-        <item>the teenager</item>
-        <item>the mathematician</item>
-        <item>the pure mathematician</item>
-        <item>the waiter</item>
-        <item>the waitress</item>
-        <item>the surgeon</item>
-        <item>the russian</item>
-        <item>the assassin</item>
-        <item>the gamer</item>
-        <item>the engineer</item>
-        <item>the biochemist</item>
-        <item>the dentist</item>
-        <item>the vet</item>
-        <item>the author</item>
-        <item>the writer</item>
-        <item>the poet</item>
-        <item>the fool</item>
-        <item>the actor</item>
-        <item>the geologist</item>
-        <item>the ghost</item>
-        <!-- <item>the imbecile</item> -->
-        <item>the soldier</item>
-        <item>the pilot</item>
-        <item>the astronaut</item>
-        <item>the physicist</item>
-        <!-- <item>the eejit</item>-->
-        <!--  <item>the halfwit</item>-->
-        <!--  <item>the elf</item>-->
-        <!--  <item>the dwarf</item>-->
-        <item>the student</item>
-        <item>the king</item>
-        <item>the queen</item>
-        <item>the vegan</item>
-        <item>the vegetarian</item>
-        <item>the baby</item>
-        <item>the girl</item>
-        <item>the boy</item>
-        <item>the toddler</item>
-        <item>the German</item>
-        <item>the American</item>
-        <item>the Norwegian</item>
-        <item>the chemist</item>
-        <item>the doctor</item>
-        <item>the nurse</item>
-        <item>the viking</item>
+		<!--  <item>the plonker</item> -->
+		<!--  <item>el cretino</item> -->
+		<!--   <item>el idiota</item> -->
+		<item>el jogger</item>
+		<item>el ciclista</item>
+		<item>el profesor</item>
+		<item>el sacerdote</item>
+		<item>el polic\u00EDa</item>
+		<item>el pallaso</item>
+		<item>el gnomo</item>
+		<item>el bot\u00E1nico</item>
+		<item>el pirata</item>
+		<item>el alien</item>
+		<item>el navegante</item>
+		<item>el cantante</item>
+		<item>el cantante de \u00F3pera</item>
+		<item>el comediante</item>
+		<item>el condustor de tren</item>
+		<item>el ninja</item>
+		<item>la sirena</item>
+		<item>el mago</item>
+		<item>el caballero</item>
+		<item>el guerrero</item>
+		<item>la bruja</item>
+		<item>el brujo</item>
+		<item>el cient\u00EDfico</item>
+		<item>el ni\u00F1o</item>
+		<item>el adolescente</item>
+		<item>el matem\u00E1tico</item>
+		<item>el matem\u00E1tico puro</item>
+		<item>el camarero</item>
+		<item>la camarera</item>
+		<item>el cirujano</item>
+		<item>el ruso</item>
+		<item>el asesino</item>
+		<item>el gamer</item>
+		<item>el ingeniero</item>
+		<item>el bioqu\u00EDmico</item>
+		<item>el dentista</item>
+		<item>el veterinario</item>
+		<item>el autor</item>
+		<item>el escritor</item>
+		<item>el poeta</item>
+		<item>el mentiroso</item>
+		<item>el actor</item>
+		<item>el ge\u00F3logo</item>
+		<item>el fantasma</item>
+		<!-- <item>el imb\u00E9cil</item> -->
+		<item>el soldado</item>
+		<item>el piloto</item>
+		<item>el astronauta</item>
+		<item>el f\u00EDsico</item>
+		<!-- <item>the eejit</item>-->
+		<!--  <item>el loco</item>-->
+		<!--  <item>el elfo</item>-->
+		<!--  <item>el enano</item>-->
+		<item>el estudiante</item>
+		<item>el rey</item>
+		<item>la reina</item>
+		<item>el vegano</item>
+		<item>el vegetariano</item>
+		<item>el beb\u00E9</item>
+		<item>la chica</item>
+		<item>el chico</item>
+		<item>el ni\u00F1ito</item>
+		<item>el alem\u00E1n</item>
+		<item>el americano</item>
+		<item>el noruego</item>
+		<item>el qu\u00EDmico</item>
+		<item>el doctor</item>
+		<item>la enfermera</item>
+		<item>el vikingo</item>
 
 
-        <!--   <item>the grim reaper</item> -->
-        <item>the mayor</item>
-        <item>the president</item>
-        <item>the prime minister</item>
-        <item>the headmaster</item>
-        <item>the headmistress</item>
-        <item>the prisoner</item>
-        <item>the cleaner</item>
-        <item>the programmer</item>
-        <item>the headmistress</item>
-        <item>the businessman</item>
-        <item>the businesswoman</item>
-        <item>the geographer</item>
-        <item>the bandit</item>
-        <item>the thief</item>
-        <item>the musician</item>
-        <item>the composer</item>
-        <item>the pianist</item>
-        <item>the guest</item>
-        <item>the lodger</item>
-        <item>the painter</item>
-        <item>the builder</item>
-        <item>the madman</item>
-        <item>the lunatic</item>
-        <item>the prince</item>
-        <item>the princess</item>
-    </string-array>
+		<!--   <item>el segador</item> -->
+		<item>el alcalde</item>
+		<item>el presidente</item>
+		<item>el primer ministro</item>
+		<item>el director</item>
+		<item>la directora</item>
+		<item>el prisionero</item>
+		<item>el limpiador</item>
+		<item>el programador</item>
+		<item>la directora</item>
+		<item>el hombre de negocios</item>
+		<item>la mujer de negocios</item>
+		<item>el ge\u00F3grafo</item>
+		<item>el bandido</item>
+		<item>el ladr\u00F3n</item>
+		<item>el m\u00FAsico</item>
+		<item>el compositor</item>
+		<item>el pianista</item>
+		<item>el invitado</item>
+		<item>el inquilino</item>
+		<item>el pintor</item>
+		<item>el constructor</item>
+		<item>el loco</item>
+		<item>el lun\u00E1tico</item>
+		<item>el pr\u00EDncipe</item>
+		<item>la princesa</item>
+	</string-array>
 
-    <string-array name="verbs">
-        <item>likes</item>
-        <item>eats</item>
-        <item>bites</item>
-        <!-- <item>licks</item> -->
-        <!-- <item>nibbles</item> -->
-        <item>loves</item>
-        <item>hates</item>
-        <item>watches</item>
-        <item>listens to</item>
-        <item>talks to</item>
-        <item>glares at</item>
-        <item>stares at</item>
-        <item>thinks about</item>
-        <item>looks at</item>
-        <item>observes</item>
-        <item>secretly fancies</item>
-        <item>examines</item>
-        <item>loathes</item>
-        <item>curses</item>
-        <item>hexes</item>
-        <item>waits for</item>
-        <item>runs towards</item>
-        <item>criticises</item>
-        <item>admires</item>
-        <item>hunts</item>
-        <!--  <item>shoots</item>-->
-        <item>battles</item>
-        <item>despises</item>
-        <item>tolerates</item>
-        <item>dislikes</item>
-        <item>ignores</item>
-        <item>insults</item>
-        <item>respects</item>
-        <item>studies</item>
-        <item>guards</item>
-        <!--  <item>hits</item>-->
-        <item>critiques</item>
-        <item>fears</item>
-        <!--  <item>kicks</item>
-         <item>punches</item>
-         <item>crushes</item>
-         <item>abused</item>
-         <item>abuses</item>
-         <item>shouts at</item>
-         <item>slaps</item>
-         <item>was murdered by</item>
-         <item>was killed by</item>
-         <item>was abused by</item>-->
-        <item>supports</item>
-        <item>looks after</item>
-        <item>argues with</item>
-        <item>disagrees with</item>
-        <item>agrees with</item>
-        <item>advises</item>
-        <item>tickles</item>
-        <item>massages</item>
-        <item>believes in</item>
-        <item>sleeps on</item>
-        <item>lives with</item>
-        <item>pokes</item>
-        <item>fights</item>
-        <item>scoffs at</item>
-        <item>scorns</item>
-        <item>stalks</item>
-        <item>understands</item>
-        <!--  <item>touches</item>-->
-        <item>confuses</item>
-        <item>stares down</item>
-        <item>mocks</item>
-        <item>misses</item>
-        <item>trusts</item>
-        <item>dreams about</item>
-        <!--  <item>cuts open</item>-->
-        <item>banishes</item>
-        <item>exiles</item>
-        <item>condemns</item>
-        <item>trails after</item>
-        <item>smells like</item>
-        <item>follows</item>
-        <item>dissects</item>
-        <item>welcomes</item>
-        <!--   <item>stabs</item>-->
-        <item>runs from</item>
-        <item>smells</item>
+	<string-array name="verbs">
+		<item>le gusta</item>
+		<item>come</item>
+		<item>muerde</item>
+		<!-- <item>lame</item> -->
+		<!-- <item>pica</item> -->
+		<item>ama</item>
+		<item>odia</item>
+		<item>mira</item>
+		<item>escucha a</item>
+		<item>habla a</item>
+		<item>deslumbra a</item>
+		<item>mira a</item>
+		<item>piensa en</item>
+		<item>mira a</item>
+		<item>observa</item>
+		<item>fantasea</item>
+		<item>examina</item>
+		<item>aborrece</item>
+		<item>maldice</item>
+		<item>maldice</item>
+		<item>espera a</item>
+		<item>corre tras de</item>
+		<item>critica</item>
+		<item>admira</item>
+		<item>caza</item>
+		<!--  <item>dispara</item>-->
+		<item>batalla</item>
+		<item>desprecia</item>
+		<item>tolera</item>
+		<item>no le gusta</item>
+		<item>ignora</item>
+		<item>insulta</item>
+		<item>respeta</item>
+		<item>estudia</item>
+		<item>guarda</item>
+		<!--  <item>golpea</item>-->
+		<item>critica</item>
+		<item>teme</item>
+		<!--  <item>patea</item>
+		 <item>colpea</item>
+		 <item>crushes</item>
+		 <item>abusado</item>
+		 <item>abusa</item>
+		 <item>grita a</item>
+		 <item>abofetea</item>
+		 <item>fue asesinado por</item>
+		 <item>fue matado por</item>
+		 <item>fue abusado por</item>-->
+		<item>soporta</item>
+		<item>cuida</item>
+		<item>discute con</item>
+		<item>esta en desacuerdo con</item>
+		<item>esta deacuerdo con</item>
+		<item>aconseja</item>
+		<item>hace cosquillas</item>
+		<item>masajea</item>
+		<item>cree en</item>
+		<item>duerme sobre</item>
+		<item>vive con</item>
+		<item>agujerea</item>
+		<item>pelea</item>
+		<item>burla de</item>
+		<item>desprecia</item>
+		<item>stalkea</item>
+		<item>entiende</item>
+		<!--  <item>toca</item>-->
+		<item>confunde</item>
+		<item>mira abajo</item>
+		<item>burla</item>
+		<item>echa de menos</item>
+		<item>confia</item>
+		<item>sue\u00F1a sobre</item>
+		<!--  <item>abre</item>-->
+		<item>desvanece</item>
+		<item>exilia</item>
+		<item>condena</item>
+		<item>rastrea</item>
+		<item>huele como</item>
+		<item>sigue</item>
+		<item>disecciona</item>
+		<item>da la bienvenida</item>
+		<!--   <item>apu\u00F1ala</item>-->
+		<item>huye de</item>
+		<item>huele</item>
 
-        <item>discusses politics with</item>
-        <item>gives gifts to</item>
-        <item>mourns the loss of</item>
-        <item>knows a secret regarding</item>
-        <!-- <item>hurls bricks at</item>-->
-        <!-- <item>tenderly strokes</item>
+		<item>discute de pol\u00EDtica con</item>
+		<item>da regalos a</item>
+		<item>lamenta la p\u00E9rdida de</item>
+		<item>sabe un secreto sobre</item>
+		<!-- <item>lanza ladrillos a</item>-->
+		<!-- <item>acaricia cari\u00F1osamente</item>
 
-        <item>hacks merrily away at</item>
-        <item>decays in the presence of</item>-->
-        <item>cast a spell on</item>
-        <item>tries to impress</item>
-        <item>reads poetry to</item>
-        <item>writes novels about</item>
-        <item>pens lymericks about</item>
-        <item>sings lullabies to</item>
+		<item>hacks merrily away at</item>
+		<item>decae en la presencia de</item>-->
+		<item>lanza un hechizo sobre</item>
+		<item>intenta impresionar</item>
+		<item>lee poemas a</item>
+		<item>escribe novelas sobre</item>
+		<item>canta nanas a</item>
 
-        <item>is obsessed with</item>
-        <item>is worried about</item>
-        <item>is mistrustful of</item>
-        <item>is confused by</item>
-        <item>is excited by</item>
-        <item>is disgusted by</item>
-        <item>is repulsed by</item>
-        <item>is fascinated by</item>
-        <item>is hated by</item>
-        <item>is looking for</item>
-        <item>is hated by</item>
-        <item>is on a quest to find</item>
-        <item>is suspicious of</item>
-        <item>is scared of</item>
-        <item>is terrified of</item>
-        <item>is pleased with</item>
-        <item>is mourned by</item>
-        <item>is liked by</item>
-        <item>is loved by</item>
-        <item>does not care about</item>
-        <item>cannot understand</item>
-        <item>cannot abide</item>
-        <item>can see</item>
-        <item>cannot tolerate</item>
-        <item>discovered</item>
+		<item>no se preocupa por</item>
+		<item>no puede entender</item>
+		<item>no puede acatar</item>
+		<item>puede ver</item>
+		<item>no puede ver</item>
+		<item>no puede tolerar</item>
+		<item>puede tolerar</item>
+		<item>descubri\u00ED</item>
 
-        <item>was despised by</item>
-        <item>was liked by</item>
-        <item>was loved by</item>
-        <item>was hated by</item>
+	</string-array>
 
-    </string-array>
+	<string-array name="objects">
+		<item>yo</item>
 
-    <string-array name="objects">
-        <item>me</item>
+		<item>animales</item>
+		<item>mascotas</item>
+		<item>hamsters</item>
+		<item>gatos</item>
+		<item>leones</item>
+		<item>p\u00E1jaros</item>
+		<item>ping\u00FAinos</item>
+		<item>perros</item>
+		<item>murci\u00E9lagos</item>
+		<item>cerdos</item>
+		<item>tortugas</item>
+		<item>zorros</item>
+		<item>tejones</item>
+		<item>ranas</item>
+		<item>serpientes</item>
+		<item>pandas rojos</item>
+		<item>tapires</item>
+		<item>elefantes</item>
+		<item>tar\u00E1ntulas</item>
+		<item>lagartos</item>
+		<item>monos</item>
+		<item>zebras</item>
+		<item>pandas</item>
+		<item>leopardos</item>
+		<item>trilobites</item>
+		<item>llamas</item>
+		<item>koalas</item>
+		<item>kanguros</item>
+		<item>caracoles</item>
+		<item>babosas</item>
+		<item>tigres</item>
+		<item>caballos</item>
+		<item>dragones</item>
+		<item>loros</item>
+		<item>mariposas</item>
+		<item>polillas</item>
+		<item>cocodrilos</item>
+		<item>\u00E1gilas</item>
+		<item>gaviotas</item>
+		<item>sapos</item>
+		<item>vacas</item>
+		<item>ovejas</item>
+		<item>ciervos</item>
+		<item>gansos</item>
+		<item>cisnes</item>
+		<item>ara\u00F1as</item>
+		<item>insectos</item>
+		<item>peces</item>
+		<item>erizos</item>
+		<item>ratones</item>
+		<item>avispas</item>
+		<item>escarabajos</item>
+		<item>ballenas</item>
+		<item>delfines</item>
+		<item>patos</item>
+		<item>avispas</item>
+		<item>ratas</item>
+		<item>calamares</item>
+		<item>osos</item>
+		<item>pulpos</item>
+		<item>monstruos</item>
+		<item>asnos</item>
+		<item>equeletos</item>
+		<item>zombies</item>
+		<item>vampiros</item>
+		<item>gigantes</item>
+		<item>hombres lobo</item>
+		<item>lobos</item>
+		<item>ogros</item>
+		<item>tiburones</item>
 
-        <item>animals</item>
-        <item>pets</item>
-        <item>hamsters</item>
-        <item>cats</item>
-        <item>lions</item>
-        <item>birds</item>
-        <item>penguins</item>
-        <item>dogs</item>
-        <item>bats</item>
-        <item>pigs</item>
-        <item>turtles</item>
-        <item>foxes</item>
-        <item>badgers</item>
-        <item>frogs</item>
-        <item>snakes</item>
-        <item>red pandas</item>
-        <item>tapirs</item>
-        <item>elephants</item>
-        <item>giant spiders</item>
-        <item>lizards</item>
-        <item>monkeys</item>
-        <item>zebra</item>
-        <item>pandas</item>
-        <item>leopards</item>
-        <item>trilobites</item>
-        <item>llamas</item>
-        <item>koalas</item>
-        <item>kangaroos</item>
-        <item>snails</item>
-        <item>slugs</item>
-        <item>tigers</item>
-        <item>horses</item>
-        <item>dragons</item>
-        <item>parrots</item>
-        <item>butterflies</item>
-        <item>moths</item>
-        <item>crocodiles</item>
-        <item>eagles</item>
-        <item>seagulls</item>
-        <item>toads</item>
-        <item>cows</item>
-        <item>sheep</item>
-        <item>deer</item>
-        <item>geese</item>
-        <item>swans</item>
-        <item>spiders</item>
-        <item>insects</item>
-        <item>fish</item>
-        <item>hedgehogs</item>
-        <item>mice</item>
-        <item>wasps</item>
-        <item>beetles</item>
-        <item>whales</item>
-        <item>dolphins</item>
-        <item>ducks</item>
-        <item>wasps</item>
-        <item>rats</item>
-        <item>squids</item>
-        <item>bears</item>
-        <item>octopi</item>
-        <item>monsters</item>
-        <item>donkeys</item>
-        <item>skeletons</item>
-        <item>zombies</item>
-        <item>vampires</item>
-        <item>giants</item>
-        <item>werewolves</item>
-        <item>wolves</item>
-        <item>ogres</item>
-        <item>sharks</item>
+		<item>la televisi\u00F3n</item>
+		<item>el ordenador</item>
+		<item>la radio</item>
+		<item>la cosa</item>
+		<item>el piano</item>
 
-        <item>the television</item>
-        <item>the computer</item>
-        <item>the radio</item>
-        <item>the thing</item>
-        <item>the piano</item>
+		<item>plantas</item>
+		<item>cactus</item>
+		<item>flores</item>
+		<item>\u00E1rboles</item>
+		<item>bons\u00E1is</item>
+		<item>tulipanes</item>
+		<item>rosas</item>
+		<item>margaritas</item>
 
-        <item>plants</item>
-        <item>cacti</item>
-        <item>flowers</item>
-        <item>trees</item>
-        <item>bonsai trees</item>
-        <item>tulips</item>
-        <item>roses</item>
-        <item>daisies</item>
+		<item>comida</item>
+		<item>carne</item>
+		<item>huevos</item>
+		<item>hamburguesas</item>
+		<item>tostada</item>
+		<item>pan</item>
+		<item>calabazas</item>
+		<item>setas</item>
+		<item>zanahorias</item>
+		<item>verduras</item>
+		<item>fruta</item>
+		<item>manzanas</item>
+		<item>naranjas</item>
+		<item>satsumas</item>
+		<item>pi\u00F1as</item>
+		<item>peras</item>
 
-        <item>food</item>
-        <item>meat</item>
-        <item>eggs</item>
-        <item>burgers</item>
-        <item>toast</item>
-        <item>bread</item>
-        <item>pumpkins</item>
-        <item>mushrooms</item>
-        <item>carrots</item>
-        <item>vegetables</item>
-        <item>fruit</item>
-        <item>apples</item>
-        <item>oranges</item>
-        <item>satsumas</item>
-        <item>pineapples</item>
-        <item>pears</item>
+		<item>gente</item>
+		<item>hombres</item>
+		<item>mujeres</item>
+		<!--  <item>idiotas</item>
+		<item>cretinos</item>
+		<item>amigos</item>
+		<item>tonto</item>
+		<item>elfos</item>
+		<item>enanos</item>
+		 <item>imb\u00E9ciles</item>
+		<item>imb\u00E9ciles</item> -->
+		<item>joggers</item>
+		<item>ciclistas</item>
+		<item>profesores</item>
+		<item>sacerdotes</item>
+		<item>polic\u00EDas</item>
+		<item>pallasos</item>
+		<item>gnomos</item>
+		<item>piratas</item>
+		<item>aliens</item>
+		<item>navegantes</item>
+		<item>cantantes</item>
+		<item>cantantes de \u00F3pera</item>
+		<item>comediantes</item>
+		<item>conductores de tren</item>
+		<item>ninjas</item>
+		<item>sirenas</item>
+		<item>magos</item>
+		<item>caballeros</item>
+		<item>ge\u00F3grafos</item>
+		<item>guerreros</item>
+		<item>brujas</item>
+		<item>lagartos</item>
+		<item>cient\u00EDficos</item>
+		<item>ni\u00F1os</item>
+		<item>adolescentes</item>
+		<item>matem\u00E1ticos</item>
+		<item>matem\u00E1ticos puros</item>
+		<item>camareros</item>
+		<item>camareras</item>
+		<item>cirujanos</item>
+		<item>rusos</item>
+		<item>asesinos</item>
+		<item>gamers</item>
+		<item>ingenieros</item>
+		<item>bioqu\u00EDmicos</item>
+		<item>dentistas</item>
+		<item>veterinarios</item>
+		<item>autores</item>
+		<item>escritores</item>
+		<item>poetas</item>
+		<item>mentirosos</item>
+		<item>actores</item>
+		<item>ge\u00F3logos</item>
+		<item>fantasmas</item>
+		<item>soldados</item>
+		<item>pilotos</item>
+		<item>astronautas</item>
+		<item>bot\u00E1nicos</item>
+		<item>f\u00EDsicos</item>
+		<item>estudiantes</item>
+		<item>reyes</item>
+		<item>reinas</item>
+		<item>veganos</item>
+		<item>vegetarianos</item>
+		<item>beb\u00E9s</item>
+		<item>ni\u00F1as</item>
+		<item>ni\u00F1os</item>
+		<item>vikingos</item>
+		<item>ni\u00F1itos</item>
+		<item>el Franc\u00E9s</item>
+		<item>alemanes</item>
+		<item>americanos</item>
+		<item>el Ingl\u00E9s</item>
+		<item>el Irland\u00E9s</item>
+		<item>el Gal\u00F3s</item>
+		<item>el Escoc\u00E9s</item>
+		<item>el Espa\u00F1ol</item>
+		<item>noruegos</item>
+		<item>qu\u00EDmicos</item>
+		<item>doctores</item>
+		<item>enfermeras</item>
+		<item>todos</item>
+		<item>nadie</item>
+	</string-array>
 
-        <item>people</item>
-        <item>men</item>
-        <item>women</item>
-        <!--  <item>idiots</item>
-        <item>cretins</item>
-        <item>eejits</item>
-        <item>halfwits</item>
-        <item>elves</item>
-        <item>dwarves</item>
-         <item>imbeciles</item>
-        <item>morons</item> -->
-        <item>joggers</item>
-        <item>cyclists</item>
-        <item>teachers</item>
-        <item>priests</item>
-        <item>policemen</item>
-        <item>clowns</item>
-        <item>gnomes</item>
-        <item>pirates</item>
-        <item>aliens</item>
-        <item>sailors</item>
-        <item>singers</item>
-        <item>opera singers</item>
-        <item>comedians</item>
-        <item>train drivers</item>
-        <item>ninjas</item>
-        <item>mermaids</item>
-        <item>magicians</item>
-        <item>knights</item>
-        <item>geographers</item>
-        <item>warriors</item>
-        <item>witches</item>
-        <item>wizards</item>
-        <item>scientists</item>
-        <item>children</item>
-        <item>teenagers</item>
-        <item>mathematicians</item>
-        <item>pure mathematicians</item>
-        <item>waiters</item>
-        <item>waitresses</item>
-        <item>surgeons</item>
-        <item>russians</item>
-        <item>assassins</item>
-        <item>gamers</item>
-        <item>engineers</item>
-        <item>biochemists</item>
-        <item>dentists</item>
-        <item>vets</item>
-        <item>authors</item>
-        <item>writers</item>
-        <item>poets</item>
-        <item>fools</item>
-        <item>actors</item>
-        <item>geologists</item>
-        <item>ghosts</item>
-        <item>soldiers</item>
-        <item>pilots</item>
-        <item>astronauts</item>
-        <item>botanists</item>
-        <item>physicists</item>
-        <item>students</item>
-        <item>kings</item>
-        <item>queens</item>
-        <item>vegans</item>
-        <item>vegetarians</item>
-        <item>babies</item>
-        <item>girls</item>
-        <item>boys</item>
-        <item>vikings</item>
-        <item>toddlers</item>
-        <item>the French</item>
-        <item>Germans</item>
-        <item>Americans</item>
-        <item>the English</item>
-        <item>the Irish</item>
-        <item>the Welsh</item>
-        <item>the Scottish</item>
-        <item>the Spanish</item>
-        <item>Norwegians</item>
-        <item>chemists</item>
-        <item>doctors</item>
-        <item>nurses</item>
-        <item>everyone</item>
-        <item>no-one</item>
-    </string-array>
+	<string-array name="extra_pack">
 
-    <string-array name="extra_pack">
+	</string-array>
 
-    </string-array>
-    
-    <string name="attemptstaken">You took %d attempts!</string>
-    <string name="awatingconnection">Awaiting connection...</string>
-    <string name="braille_add">Add</string>
-    <string name="braille_ampersand">Ampersand</string>
-    <string name="braille_at">At</string>
-    <string name="braille_backslash">Blackslash</string>
-    <string name="braille_bullet">Bullet</string>
-    <string name="braille_bullet_square">Square Bullet</string>
-    <string name="braille_bullet_white">White Bullet</string>
-    <string name="braille_cent">Cent</string>
-    <string name="braille_closecurlybrace">Close Brace</string>
-    <string name="braille_closesquarebracket">Close Square Bracket</string>
-    <string name="braille_copyright">Copyright</string>
-    <string name="braille_dagger">Dagger</string>
-    <string name="braille_dash">Dash</string>
-    <string name="braille_degree">Degree</string>
-    <string name="braille_divide_line">Divide Line</string>
-    <string name="braille_dollar">Dollar</string>
-    <string name="braille_equal">Equal</string>
-    <string name="braille_euro">Euro</string>
-    <string name="braille_exclamationmark_inverse">Inverted Exclamation Mark</string>
-    <string name="braille_greater_than">Greater than</string>
-    <string name="braille_hash">Hash</string>
-    <string name="braille_less_than">Less than</string>
-    <string name="braille_multiply_cross">Cross Product</string>
-    <string name="braille_multiply_dot">Dot Product</string>
-    <string name="braille_opencurlybrace">Open Brace</string>
-    <string name="braille_opensquarebracket">Open Square Bracket</string>
-    <string name="braille_paragraph">Paragraph</string>
-    <string name="braille_percent">Percent</string>
-    <string name="braille_permille">Permille</string>
-    <string name="braille_pipe">Pipe</string>
-    <string name="braille_poundsterling">Pound Sterling</string>
-    <string name="braille_questionmark_inverse">Inverted Question Mark</string>
-    <string name="braille_quote">Quote Mark</string>
-    <string name="braille_rights_reserved">Rights Reserved</string>
-    <string name="braille_root">Root</string>
-    <string name="braille_tilde">Tilde</string>
-    <string name="braille_tm">TM</string>
-    <string name="braille_underscore">Underscore</string>
-    <string name="braille_yen">Yen</string>
-    <string name="capitalwordExplanation">The <b>Capitals Word Indicator</b> sets <b>\'Capitals Mode\'</b> for a whole word, after which it ends.</string>
-    <string name="category_advancedcontractions">This means that the entire following word is capitalised.</string>
-    <string name="caps_lock">Capitals Mode</string>
-    <string name="category_contractions">Contractions</string>
-    <string name="category_short2">Short-Write Level 2</string>
-    <string name="cheat_button">Cheat</string>
-    <string name="cheatsused">cheats used!</string>
-    <string name="connecting">Connecting...</string>
-    <string name="devicesfound">Devices Found:</string>
-    <string name="dots">Dots</string>
-    <string name="emailerror">No email clients installed</string>
-    <string name="emailvia">Send email via:</string>
-    <string name="error_differentversions">Your devices are running different versions of Braille Tutor! Please ensure they are both up-to date</string>
-    <string name="facebook_appname">Braille Tutor for Android</string>
-    <string name="facebook_braillechallenge">Braille Tutor Challenge</string>
-    <string name="facebook_justscored">I just scored</string>
-    <string name="isoff">is off</string>
-    <string name="level">Level</string>
-    <string name="newbesttime">New best time!</string>
-    <string name="newdictionary">New Dictionary - %s!</string>
-    <string name="newmode">New Mode - %s!</string>
-    <string name="nocheats">No cheats used!</string>
-    <string name="noneyet">None yet!</string>
-    <string name="noresults">No results found!</string>
-    <string name="opengift">Tap your gift to open it!</string>
-    <string name="recievingdata">Receiving data...</string>
-    <string name="reset">RESET</string>
-    <string name="rule_anywhere">\' can be used wherever the characters occur</string>
-    <string name="rule_dontFollow_A_Or_O_And_UN_notPrefix">\' can only be used when the letters it represents do not follow the letters \'a\' or \'o\', and the letters \'un\' do not form a prefix</string>
-    <string name="rule_firstSyllable">\' can only be used when it forms the first syllable of a word</string>
-    <string name="rule_notAtStart">\' cannot be used at the start of a word</string>
-    <string name="rule_oneSyllable">\' can only be used when the letters it represents are pronounced as one syllable</string>
-    <string name="rule_oneSyllableOr_ONEY_NotAfter_O">\' can only be used when the letters it represents are pronounced as one syllable, or are used to end a word with the letters \'oney\'. It cannot ever be used after the letter \'o\'</string>
-    <string name="rule_optionalSurroundedPlainBothSides">\' can be used when standing alone, or when surrounded on either, or both, sides, with non-short-write symbols</string>
-    <string name="rule_optionalSurroundedPlainStart">\' can be used when standing alone, or when preceded by non-short-write symbols</string>
-    <string name="rule_samePronounciation">\' can only be used when the letters it represents are pronounced in the same way as in the original word</string>
-    <string name="rule_short_A">\' can only be used when the \'a\' is short</string>
-    <string name="rule_standAlone">\' can only be used when standing alone</string>
-    <string name="rule_stressFirst_E_AndDontFollow_I_Or_E">\' can only be used when the stress is on the first \'e\', and it does not follow the letters \'i\' or \'e\'</string>
-    <string name="rule_surrounded">\' can only be used when surrounded by other letters</string>
-    <string name="rule_wordMeaningRetained">\' can only be used when the meaning of the original word is retained</string>
-    <string name="seconds">seconds</string>
-    <string name="sendingdata">Sending data...</string>
-    <string name="setnow">SET NOW</string>
-    <string name="singleattempt">You only took 1 attempt!</string>
-    <string name="singlecheat">Only 1 cheat used!</string>
-    <string name="starttypingtosearch">Use the submit button to search!</string>
-    <string name="submit_button">Submit</string>
-    <string name="symbol_finallettercontraction">Final-letter Contractions</string>
-    <string name="symbol_finallettercontraction_desc">These contractions are made up of 2 cells, with the second cell usually representing the last letter(s)! They can generally be used anywhere except at the start of a word.</string>
-    <string name="symbol_foreign">Foreign</string>
-    <string name="symbol_foreign_desc">These symbols are used to represent letters used in other languages!</string>
-    <string name="symbol_groupsign">Groupsigns</string>
-    <string name="symbol_groupsign_desc">Groupsigns represent common letter groups! They can usually be used wherever the group appears, but there are some exceptions! Tap on any entry for more information.</string>
-    <string name="symbol_initiallettercontraction">Initial-letter Contractions</string>
-    <string name="symbol_initiallettercontraction_desc">These contractions are made up of 2 cells, with the second cell usually representing the first letter(s)! Some of these have strange usage rules, so beware! Tap on any entry for more information.</string>
-    <string name="symbol_letter">Alphabet</string>
-    <string name="symbol_letter_desc">The letters - most braille texts just use these!</string>
-    <string name="symbol_maths">Maths</string>
-    <string name="symbol_maths_desc">Used to represent mathematical symbols!</string>
-    <string name="symbol_number">Numbers</string>
-    <string name="symbol_number_desc">Cells following a Number Sign are read as numbers! The letters \'a\' - \'i\' correspond to \'1\' - \'9\', and \'j\' is \'0\'.</string>
-    <string name="symbol_punctuation">Punctuation</string>
-    <string name="symbol_punctuation_desc">Beware: not all braille symbols are made up of a single cell! Some punctuation symbols need 2!</string>
-    <string name="symbol_short1">Short-Write Level 1</string>
-    <string name="symbol_short1_desc">Short-write level 1 allows you to abbreviate common words with a single cell!</string>
-    <string name="symbol_short2a">Short-Write Level 2A</string>
-    <string name="symbol_short2a_desc">These symbols represent common words, but in more than 1 cell!</string>
-    <string name="symbol_short2b">Short-Write Level 2B</string>
-    <string name="symbol_short2b_desc">These represent common sounds within words!</string>
-    <string name="symbol_short2c">Short -Write Level 2C</string>
-    <string name="symbol_short2c_desc">These represent abbreviations of common phrases!</string>
-    <string name="symbol_shortform">Shortforms</string>
-    <string name="symbol_shortform_desc">Shortforms allow you to abbreviate common words by missing out some letters! They can generally only be used when standing alone.</string>
-    <string name="symbol_wordsign">Wordsigns</string>
-    <string name="symbol_wordsign_desc">Wordsigns represent common words, and are often represented by the cell of their first letter(s)! They can usually only be used when standing alone (surrounded by spaces on both sides).</string>
-    <string name="transfersuccessful">Data was successfully transferred!</string>
-    <string name="translate_input">Input:</string>
-    <string name="translate_perfect">Perfect:</string>
-    <string name="unlocked">Unlocked:</string>
-    <string name="viewachievements">VIEW ACHIEVEMENTS</string>
-    <string name="youknewpercent">You knew %d%% of the symbols!</string>
+	<string name="attemptstaken">\u00A1Hiciste %d intentos!</string>
+	<string name="awatingconnection">Esperando conexi\u00F3n...</string>
+	<string name="braille_add">A\u00F1adir</string>
+	<string name="braille_ampersand">Ampersand</string>
+	<string name="braille_at">A</string>
+	<string name="braille_backslash">Barra invertida</string>
+	<string name="braille_bullet">Bullet</string>
+	<string name="braille_bullet_square">Square Bullet</string>
+	<string name="braille_bullet_white">White Bullet</string>
+	<string name="braille_cent">Cent</string>
+	<string name="braille_closecurlybrace">Cerrar llave</string>
+	<string name="braille_closesquarebracket">Cerrar corchete</string>
+	<string name="braille_copyright">Copyright</string>
+	<string name="braille_dagger">Daga</string>
+	<string name="braille_dash">Dash</string>
+	<string name="braille_degree">Grado</string>
+	<string name="braille_divide_line">Dividir l\u00EDneaG</string>
+	<string name="braille_dollar">Dolar</string>
+	<string name="braille_equal">Igual</string>
+	<string name="braille_euro">Euro</string>
+	<string name="braille_exclamationmark_inverse">Signo de exclamaci\u00F3n invertido</string>
+	<string name="braille_greater_than">Mayor que</string>
+	<string name="braille_hash">Hash</string>
+	<string name="braille_less_than">Menor que</string>
+	<string name="braille_multiply_cross">Producto(cruz)</string>
+	<string name="braille_multiply_dot">Producto(punto)</string>
+	<string name="braille_opencurlybrace">Abrir par\u00E9ntesis</string>
+	<string name="braille_opensquarebracket">Abrir corchete</string>
+	<string name="braille_paragraph">P\u00E1rrafo</string>
+	<string name="braille_percent">Porcentaje</string>
+	<string name="braille_permille">Permiso</string>
+	<string name="braille_pipe">tubo</string>
+	<string name="braille_poundsterling">Libras esterlinas</string>
+	<string name="braille_questionmark_inverse">Signo de interrogaci\u00F3n invertido</string>
+	<string name="braille_quote">Quote Mark</string>
+	<string name="braille_rights_reserved">Derechos reservados</string>
+	<string name="braille_root">Radical</string>
+	<string name="braille_tilde">Tilde</string>
+	<string name="braille_tm">TM</string>
+	<string name="braille_underscore">Underscore</string>
+	<string name="braille_yen">Yen</string>
+	<string name="capitalwordExplanation">El <b>indicador de palabra may\u00FAscula</b> establece <b>\'Modo May\u00FAscula\'</b> para una palabra entera, despu\u00E9s de la cual acaba.</string>
+	<string name="caps_lock">Modo May\u00FAsculas</string>
+	<string name="category_advancedcontractions">Contracciones Avanzadas</string>
+	<string name="category_contractions">Contracciones</string>
+	<string name="category_short2">Breve Nivel 2</string>
+	<string name="cheat_button">Hacer Trampas</string>
+	<string name="cheatsused">\u00A1Trampas usadas!</string>
+	<string name="connecting">Conectando...</string>
+	<string name="devicesfound">Dispositivos encontrados:</string>
+	<string name="dots">Puntos</string>
+	<string name="emailerror">Ning\u00FAn cliente de email instalado</string>
+	<string name="emailvia">Enviar email via:</string>
+	<string name="error_differentversions">\u00A1Tus dispositivos tienen versiones diferentes de Braille Tutor! Por favor, aseg\u00FArate de tenerlos actualizados.</string>
+	<string name="facebook_appname">Braille Tutor para Android</string>
+	<string name="facebook_braillechallenge">Reto Braille Tutor</string>
+	<string name="facebook_justscored">Acabo de puntuar</string>
+	<string name="isoff">se acab\u00F3</string>
+	<string name="level">Nivel</string>
+	<string name="newbesttime">\u00A1Nuevo mejor tiempo!</string>
+	<string name="newdictionary">Nuevo Diccionario - %s!</string>
+	<string name="newmode">Nuevo Modo - %s!</string>
+	<string name="nocheats">\u00A1Ninguna trampa usada!</string>
+	<string name="noneyet">\u00A1Ninguna a\u00FAn!</string>
+	<string name="noresults">\u00A1Ning\u00FAn resultado encontrado!</string>
+	<string name="opengift">\u00A1Pulsa tu regalo para abrirlo!</string>
+	<string name="recievingdata">Reciviendo datos...</string>
+	<string name="reset">RESET</string>
+	<string name="rule_anywhere">\' can be used wherever the characters occur</string>
+	<string name="rule_dontFollow_A_Or_O_And_UN_notPrefix">\' solo puede ser usado cuando las letras que representan no van seguida por las letras \'a\' o \'o\', y las letras \'un\' no forman un prefijo</string>
+	<string name="rule_firstSyllable">\' solo puede ser usado cuando forma la primera s\u00EDlaba de una palabra</string>
+	<string name="rule_notAtStart">\' no puede ser usado al inicio de palabra</string>
+	<string name="rule_oneSyllable">\' solo puede ser usado cuando las letras que representa se pronuncian como una s\u00EDlaba</string>
+	<string name="rule_oneSyllableOr_ONEY_NotAfter_O">\' solo puede ser usado cuando las letras que representa se pronuncian como una s\u00EDlaba,o se usa para acabar una palabra con las letras \'oney\'.Nunca puede ser usado tras la letra \'o\'</string>
+	<string name="rule_optionalSurroundedPlainBothSides">\' no puede ser usada rodeado, o ambos, sides, with non-short-write symbols</string>
+	<string name="rule_optionalSurroundedPlainStart">\' puede ser usada when preceded by non-short-write symbols</string>
+	<string name="rule_samePronounciation">\' solo puede ser usado cuando las letras que representan se pronuncian como la palabra original</string>
+	<string name="rule_short_A">\' solo puede ser usada cuando la \'a\' es corta</string>
+	<string name="rule_standAlone">\' solo puede ser usada sola</string>
+	<string name="rule_stressFirst_E_AndDontFollow_I_Or_E">\' solo puede ser usada cuando el acento est\u00E1 en la primera \'e\', y no sigue a las letras \'i\' o \'e\'</string>
+	<string name="rule_surrounded">\' solo puede ser usada cuando est\u00E1 rodeada de otras letras</string>
+	<string name="rule_wordMeaningRetained">\' solo puede ser usada cuando el significado origianl se mantiene</string>
+	<string name="seconds">segundos</string>
+	<string name="sendingdata">Enviando datos...</string>
+	<string name="setnow">ESTABLECER AHORA</string>
+	<string name="singleattempt">\u00A1Solo has necesitado un intento!</string>
+	<string name="singlecheat">\u00A1Solo una trampa usada!</string>
+	<string name="starttypingtosearch">\u00A1Usa el bot\u00F3n de enviar para buscar!</string>
+	<string name="submit_button">Enviar</string>
+	<string name="symbol_finallettercontraction">Contracciones de final de letra</string>
+	<string name="symbol_finallettercontraction_desc">\u00E9stas contracciones est\u00E1n formadas por dos celdas,\u00A1con la segunda normalmente representando la ultima(s) letra(s)! Generalmente pueden ser usadas en cualquier lugar excepto al inicio de palabra.</string>
+	<string name="symbol_foreign">Extranjero</string>
+	<string name="symbol_foreign_desc">\u00A1\u00E9stos s\u00EDmbolos se usan para representar letras de otras lenguas!</string>
+	<string name="symbol_groupsign">Signos grupales</string>
+	<string name="symbol_groupsign_desc">\u00A1Los signos grupales representan grupos de letras comunes! Pueden ser usados donde aparezca el grupo, \u00A1pero hay algunas excepciones! Click en una entrada para m\u00E1s informaci\u00F3n.</string>
+	<string name="symbol_initiallettercontraction">Initial-letter Contractions</string>
+	<string name="symbol_initiallettercontraction_desc">\u00E9stas contracciones est\u00E1n formadas por dos celdas,\u00A1con la segunda normalmente representando la ultima(s) letra(s)! Algunas de ellas tiene reglas extra\u00F1as, \u00A1cuidado! Click en una entrada para m\u00E1s informaci\u00F3n.</string>
+	<string name="symbol_letter">Alfabeto</string>
+	<string name="symbol_letter_desc">Las letras - \u00A1La mayor\u00EDa de los textos braille solo usan esas!</string>
+	<string name="symbol_maths">Matem\u00E1ticos</string>
+	<string name="symbol_maths_desc">\u00A1Usados para representar s\u00EDmbolos matem\u00E1ticos!</string>
+	<string name="symbol_number">N\u00FAmeros</string>
+	<string name="symbol_number_desc">\u00A1Las celdas que siguen al s\u00EDmbolo de n\u00FAmero se leen omo n\u00FAmeros! Las letras \'a\' - \'i\' corresponden a \'1\' - \'9\', y \'j\' es \'0\'.</string>
+	<string name="symbol_punctuation">Puntuaci\u00F3n</string>
+	<string name="symbol_punctuation_desc">Cuidado: \u00A1no todos los s\u00EDmbolos usan una sola letra! \u00A1Algunos necesitan 2!</string>
+	<string name="symbol_short1">Abreviatura nivel 1</string>
+	<string name="symbol_short1_desc">Abreviatura nivel 1 te permite abreviar palabras normales en una sola celda</string>
+	<string name="symbol_short2a">Abreviatura nivel 2A</string>
+	<string name="symbol_short2a_desc">Te permiten representar palabras normales, pero en m\u00E1s de una celda.</string>
+	<string name="symbol_short2b">Abreviatura nivelent common sounds within words!</string>
+	<string name="symbol_short2c">Short -Write Level 2C</string>
+	<string name="symbol_short2c_desc">Te permiten representar abreviaciones de frases comunes.</string>
+	<string name="symbol_shortform">Formas cortas</string>
+	<string name="symbol_shortform_desc">\u00A1Las formas cortas te permiten escribir algunas palabras pero omitiendo algunas letras! Generalmente solo puedne usadas cuando est\u00E1n solas.</string>
+	<string name="symbol_wordsign">Signos de palabra</string>
+	<string name="symbol_wordsign_desc">Los signos de palabra representan palabras comunes, \u00A1y suelen representarse por la celda de su primera letra! Generalmente solo pueden ser usadas cuando est\u00E1n solas(con espacios a ambos lados).</string>
+	<string name="transfersuccessful">\u00A1La informaci\u00F3n ha sido transferida!</string>
+	<string name="translate_input">Input:</string>
+	<string name="translate_perfect">Perfecto:</string>
+	<string name="unlocked">Desbloqueados:</string>
+	<string name="viewachievements">VER LOGROS</string>
+	<string name="youknewpercent">Supiste el %d%% de los s\u00EDmbolos</string>
+
+	<string name="theme_name_space">Espacio</string>
+	<string name="theme_name_space_white">Espacio</string>
 
 </resources>

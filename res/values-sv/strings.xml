@@ -62,13 +62,20 @@
     <string name="settings_soundOptionsTitle">Ljudinställningar</string>
     <string name="settings_translationOptionsTitle">Översättningsinställningar</string>
     <string name="settings_credits">Visa bidragsgivare</string>
+
+    <string name="defaultbraillecode">Välkommen till Braille Tutor!\nPunktskriften som du kommer att lära dig har automatiskt blivit satt till %s, men du kan ändra det när som helst i Inställningarna.\nJag hoppas att du får glädje av appen - Luke :)</string>
+
+    <string name="settings_unlockalldicts">Lås upp alla ordböcker och lägen</string>
+    <string name="unlockalldictsExplanation">Vill du betala för att låsa upp alla ordböcker och lägen omedelbart? Det är inte rekommenderat och är därför inte gratis, eftersom det generellt är bättre att låsa upp dem gradvis när du ökar dina kunskaper.</string>
+
     <string name="credits1" formatted="false">Skapad med kärlek av Luke Needham :)\n</string>
     <string name="credits2" formatted="false">
         \n\nOch varför inte gilla Facebooksidan!\nhttps://www.facebook.com/brailletutor/
         \n\nTack till alla frivilliga som har jobbat otroligt hårt med att lägga till fler språk i appen!
+		\nSpanska - Fran Blanco, Oscar Escobar
         \nSvenska - Peter Lembke
         \n\nTack till alla mina testare:\n
-        Alice Blinkhorn\nDan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
+        Dan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
         Alla Brailleregler och data kommer från\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
         "Faster Does It" and "George Street Shuffle" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/</string>
     <string name="settings_challengeOptionsTitle">Utmaningsinställningar</string>
@@ -94,8 +101,8 @@
     <string name="locked">Låst</string>
     <string name="buynow">Köp nu</string>
     <string name="levelup">En nivå upp</string>
-    <string name="tounlock">för att låsa upp</string>
-    <string name="tapformoreinfo">Tryck för mer info</string>
+<string name="tounlock">för att låsa upp</string>
+<string name="tapformoreinfo">Tryck för mer info</string>
 
     <string name="levelupDropInfo">"En ny slumpvis färg kommer att låsas upp på Nivå "</string>
     <string name="nextLevelDrop">"Nästa chans på nivå "</string>
@@ -300,8 +307,9 @@
     <string name="rule_samePronounciation">\' kan bara användas när bokstäverna det representerar uttalas på samma sätt som originalordet</string>
 	<string name="rule_dontFollow_A_Or_O_And_UN_notPrefix">\' kan bara användas när bokstäverna det representerar inte kommer efter bokstäverna \'a\' eller \'o\', och bokstäverna \'un\' inte formar ett prefix</string>
 
-	<string name="rule_optionalSurroundedPlainBothSides">\' kan användas enskilt, eller omgiven på ena eller båda sidor av vanliga tecken</string>
-	<string name="rule_optionalSurroundedPlainStart">\' kan användas enskilt, eller när den föregås av ett vanligt tecken</string>
+	<string name="rule_optionalSurroundedPlainBothSides">\' kan användas omgiven på ena eller båda sidor av vanliga tecken</string>
+	<string name="rule_optionalSurroundedPlainStart">\' kan användas när den föregås av ett vanligt tecken</string>
+    <string name="rule_optionalSurroundedPlainStart_standalone">\' kan användas enskilt, eller när den föregås av ett vanligt tecken</string>
 
     <string name="placeholderad">Du borde se \'Earthlings\'</string>
 
@@ -943,9 +951,18 @@
     <string name="unlocked">Låst upp:</string>
     <string name="viewachievements">VISA FRAMGÅNGAR</string>
     <string name="youknewpercent">Du kunde %d%% av tecknen!</string>
-    <string name="symbol_short1_desc">Med kortskrift nivå 1 kan du förkorta vanliga ord till ett tecken!</string>
+    <string name="symbol_short1_desc">Standard för Svenska texter är att använda fullskrift. Om det finns information om en text (meta data) då brukar det stå där om fullskrift eller kortskrift används i texten.</string>
     <string name="symbol_short2a_desc">Tecknen representerar vanligt förekommande ord, men med mer än ett tecken!</string>
     <string name="symbol_short2b_desc">Tecknen representerar vanliga ljud inom ett ord!</string>
     <string name="symbol_short2c_desc">Tecknen representerar förkortningar av vanliga fraser!</string>
+
+    <string name="practise_showtype">Visa alltid symboltyp</string>
+    <string name="forceUse">Tvinga användning</string>
+    <string name="buy">KÖP</string>
+    <string name="mustbeforcedcategory">Måste vara i %s</string>
+
+    <string name="theme_name_space">Rymden</string>
+	<string name="theme_name_space_white">Rymden</string>
+    <string name="theme_desc_space">Förbered dig att ta dina Braillekunskaper till nya höjder! Det här temat inkluderar\n- En helt ny bakgrund\n- 31 nydesignade brailleknappar\n- Tar bort all reklam för alltid</string>
 
 </resources>

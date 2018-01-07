@@ -4,7 +4,7 @@
     tools:ignore="MissingTranslation"
 >
 
-    <string name="myemail">brailletutorapp@gmail.com</string>
+    <string name="myemail" translatable="false">brailletutorapp@gmail.com</string>
 
     <string name="app_name">Braille Tutor</string>
     <string name="action_settings">Settings</string>
@@ -69,8 +69,17 @@
     <string name="settings_vibrationOption">Vibration</string>
     <string name="settings_soundOptionsTitle">Sound Settings</string>
     <string name="settings_translationOptionsTitle">Translation Settings</string>
-    <string name="settings_credits">View Credits</string>
+    <string name="settings_brailleInputSettings">Braille Input Settings</string>
+    <string name="settings_credits">About</string>
     <string name="settings_database">Change Braille Code</string>
+	<string name="settings_unlockalldicts">Unlock All Dictionaries &amp; Modes</string>
+	<string name="settings_removeAds">Remove Adverts</string>
+
+	<string name="unlockalldictsExplanation">Do you wish to pay to unlock all dictionaries and modes immediately? This is not recommended, which is why it is not free, as it is generally better to unlock them gradually while levelling up.</string>
+	<string name="removeAdsExplanation">Adverts are removed when you buy any theme. Do you want to continue to remove adverts without getting a theme?</string>
+
+	<string name="justremoveads">JUST REMOVE ADS</string>
+	<string name="buyatheme">BUY A THEME</string>
 
     <string name="database_ueb">UEB</string>
     <string name="database_swedish">Swedish</string>
@@ -82,11 +91,11 @@
     <string name="credits2" formatted="false">
         \n\nAlso why not like the Facebook page!\nhttps://www.facebook.com/brailletutor/
         \n\nMany thanks to all the volunteers who worked incredibly hard to add other languages to the app!
-        \nSpanish - Oscar Escobar
+        \nSpanish - Fran Blanco, Oscar Escobar
         \nSwedish - Peter Lembke
         \n\nMany thanks to all of my testers:\n
-        Alice Blinkhorn\nDan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
-        All Braille rules and data from\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
+        Dan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
+        UEB rules and data from\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
         "Faster Does It" and "George Street Shuffle" by Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/</string>
 
     <string name="settings_challengeOptionsTitle">Challenge Settings</string>
@@ -96,6 +105,9 @@
     <string name="locked_until_singular">" is locked until level"</string>
     <string name="nothing_selected">Select something to practise first!</string>
     <string name="isoff">is off</string>
+    <string name="mustbeforcedcategory">Must be in %s</string>
+
+    <string name="defaultbraillecode">Welcome to Braille Tutor!\nThe Braille Code you will be learning has automatically been set to %s, but you can change this at any time in Settings.\nI hope you enjoy the app - Luke :)</string>
 
     <string name="bluetooth_not_available">Unfortunately your device does not support Bluetooth</string>
     <string name="bluetooth_transfercheck">Do you wish to transfer your data to #? This will replace all data on # with the data on your current device, and delete all the data on your current device.</string>
@@ -114,6 +126,9 @@
 
     <string name="nopptionsavailable">No options available!</string>
     <string name="whatyouwanttopractise">What do you want to practise?</string>
+    <string name="practise_showtype">Always Show Symbol Type</string>
+    <string name="practise_targetWorse">Target Difficult Symbols - Symbols you are worse at come up more often</string>
+
 
     <string name="nocheats">No cheats used!</string>
     <string name="singlecheat">Only 1 cheat used!</string>
@@ -134,6 +149,7 @@
     <string name="currentTheme">Current Theme</string>
     <string name="locked">Locked</string>
     <string name="buynow">Buy now</string>
+	<string name="buy">BUY</string>
     <string name="levelup">Level up</string>
     <string name="tounlock">to unlock</string>
     <string name="tapformoreinfo">Tap for more info</string>
@@ -146,6 +162,8 @@
     <string name="unlocked">Unlocked:</string>
     <string name="newmode">New Mode - %s!</string>
     <string name="newdictionary">New Dictionary - %s!</string>
+
+	<string name="forceUse">Force Use</string>
 
     <string name="translate_perfect">Perfect:</string>
     <string name="translate_input">Input:</string>
@@ -207,8 +225,12 @@
     <string name="theme_name_beach_white">Beach White</string>
 
     <string name="theme_name_garden">Garden</string>
-    <string name="theme_desc_garden">Grow beautiful flowers - and your braille knowledge! This theme adds:\n- A brand new background\n- 21 new braille button designs\n- Removes all adverts forever</string>
+    <string name="theme_desc_garden">Grow beautiful flowers - and your braille knowledge! This theme includes:\n- A brand new background\n- 21 new braille button designs\n- Removes all adverts forever</string>
     <string name="theme_name_garden_white">Garden</string>
+
+    <string name="theme_name_space">Space</string>
+    <string name="theme_desc_space">Prepare to blast off and watch your Braille skills rocket! This theme includes:\n- A brand new background\n- 31 new braille button designs\n- Removes all adverts forever</string>
+    <string name="theme_name_space_white">Space</string>
 
     <string name="view_unlocks">View Unlocks</string>
 
@@ -365,22 +387,21 @@
     <string name="braille_dots46">Dots46</string>
     <string name="braille_dots56">Dots56</string>
 
-    <string name="braille_unknown">�</string>
+    <string name="braille_unknown" translatable="false">�</string>
 
 
-    <string name="symbol_unknown"></string>
-    <string name="symbol_unknown_desc"></string>
+    <string name="symbol_unknown" translatable="false"></string>
+    <string name="symbol_unknown_desc" translatable="false"></string>
     <string name="symbol_letter">Alphabet</string>
     <string name="symbol_letter_desc">The letters - most braille texts just use these!</string>
-    <string name="symbol_invisible"></string>
-    <string name="symbol_invisible_desc"></string>
+    <string name="symbol_invisible" translatable="false"></string>
+    <string name="symbol_invisible_desc" translatable="false"></string>
     <string name="symbol_punctuation">Punctuation</string>
     <string name="symbol_punctuation_desc">Beware: not all braille symbols are made up of a single cell! Some punctuation symbols need 2!</string>
     <string name="symbol_number">Numbers</string>
     <string name="symbol_number_desc">Cells following a Number Sign are read as numbers! The letters \'a\' - \'i\' correspond to \'1\' - \'9\', and \'j\' is \'0\'.</string>
     <string name="symbol_maths">Maths</string>
     <string name="symbol_maths_desc">Used to represent mathematical symbols!</string>
-
 
     <string name="symbol_wordsign">Wordsigns</string>
     <string name="symbol_wordsign_desc">Wordsigns represent common words, and are often represented by the cell of their first letter(s)! They can usually only be used when standing alone (surrounded by spaces on both sides).</string>
@@ -397,7 +418,7 @@
     <string name="category_advancedcontractions">Advanced Contractions</string>
 
     <string name="symbol_short1">Short-Write Level 1</string>
-    <string name="symbol_short1_desc">Short-write level 1 allows you to abbreviate common words with a single cell!</string>
+    <string name="symbol_short1_desc">Standard for Swedish texts is to use full write. If there is information about a text (meta-data) then it usually says if full write or short write is used.</string>
     <string name="symbol_short2a">Short-Write Level 2A</string>
     <string name="symbol_short2a_desc">These symbols represent common words, but in more than 1 cell!</string>
     <string name="symbol_short2b">Short-Write Level 2B</string>
@@ -439,8 +460,10 @@
     <string name="rule_oneSyllableOr_ONEY_NotAfter_O">\' can only be used when the letters it represents are pronounced as one syllable, or are used to end a word with the letters \'oney\'. It cannot ever be used after the letter \'o\'</string>
     <string name="rule_samePronounciation">\' can only be used when the letters it represents are pronounced in the same way as in the original word</string>
     <string name="rule_dontFollow_A_Or_O_And_UN_notPrefix">\' can only be used when the letters it represents do not follow the letters \'a\' or \'o\', and the letters \'un\' do not form a prefix</string>
-    <string name="rule_optionalSurroundedPlainBothSides">\' can be used when standing alone, or when surrounded on either, or both, sides, with non-short-write symbols</string>
-	<string name="rule_optionalSurroundedPlainStart">\' can be used when standing alone, or when preceded by non-short-write symbols</string>
+
+    <string name="rule_optionalSurroundedPlainBothSides">\' can be used when or when surrounded either at the start, or at the end, or at both, with non-short-write symbols</string>
+	<string name="rule_optionalSurroundedPlainStart">\' can be used when preceded by non-short-write symbols</string>
+	<string name="rule_optionalSurroundedPlainStart_standalone">\' can be used when preceded by non-short-write symbols, or when standing alone</string>
 
     <string name="placeholderad">You should watch \'Earthlings\'</string>
 
