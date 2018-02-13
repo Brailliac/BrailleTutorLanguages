@@ -12,7 +12,7 @@ import static com.lukeneedham.brailletutor.Braille.BrailleSymbolDataEntry.SHOW_L
 import static com.lukeneedham.brailletutor.Braille.BrailleSymbolDataEntry.SHOW_USAGE_RULE;
 import static com.lukeneedham.brailletutor.Braille.BrailleSymbolUsageRule.*;
 
-public class UEBSymbolDatabase extends BrailleSymbolDatabase
+public class CzechSymbolDatabase extends BrailleSymbolDatabase
 {
 	/**
 	 * make the array of all the entries in the database
@@ -48,10 +48,27 @@ public class UEBSymbolDatabase extends BrailleSymbolDatabase
 			new BrailleSymbolDataEntry("t", LETTER, NOTHING, CellT),
 			new BrailleSymbolDataEntry("u", LETTER, NOTHING, CellU),
 			new BrailleSymbolDataEntry("v", LETTER, NOTHING, CellV),
-			new BrailleSymbolDataEntry("w", LETTER, NOTHING, CellW),
+			new BrailleSymbolDataEntry("w", LETTER, NOTHING, CellOF), // [12356]
 			new BrailleSymbolDataEntry("x", LETTER, NOTHING, CellX),
 			new BrailleSymbolDataEntry("y", LETTER, NOTHING, CellY),
 			new BrailleSymbolDataEntry("z", LETTER, NOTHING, CellZ),
+
+      //Accent and diactricit letters 
+      new BrailleSymbolDataEntry("á", LETTER, NOTHING, CellCH), // [16]  
+      new BrailleSymbolDataEntry("é", LETTER, NOTHING, CellAR), // [345]
+      new BrailleSymbolDataEntry("í", LETTER, NOTHING, CellST), // [34] 
+      new BrailleSymbolDataEntry("ó", LETTER, NOTHING, CellOW), // [246] 
+      new BrailleSymbolDataEntry("ú", LETTER, NOTHING, CellING), // [346] 
+      new BrailleSymbolDataEntry("ý", LETTER, NOTHING, CellAND), // [12346] 
+      new BrailleSymbolDataEntry("č", LETTER, NOTHING, CellSH), // [146] 
+      new BrailleSymbolDataEntry("ď", LETTER, NOTHING, CellTH), // [1456] 
+      new BrailleSymbolDataEntry("š", LETTER, NOTHING, CellWH), // [156] 
+      new BrailleSymbolDataEntry("ň", LETTER, NOTHING, CellED), // [1246] 
+      new BrailleSymbolDataEntry("ť", LETTER, NOTHING, CellOU), // [1256] 
+      new BrailleSymbolDataEntry("ř", LETTER, NOTHING, CellW), // [2456] 
+      new BrailleSymbolDataEntry("ž", LETTER, NOTHING, CellTHE), // [2346] 
+      new BrailleSymbolDataEntry("ů", LETTER, NOTHING, CellWITH), // [23456] 
+      new BrailleSymbolDataEntry("ě", LETTER, NOTHING, CellGH), // [126] 
 
 			new BrailleSymbolDataEntry(NO_STRING, R.string.braille_number_sign, NUMBER, SHOW_INFO, CellNumbersign).setExtraInfoRes(R.string.numbersExplanation).setFillWidth(true),
 			new BrailleSymbolDataEntry("1", NUMBER, NOTHING, CellA),
@@ -64,28 +81,33 @@ public class UEBSymbolDatabase extends BrailleSymbolDatabase
 			new BrailleSymbolDataEntry("8", NUMBER, NOTHING, CellH),
 			new BrailleSymbolDataEntry("9", NUMBER, NOTHING, CellI),
 			new BrailleSymbolDataEntry("0", NUMBER, NOTHING, CellJ),
-			new BrailleSymbolDataEntry(".", R.string.braille_decimal_point, NUMBER, SHOW_LETTERS_REP, CellFullstop),
+			new BrailleSymbolDataEntry(".", R.string.braille_decimal_point, NUMBER, SHOW_LETTERS_REP, CellApostrophe), // [3]
 			new BrailleSymbolDataEntry(",", R.string.braille_thousands_separator, NUMBER, SHOW_LETTERS_REP, CellComma),
 
 			new BrailleSymbolDataEntry(" ", INVISIBLE, NOTHING, CellWhitespace),
 
-			new BrailleSymbolDataEntry(".", R.string.braille_fullstop, PUNCTUATION, SHOW_LETTERS_REP, CellFullstop),
-			new BrailleSymbolDataEntry("?", R.string.braille_questionmark, PUNCTUATION, SHOW_LETTERS_REP, CellQuestionmark),
+			new BrailleSymbolDataEntry(".", R.string.braille_fullstop, PUNCTUATION, SHOW_LETTERS_REP, CellApostrophe),
+			new BrailleSymbolDataEntry("?", R.string.braille_questionmark, PUNCTUATION, SHOW_LETTERS_REP, CellEN), // [26]
 			new BrailleSymbolDataEntry("!", R.string.braille_exclamationmark, PUNCTUATION, SHOW_LETTERS_REP, CellExclamationmark),
 			new BrailleSymbolDataEntry(",", R.string.braille_comma, PUNCTUATION, SHOW_LETTERS_REP, CellComma),
-			new BrailleSymbolDataEntry(":", R.string.braille_colon, PUNCTUATION, SHOW_LETTERS_REP, CellColon),
+			new BrailleSymbolDataEntry(":", R.string.braille_colon, PUNCTUATION, SHOW_LETTERS_REP, CellColon), 
 			new BrailleSymbolDataEntry(";", R.string.braille_semicolon, PUNCTUATION, SHOW_LETTERS_REP, CellSemicolon),
-			new BrailleSymbolDataEntry("'", R.string.braille_apostrophe, PUNCTUATION, SHOW_LETTERS_REP, CellApostrophe),
+			new BrailleSymbolDataEntry("'", R.string.braille_apostrophe, PUNCTUATION, SHOW_LETTERS_REP, Cell4), // [4]
 			new BrailleSymbolDataEntry("-", R.string.braille_hyphen, PUNCTUATION, SHOW_LETTERS_REP, CellHyphen),
-			new BrailleSymbolDataEntry("“", R.string.braille_openquote, PUNCTUATION, SHOW_LETTERS_REP, CellQuestionmark),
-			new BrailleSymbolDataEntry("”", R.string.braille_closequote, PUNCTUATION, SHOW_LETTERS_REP, CellCloseQuote),
-			new BrailleSymbolDataEntry(NO_STRING, R.string.braille_lettersign, PUNCTUATION, SHOW_INFO, Cell56).setExtraInfoRes(R.string.lettersignExplanation),
+			new BrailleSymbolDataEntry("“", R.string.braille_openquote, PUNCTUATION, SHOW_LETTERS_REP, CellGG), // [2356]
+			new BrailleSymbolDataEntry("”", R.string.braille_closequote, PUNCTUATION, SHOW_LETTERS_REP, CellGG), // [2356]
+			new BrailleSymbolDataEntry(NO_STRING, R.string.braille_lettersign, PUNCTUATION, SHOW_INFO, Cell5).setExtraInfoRes(R.string.lettersignExplanation), // [5]
 			new BrailleSymbolDataEntry(NO_STRING, R.string.braille_capital, PUNCTUATION, SHOW_INFO, CellCapitalsign).setExtraInfoRes(R.string.capitalsignExplanation),
-			new BrailleSymbolDataEntry(NO_STRING, R.string.braille_capitalword, PUNCTUATION, SHOW_INFO, CellCapitalsign, CellCapitalsign).setExtraInfoRes(R.string.capitalwordExplanation),
-			new BrailleSymbolDataEntry("*", R.string.braille_asterisk, PUNCTUATION, SHOW_LETTERS_REP, Cell5, CellIN),
-			new BrailleSymbolDataEntry("(", R.string.braille_openbracket, PUNCTUATION, SHOW_LETTERS_REP, Cell5, CellGH),
-			new BrailleSymbolDataEntry(")", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, Cell5, CellAR),
-			new BrailleSymbolDataEntry("/", R.string.braille_slash, PUNCTUATION, SHOW_LETTERS_REP, Cell456, CellST)
+			new BrailleSymbolDataEntry(NO_STRING, R.string.braille_capitalword, PUNCTUATION, SHOW_INFO, Cell56).setExtraInfoRes(R.string.capitalwordExplanation), // [56]
+			new BrailleSymbolDataEntry("*", R.string.braille_asterisk, PUNCTUATION, SHOW_LETTERS_REP, CellIN), // [35]
+			new BrailleSymbolDataEntry("(", R.string.braille_openbracket, PUNCTUATION, SHOW_LETTERS_REP, CellQuestionmark), // [236]
+			new BrailleSymbolDataEntry(")", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, CellCloseQuote), // [356]
+			new BrailleSymbolDataEntry("%", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, CellNumbersign, CellP), // [3456][1234]
+			new BrailleSymbolDataEntry("‰", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, CellNumbersign, CellR), // [3456][1235]
+			new BrailleSymbolDataEntry("§", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, CellNumbersign, CellING), // [3456][346]
+			new BrailleSymbolDataEntry("|", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, Cell456), // [456]
+			new BrailleSymbolDataEntry("/", R.string.braille_slash, PUNCTUATION, SHOW_LETTERS_REP, CellER)
+      
 	};
 
 	public BrailleSymbolDataEntry[] getAllSymbols()
