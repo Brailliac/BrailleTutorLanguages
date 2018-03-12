@@ -102,10 +102,10 @@ public class CzechSymbolDatabase extends BrailleSymbolDatabase
 			new BrailleSymbolDataEntry("*", R.string.braille_asterisk, PUNCTUATION, SHOW_LETTERS_REP, CellIN), // [35]
 			new BrailleSymbolDataEntry("(", R.string.braille_openbracket, PUNCTUATION, SHOW_LETTERS_REP, CellQuestionmark), // [236]
 			new BrailleSymbolDataEntry(")", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, CellCloseQuote), // [356]
-			new BrailleSymbolDataEntry("%", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, CellNumbersign, CellP), // [3456][1234]
-			new BrailleSymbolDataEntry("‰", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, CellNumbersign, CellR), // [3456][1235]
-			new BrailleSymbolDataEntry("§", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, CellNumbersign, CellING), // [3456][346]
-			new BrailleSymbolDataEntry("|", R.string.braille_closebracket, PUNCTUATION, SHOW_LETTERS_REP, Cell456), // [456]
+			new BrailleSymbolDataEntry("%", R.string.braille_percent, PUNCTUATION, SHOW_LETTERS_REP, CellNumbersign, CellP), // [3456][1234]
+			new BrailleSymbolDataEntry("‰", R.string.braille_permille, PUNCTUATION, SHOW_LETTERS_REP, CellNumbersign, CellR), // [3456][1235]
+			new BrailleSymbolDataEntry("§", R.string.braille_dollar, PUNCTUATION, SHOW_LETTERS_REP, CellNumbersign, CellING), // [3456][346]
+			new BrailleSymbolDataEntry("|", R.string.braille_pipe, PUNCTUATION, SHOW_LETTERS_REP, Cell456), // [456]
 			new BrailleSymbolDataEntry("/", R.string.braille_slash, PUNCTUATION, SHOW_LETTERS_REP, CellER)
       
 	};
