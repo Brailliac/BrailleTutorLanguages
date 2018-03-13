@@ -4,32 +4,32 @@ import android.content.Context;
 
 public abstract class BrailleCellDatabase
 {
-    public static final BrailleCell CellA = new BrailleCell('A', true, false, false, false, false, false); // [1]
-    public static final BrailleCell CellB = new BrailleCell('B', true, true, false, false, false, false); //but [12]
-    public static final BrailleCell CellC = new BrailleCell('C', true, false, false, true, false, false); //can [14]
-    public static final BrailleCell CellD = new BrailleCell('D', true, false, false, true, true, false); //do [145]
-    public static final BrailleCell CellE = new BrailleCell('E', true, false, false, false, true, false); //every [15]
-    public static final BrailleCell CellF = new BrailleCell('F', true, true, false, true, false, false); //from [124]
-    public static final BrailleCell CellG = new BrailleCell('G', true, true, false, true, true, false); //go [1245]
-    public static final BrailleCell CellH = new BrailleCell('H', true, true, false, false, true, false); //have [125]
-    public static final BrailleCell CellI = new BrailleCell('I', false, true, false, true, false, false); // [24]
-    public static final BrailleCell CellJ = new BrailleCell('J', false, true, false, true, true, false); //just [245]
-    public static final BrailleCell CellK = new BrailleCell('K', true, false, true, false, false, false); //knowledge [13]
-    public static final BrailleCell CellL = new BrailleCell('L', true, true, true, false, false, false); //like [123]
-    public static final BrailleCell CellM = new BrailleCell('M', true, false, true, true, false, false); //more [134]
-    public static final BrailleCell CellN = new BrailleCell('N', true, false, true, true, true, false); //not [1345]
-    public static final BrailleCell CellO = new BrailleCell('O', true, false, true, false, true, false); // [135]
-    public static final BrailleCell CellP = new BrailleCell('P', true, true, true, true, false, false); //people [1234]
-    public static final BrailleCell CellQ = new BrailleCell('Q', true, true, true, true, true, false); //quite [12345]
-    public static final BrailleCell CellR = new BrailleCell('R', true, true, true, false, true, false); //rather [1235]
-    public static final BrailleCell CellS = new BrailleCell('S', false, true, true, true, false, false); //so [234]
-    public static final BrailleCell CellT = new BrailleCell('T', false, true, true, true, true, false); //that [2345]
-    public static final BrailleCell CellU = new BrailleCell('U', true, false, true, false, false, true); //us [136]
-    public static final BrailleCell CellV = new BrailleCell('V', true, true, true, false, false, true); //very [1236]
-    public static final BrailleCell CellW = new BrailleCell('W', false, true, false, true, true, true); //will [2456]
-    public static final BrailleCell CellX = new BrailleCell('X', true, false, true, true, false, true); //it [1346]
-    public static final BrailleCell CellY = new BrailleCell('Y', true, false, true, true, true, true); //you [13456]
-    public static final BrailleCell CellZ = new BrailleCell('Z', true, false, true, false, true, true); //as [1356]
+    public static final BrailleCell Cell1 = new BrailleCell('A', true, false, false, false, false, false); // [1]
+    public static final BrailleCell Cell12 = new BrailleCell('B', true, true, false, false, false, false); //but [12]
+    public static final BrailleCell Cell14 = new BrailleCell('C', true, false, false, true, false, false); //can [14]
+    public static final BrailleCell Cell145 = new BrailleCell('D', true, false, false, true, true, false); //do [145]
+    public static final BrailleCell Cell15 = new BrailleCell('E', true, false, false, false, true, false); //every [15]
+    public static final BrailleCell Cell124 = new BrailleCell('F', true, true, false, true, false, false); //from [124]
+    public static final BrailleCell Cell1245 = new BrailleCell('G', true, true, false, true, true, false); //go [1245]
+    public static final BrailleCell Cell125 = new BrailleCell('H', true, true, false, false, true, false); //have [125]
+    public static final BrailleCell Cell24 = new BrailleCell('I', false, true, false, true, false, false); // [24]
+    public static final BrailleCell Cell245 = new BrailleCell('J', false, true, false, true, true, false); //just [245]
+    public static final BrailleCell Cell13 = new BrailleCell('K', true, false, true, false, false, false); //knowledge [13]
+    public static final BrailleCell Cell123 = new BrailleCell('L', true, true, true, false, false, false); //like [123]
+    public static final BrailleCell Cell134 = new BrailleCell('M', true, false, true, true, false, false); //more [134]
+    public static final BrailleCell Cell1345 = new BrailleCell('N', true, false, true, true, true, false); //not [1345]
+    public static final BrailleCell Cell135 = new BrailleCell('O', true, false, true, false, true, false); // [135]
+    public static final BrailleCell Cell1234 = new BrailleCell('P', true, true, true, true, false, false); //people [1234]
+    public static final BrailleCell Cell12345 = new BrailleCell('Q', true, true, true, true, true, false); //quite [12345]
+    public static final BrailleCell Cell1235 = new BrailleCell('R', true, true, true, false, true, false); //rather [1235]
+    public static final BrailleCell Cell234 = new BrailleCell('S', false, true, true, true, false, false); //so [234]
+    public static final BrailleCell Cell2345 = new BrailleCell('T', false, true, true, true, true, false); //that [2345]
+    public static final BrailleCell Cell136 = new BrailleCell('U', true, false, true, false, false, true); //us [136]
+    public static final BrailleCell Cell1236 = new BrailleCell('V', true, true, true, false, false, true); //very [1236]
+    public static final BrailleCell Cell2456 = new BrailleCell('W', false, true, false, true, true, true); //will [2456]
+    public static final BrailleCell Cell1346 = new BrailleCell('X', true, false, true, true, false, true); //it [1346]
+    public static final BrailleCell Cell13456 = new BrailleCell('Y', true, false, true, true, true, true); //you [13456]
+    public static final BrailleCell Cell1356 = new BrailleCell('Z', true, false, true, false, true, true); //as [1356]
 
     public static final BrailleCell CellWhitespace = new BrailleCell(' ', false, false, false, false, false, false); // []
     public static final BrailleCell CellNumbersign = new BrailleCell('#', false, false, true, true, true, true); // [3456]
@@ -75,8 +75,8 @@ public abstract class BrailleCellDatabase
     public static final BrailleCell Cell56 = new BrailleCell(';', false, false, false, false, true, true); // [56]
     public static final BrailleCell Cell4 = new BrailleCell('@', false, false, false, true, false, false); // [4]
 
-    public static final BrailleCell[] allCells = {CellA, CellB, CellC, CellD, CellE, CellF, CellG, CellH, CellI, CellJ, CellK, CellL, CellM, CellN, CellO, CellP, CellQ, CellR, CellS, CellT, CellU, CellV, CellW, CellX,
-            CellY, CellZ, CellWhitespace, CellNumbersign, CellFullstop, CellQuestionmark, CellExclamationmark, CellComma, CellColon, CellSemicolon, CellApostrophe, CellHyphen, CellCloseQuote,
+    public static final BrailleCell[] allCells = {Cell1, Cell12, Cell14, Cell145, Cell15, Cell124, Cell1245, Cell125, Cell24, Cell245, Cell13, Cell123, Cell134, Cell1345, Cell135, Cell1234, Cell12345, Cell1235, Cell234, Cell2345, Cell136, Cell1236, Cell2456, Cell1346,
+			Cell13456, Cell1356, CellWhitespace, CellNumbersign, CellFullstop, CellQuestionmark, CellExclamationmark, CellComma, CellColon, CellSemicolon, CellApostrophe, CellHyphen, CellCloseQuote,
             CellCapitalsign, CellGG, CellST, CellCH, CellGH, CellSH, CellTH, CellWH, CellED, CellER, CellOU, CellOW, CellEN, CellING, CellAR, CellIN, CellAND, CellFOR, CellOF, CellTHE, CellWITH, Cell4, Cell5, Cell45, Cell456, Cell46, Cell56};
 
     public static BrailleCell lookUpCell(BrailleCell in)
