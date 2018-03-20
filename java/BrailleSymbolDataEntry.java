@@ -1,6 +1,7 @@
 package com.lukeneedham.brailletutor.Braille;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.lukeneedham.brailletutor.Braille.SymbolDatabases.BrailleSymbolDatabase;
 import com.lukeneedham.brailletutor.R;
@@ -62,7 +63,7 @@ public class BrailleSymbolDataEntry
 		onEntryClickType = onClick;
 	}
 
-	public BrailleSymbolDataEntry setExtraInfoRes(int res)
+	public BrailleSymbolDataEntry setExtraInfo(int res)
 	{
 		extraInfoRes = res;
 		return this;
@@ -159,11 +160,38 @@ public class BrailleSymbolDataEntry
 
 	public String toString()
 	{
-		return getFirstLettersRepresented();
+		return "( " + symbol.toString() + ", " + Arrays.toString(possibleLettersRepresented) + ", " + ruleForUsage.toString() + ", " + type.toString() + " )";
 	}
 
 	public String getRuleDescription(Context c)
 	{
 		return c.getResources().getString(R.string.theContraction) + getDescriptiveName(c) + getRuleForUsage().getRuleDescription(c);
+	}
+
+	@Override
+	public boolean equals(Object o)
+	{
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+
+		BrailleSymbolDataEntry that = (BrailleSymbolDataEntry) o;
+
+		if (symbol != null ? !symbol.equals(that.symbol) : that.symbol != null) return false;
+		// Probably incorrect - comparing Object[] arrays with Arrays.equals
+		if (!Arrays.equals(possibleLettersRepresented, that.possibleLettersRepresented))
+			return false;
+		if (ruleForUsage != that.ruleForUsage) return false;
+		return type != null ? type.equals(that.type) : that.type == null;
+
+	}
+
+	@Override
+	public int hashCode()
+	{
+		int result = symbol != null ? symbol.hashCode() : 0;
+		result = 31 * result + Arrays.hashCode(possibleLettersRepresented);
+		result = 31 * result + (ruleForUsage != null ? ruleForUsage.hashCode() : 0);
+		result = 31 * result + (type != null ? type.hashCode() : 0);
+		return result;
 	}
 }
