@@ -11,11 +11,11 @@ import static com.lukeneedham.brailletutor.Braille.BrailleSymbolDataEntry.SHOW_L
 
 public class TamilSymbolDatabase extends BrailleSymbolDatabase
 {
-	public static final BrailleSymbolType UYIR = new BrailleSymbolType(R.string.symbol_uyir, R.string.symbol_uyir_desc, "உயிரெழுத்துக்கள்");
-	public static final BrailleSymbolType UYIRMEI1 = new BrailleSymbolType(R.string.symbol_uyirmei1, R.string.symbol_uyirmei1_desc, "உயிர்மெய்யெழுத்துக்கள் நிலை 1");
-	public static final BrailleSymbolType MEI = new BrailleSymbolType(R.string.symbol_mei, R.string.symbol_mei_desc, " மெய்யெழுத்துக்கள்");
-	public static final BrailleSymbolType UYIRMEI2 = new BrailleSymbolType(R.string.symbol_uyirmei2, R.string.symbol_uyirmei2_desc, "உயிர்மெய்யெழுத்துக்கள் நிலை 2");
-	public static final BrailleSymbolType GRANTHA = new BrailleSymbolType(R.string.symbol_grantha, R.string.symbol_grantha_desc, "கிரந்த எழுத்துக்கள்");
+	public static final BrailleSymbolType UYIR = new BrailleSymbolType(R.string.symbol_uyir, R.string.symbol_uyir_desc, "UYIR");
+	public static final BrailleSymbolType UYIRMEI1 = new BrailleSymbolType(R.string.symbol_uyirmei1, R.string.symbol_uyirmei1_desc, "UYIRMEI1");
+	public static final BrailleSymbolType MEI = new BrailleSymbolType(R.string.symbol_mei, R.string.symbol_mei_desc, "MEI");
+	public static final BrailleSymbolType UYIRMEI2 = new BrailleSymbolType(R.string.symbol_uyirmei2, R.string.symbol_uyirmei2_desc, "UYIRMEI2");
+	public static final BrailleSymbolType GRANTHA = new BrailleSymbolType(R.string.symbol_grantha, R.string.symbol_grantha_desc, "GRANTHA");
 	
 
 	private static final BrailleSymbolDataEntry[] allSymbols = {
