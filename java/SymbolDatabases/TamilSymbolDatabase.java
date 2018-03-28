@@ -408,9 +408,13 @@ public class TamilSymbolDatabase extends BrailleSymbolDatabase
 	public DictionaryCategory[] getDictionaryCategories()
 	{
 		return new DictionaryCategory[]{
-				new DictionaryCategory(R.string.symbol_letter, 0, "A", LETTER),
-				new DictionaryCategory(R.string.symbol_number, 4, "1", NUMBER),
-				new DictionaryCategory(R.string.symbol_punctuation, 6, "?", PUNCTUATION)};
+				new DictionaryCategory(R.string.symbol_uyir, 0, "அ", UYIR),
+				new DictionaryCategory(R.string.symbol_uyirmei1, 3, "க", UYIRMEI1),
+				new DictionaryCategory(R.string.symbol_mei, 6, "க்", MEI),
+				new DictionaryCategory(R.string.symbol_uyirmei2, 8, "கா", UYIRMEI2).setTranslateToggle(true)),
+				new DictionaryCategory(R.string.symbol_grantha, 11, "ஷ", GRANTHA).setTranslateToggle(true))
+				new DictionaryCategory(R.string.symbol_number, 13, "1", NUMBER),
+				new DictionaryCategory(R.string.symbol_punctuation, 14, "?", PUNCTUATION)};
 	}
 
 	public boolean canDoChallenge()
