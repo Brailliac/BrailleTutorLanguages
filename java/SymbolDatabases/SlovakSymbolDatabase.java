@@ -1,6 +1,7 @@
 package com.lukeneedham.brailletutor.Braille.SymbolDatabases;
 
 import com.lukeneedham.brailletutor.Braille.BrailleSymbolDataEntry;
+import com.lukeneedham.brailletutor.Braille.BrailleSymbolType;
 import com.lukeneedham.brailletutor.Braille.DictionaryCategory;
 import com.lukeneedham.brailletutor.R;
 
@@ -75,6 +76,8 @@ public class SlovakSymbolDatabase extends BrailleSymbolDatabase
 	 * the last paramter is BrailleCell... (ie varargs of BrailleCells, more here: http://stackoverflow.com/questions/1656901/varargs-and-the-argument if you need it)
 	 * the cells are named after what they mean alone in UEB - cells with no independent meaning are named like 'Cell456' - the names be looked up with the search function in the app, or in BrailleCellDatabase.java
 	 */
+
+	public static final BrailleSymbolType LETTER = new BrailleSymbolType(R.string.symbol_letter, R.string.symbol_letter_desc, "LETTER");
 
 	private static final BrailleSymbolDataEntry[] allSymbols = {
 
@@ -179,9 +182,10 @@ public class SlovakSymbolDatabase extends BrailleSymbolDatabase
 		};
 	}
 
-	public boolean canDoChallenge()
+	@Override
+	public BrailleSymbolDataEntry[] getChallengeSymbols()
 	{
-		return true;
+		return getSymbols(LETTER);
 	}
 
 	public boolean canDoTranslation()

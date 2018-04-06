@@ -23,6 +23,7 @@ public class SvenskaSymbolDatabase extends BrailleSymbolDatabase
 	 * the cells are named after what they mean alone in UEB - cells with no independent meaning are named like 'Cell456' - the names be looked up with the search function in the app, or in BrailleCellDatabase.java
 	 */
 
+	public static final BrailleSymbolType LETTER = new BrailleSymbolType(R.string.symbol_letter, R.string.symbol_letter_desc, "LETTER");
 	public static final BrailleSymbolType SHORT_1 = new BrailleSymbolType(R.string.symbol_short1, R.string.symbol_short1_desc, "SHORT_1");
 	public static final BrailleSymbolType SHORT_2A = new BrailleSymbolType(R.string.symbol_short2a, R.string.symbol_short2a_desc, "SHORT_2A");
 	public static final BrailleSymbolType SHORT_2B = new BrailleSymbolType(R.string.symbol_short2b, R.string.symbol_short2b_desc, "SHORT_2B");
@@ -464,9 +465,10 @@ public class SvenskaSymbolDatabase extends BrailleSymbolDatabase
 		return findSymbolDataByDescription(R.string.braille_quote).get(0);
 	}
 
-	public boolean canDoChallenge()
+	@Override
+	public BrailleSymbolDataEntry[] getChallengeSymbols()
 	{
-		return true;
+		return getSymbols(LETTER);
 	}
 
 	public boolean canDoTranslation()

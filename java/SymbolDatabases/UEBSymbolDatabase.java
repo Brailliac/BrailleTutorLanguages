@@ -23,6 +23,7 @@ public class UEBSymbolDatabase extends BrailleSymbolDatabase
 	 * the cells are named after what they mean alone in UEB - cells with no independent meaning are named like 'Cell456' - the names be looked up with the search function in the app, or in BrailleCellDatabase.java
 	 */
 
+	public static final BrailleSymbolType LETTER = new BrailleSymbolType(R.string.symbol_letter, R.string.symbol_letter_desc, "LETTER");
 	public static final BrailleSymbolType WORDSIGN = new BrailleSymbolType(R.string.symbol_wordsign, R.string.symbol_wordsign_desc, "WORDSIGN");
 	public static final BrailleSymbolType GROUPSIGN = new BrailleSymbolType(R.string.symbol_groupsign, R.string.symbol_groupsign_desc, "GROUPSIGN");
 	public static final BrailleSymbolType INITIALLETTERCONTRACTION = new BrailleSymbolType(R.string.symbol_initiallettercontraction, R.string.symbol_initiallettercontraction_desc, "INITIALLETTERCONTRACTION");
@@ -306,9 +307,10 @@ public class UEBSymbolDatabase extends BrailleSymbolDatabase
 				new DictionaryCategory(R.string.symbol_shortform, 15, "…", SHORTFORM).setTranslateToggle(true)};
 	}
 
-	public boolean canDoChallenge()
+	@Override
+	public BrailleSymbolDataEntry[] getChallengeSymbols()
 	{
-		return true;
+		return getSymbols(LETTER);
 	}
 
 	public boolean canDoTranslation()

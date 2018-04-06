@@ -11,20 +11,18 @@ public class BrailleSymbolType
 	private int nameRes;
 	private int descRes;
 
-	public BrailleSymbolType(int n, int d)
+	private String NAME_ID;
+
+	public BrailleSymbolType(int n, int d, String na)
 	{
 		nameRes = n;
 		descRes = d;
+		NAME_ID = na;
 	}
 
-	public int getNameRes()
+	public String getNAME_ID()
 	{
-		return nameRes;
-	}
-
-	public int getDescRes()
-	{
-		return descRes;
+		return NAME_ID;
 	}
 
 	public String getName(Context c)
@@ -37,16 +35,25 @@ public class BrailleSymbolType
 		return c.getResources().getString(descRes);
 	}
 
-	public boolean equals(Object obj)
+	public String toString()
 	{
-		try
-		{
-			BrailleSymbolType type = (BrailleSymbolType) obj;
-			return nameRes == type.getNameRes() && descRes == type.getDescRes();
-		}
-		catch(ClassCastException ex)
-		{
-			return false;
-		}
+		return getNAME_ID();
+	}
+
+	@Override
+	public boolean equals(Object o)
+	{
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+
+		BrailleSymbolType that = (BrailleSymbolType) o;
+
+		return NAME_ID.equals((that.getNAME_ID()));
+	}
+
+	@Override
+	public int hashCode()
+	{
+		return NAME_ID.hashCode();
 	}
 }

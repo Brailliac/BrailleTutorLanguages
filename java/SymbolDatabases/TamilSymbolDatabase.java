@@ -1,8 +1,11 @@
 package com.lukeneedham.brailletutor.Braille.SymbolDatabases;
 
 import com.lukeneedham.brailletutor.Braille.BrailleSymbolDataEntry;
+import com.lukeneedham.brailletutor.Braille.BrailleSymbolType;
 import com.lukeneedham.brailletutor.Braille.DictionaryCategory;
 import com.lukeneedham.brailletutor.R;
+
+import java.util.ArrayList;
 
 import static com.lukeneedham.brailletutor.Braille.BrailleCellDatabase.*;
 import static com.lukeneedham.brailletutor.Braille.BrailleSymbolDataEntry.NOTHING;
@@ -16,7 +19,7 @@ public class TamilSymbolDatabase extends BrailleSymbolDatabase
 	public static final BrailleSymbolType MEI = new BrailleSymbolType(R.string.symbol_mei, R.string.symbol_mei_desc, "MEI");
 	public static final BrailleSymbolType UYIRMEI2 = new BrailleSymbolType(R.string.symbol_uyirmei2, R.string.symbol_uyirmei2_desc, "UYIRMEI2");
 	public static final BrailleSymbolType GRANTHA = new BrailleSymbolType(R.string.symbol_grantha, R.string.symbol_grantha_desc, "GRANTHA");
-	
+
 
 	private static final BrailleSymbolDataEntry[] allSymbols = {
 
@@ -33,7 +36,7 @@ public class TamilSymbolDatabase extends BrailleSymbolDatabase
 			new BrailleSymbolDataEntry("ஓ", UYIR, NOTHING, Cell135),
 			new BrailleSymbolDataEntry("ஔ", UYIR, NOTHING, Cell246),
 			new BrailleSymbolDataEntry("ஃ", UYIR, NOTHING, Cell6),
-			
+
 			new BrailleSymbolDataEntry("க", UYIRMEI1, NOTHING, Cell13),
 			new BrailleSymbolDataEntry("ங", UYIRMEI1, NOTHING, Cell346),
 			new BrailleSymbolDataEntry("ச", UYIRMEI1, NOTHING, Cell14),
@@ -71,7 +74,7 @@ public class TamilSymbolDatabase extends BrailleSymbolDatabase
 			new BrailleSymbolDataEntry("ள்", MEI, NOTHING, Cell4, Cell456),
 			new BrailleSymbolDataEntry("ற்", MEI, NOTHING, Cell4, Cell12456),
 			new BrailleSymbolDataEntry("ன்", MEI, NOTHING, Cell4, Cell56),
-		
+
 			new BrailleSymbolDataEntry("கா", UYIRMEI2, NOTHING, Cell13, Cell345),
 			new BrailleSymbolDataEntry("ஙா", UYIRMEI2, NOTHING, Cell346, Cell345),
 			new BrailleSymbolDataEntry("சா", UYIRMEI2, NOTHING, Cell14, Cell345),
@@ -358,7 +361,7 @@ public class TamilSymbolDatabase extends BrailleSymbolDatabase
 			new BrailleSymbolDataEntry("ஸௌ", GRANTHA, NOTHING, Cell234, Cell246),
 			new BrailleSymbolDataEntry("ஹௌ", GRANTHA, NOTHING, Cell125, Cell246),
 			new BrailleSymbolDataEntry("க்ஷெள", GRANTHA, NOTHING, Cell12345, Cell246),
-		
+
 
 //Numbers
 			new BrailleSymbolDataEntry(NO_STRING, R.string.braille_number_sign, NUMBER, SHOW_INFO, Cell3456).setExtraInfo(R.string.numbersExplanation).setFillWidth(true),
@@ -409,17 +412,21 @@ public class TamilSymbolDatabase extends BrailleSymbolDatabase
 	{
 		return new DictionaryCategory[]{
 				new DictionaryCategory(R.string.symbol_uyir, 0, "அ", UYIR),
-				new DictionaryCategory(R.string.symbol_uyirmei1, 3, "க", UYIRMEI1),
-				new DictionaryCategory(R.string.symbol_mei, 6, "க்", MEI),
-				new DictionaryCategory(R.string.symbol_uyirmei2, 8, "கா", UYIRMEI2).setTranslateToggle(true)),
-				new DictionaryCategory(R.string.symbol_grantha, 11, "ஷ", GRANTHA).setTranslateToggle(true))
+				new DictionaryCategory(R.string.symbol_uyirmei1, 1, "க", UYIRMEI1),
+				new DictionaryCategory(R.string.symbol_mei, 4, "க்", MEI),
+				new DictionaryCategory(R.string.symbol_uyirmei2, 7, "கா", UYIRMEI2).setTranslateToggle(true),
+				new DictionaryCategory(R.string.symbol_grantha, 11, "ஷ", GRANTHA).setTranslateToggle(true),
 				new DictionaryCategory(R.string.symbol_number, 13, "1", NUMBER),
 				new DictionaryCategory(R.string.symbol_punctuation, 14, "?", PUNCTUATION)};
 	}
 
-	public boolean canDoChallenge()
+	@Override
+	public BrailleSymbolDataEntry[] getChallengeSymbols()
 	{
-		return false;
+		ArrayList<BrailleSymbolDataEntry> syms = new ArrayList<>();
+		syms.addAll(getSymbolsList(UYIR));
+		syms.addAll(getSymbolsList(UYIRMEI1));
+		return syms.toArray(new BrailleSymbolDataEntry[syms.size()]);
 	}
 
 	public boolean canDoTranslation()
@@ -427,4 +434,3 @@ public class TamilSymbolDatabase extends BrailleSymbolDatabase
 		return false;
 	}
 }
-

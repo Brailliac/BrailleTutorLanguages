@@ -2,6 +2,10 @@ package com.lukeneedham.brailletutor.Braille;
 
 import android.content.Context;
 
+import com.lukeneedham.brailletutor.Braille.SymbolDatabases.BrailleSymbolDatabase;
+
+import java.util.ArrayList;
+
 /**
  * Created by Luke on 15/06/2017.
  */
@@ -86,5 +90,20 @@ public class DictionaryCategory
 				return false;
 			}
 		}
+	}
+
+	public ArrayList<Object> getItems(BrailleSymbolDatabase d)
+	{
+		ArrayList<Object> res = new ArrayList<>();
+		for(BrailleSymbolType type : subpages)
+		{
+			res.add(type);
+			BrailleSymbolDataEntry[] entries = d.getSymbols(type);
+			for(BrailleSymbolDataEntry entry : entries)
+			{
+				res.add(entry);
+			}
+		}
+		return res;
 	}
 }
