@@ -82,10 +82,23 @@
 	<string name="buyatheme">BUY A THEME</string>
 
     <string name="database_ueb">UEB</string>
-    <string name="database_swedish">Swedish</string>
-
     <string name="database_ueb_desc">Unified English Braille - Modern standard for all English speaking countries</string>
-    <string name="database_swedish_desc">Standard in Sweden</string>
+
+    <string name="database_swedish">Swedish</string>
+    <string name="database_swedish_desc">Standard for Swedish</string>
+
+    <string name="database_czech">Czech</string>
+    <string name="database_czech_desc">Standard for Czech</string>
+
+	<string name="database_slovak">Slovak</string>
+	<string name="database_slovak_desc">Standard for Slovak</string>
+
+    <string name="database_tamil">Tamil</string>
+    <string name="database_tamil_desc">Standard for Tamil</string>
+
+	<string name="database_spanish">Spanish</string>
+	<string name="database_spanish_desc">Standard for Spanish</string>
+
 
     <string name="credits1" formatted="false">Made with love by Luke Needham :)\n</string>
     <string name="credits2" formatted="false">
@@ -93,6 +106,8 @@
         \n\nMany thanks to all the volunteers who worked incredibly hard to add other languages to the app!
         \nSpanish - Fran Blanco, Oscar Escobar
         \nSwedish - Peter Lembke
+		\nCzech - Tomáš Michálek
+		\nTamil - Yogavathi Muthu T, Samuel Pitchai Raj
         \n\nMany thanks to all of my testers:\n
         Dan McCarthy\nRachel Meyer\nMatthew Needham\nMatt Page\nSean Smith\n\n
         UEB rules and data from\nhttp://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf\n\n
@@ -103,6 +118,8 @@
     <string name="settings_DictionaryOptionsTitle">Dictionary Settings</string>
     <string name="locked_until">"Locked until level"</string>
     <string name="locked_until_singular">" is locked until level"</string>
+	<string name="locked_unavailable">"Unfortunately, this mode is not yet available for the Braille code you have chosen"</string>
+
     <string name="nothing_selected">Select something to practise first!</string>
     <string name="isoff">is off</string>
     <string name="mustbeforcedcategory">Must be in %s</string>
@@ -419,6 +436,7 @@
 
     <string name="symbol_short1">Short-Write Level 1</string>
     <string name="symbol_short1_desc">Standard for Swedish texts is to use full write. If there is information about a text (meta-data) then it usually says if full write or short write is used.</string>
+    <string name="category_short2">Short-Write Level 2</string>
     <string name="symbol_short2a">Short-Write Level 2A</string>
     <string name="symbol_short2a_desc">These symbols represent common words, but in more than 1 cell!</string>
     <string name="symbol_short2b">Short-Write Level 2B</string>
@@ -428,8 +446,6 @@
     <string name="symbol_foreign">Foreign</string>
     <string name="symbol_foreign_desc">These symbols are used to represent letters used in other languages!</string>
 
-    <string name="category_short2">Short-Write Level 2</string>
-
 
     <string name="braille_groupsigncontraction">Groupsign Contraction</string>
     <string name="braille_wordsigncontraction">Wordsign Contraction</string>
@@ -437,6 +453,145 @@
     <string name="braille_number">Number</string>
     <string name="braille_advancedcontraction">Advanced Contraction</string>
     <string name="braille_shortform">Shortform</string>
+
+    <string name="symbol_uyir">Uyir Alphabet</string>
+    <string name="symbol_uyir_desc">The 12 vowels of Tamil, along with the special character Ayutha Ezhuthu</string>
+    <string name="symbol_uyirmei1">Uyirmei Alphabet Level 1</string>
+    <string name="symbol_uyirmei1_desc">The first set of compound letters, formed by the combination of Uyir Ezhuthukal (vowels) and Mei Ezhuthukal (consonants)</string>
+    <string name="symbol_mei">Mei Alphabet</string>
+    <string name="symbol_mei_desc">The 18 consonants of Tamil</string>
+    <string name="symbol_uyirmei2">Uyirmei Alphabet Level 2</string>
+    <string name="symbol_uyirmei2_desc">The remaining set of compound letters, formed by the combination of Uyir Ezhuthukal (vowels) and Mei Ezhuthukal (consonants)</string>
+    <string name="symbol_grantha">Grantha Alphabet</string>
+    <string name="symbol_grantha_desc">TODO</string>
+
+
+   <!--
+   	<string name="symbol_uyir">உயிரெழுத்துக்கள்</string>
+    <string name="symbol_uyir_desc">TODO</string>
+    <string name="symbol_uyirmei1">உயிர்மெய்யெழுத்துக்கள் நிலை 1</string>
+    <string name="symbol_uyirmei1_desc">TODO</string>
+    <string name="symbol_mei">மெய்யெழுத்துக்கள்</string>
+    <string name="symbol_mei_desc">TODO</string>
+    <string name="symbol_uyirmei2">உயிர்மெய்யெழுத்துக்கள் நிலை 2</string>
+    <string name="symbol_uyirmei2_desc">TODO</string>
+    <string name="symbol_grantha">கிரந்த எழுத்துக்கள்</string>
+    <string name="symbol_grantha_desc">TODO</string>
+-->
+
+
+	<string-array name="msubjects"> <!-- Masculine subjects -->
+		<item>அவன்</item> <!-- He-->
+		<item>ரோஹன்</item> <!-- Rohan -->
+		<item>என் தம்பி</item> <!--  My younger brother -->
+		<item>சந்திரனின் தோழன்</item> <!-- Chandran’s friend-->
+		<item>எதிர்வீட்டு சிறுவன்</item> <!-- Small boy in the opposite house-->
+		<item>அவனருகில் நின்றிருந்த பையன்</item> <!-- The boy who stood near him-->
+		<item>சார்லியின் மகன்</item> <!-- Charlie’s son-->
+		<item>அவளின் அண்ணன்</item> <!-- Her elder brother-->
+		<item>கதிர்</item> <!-- Kathir-->
+		<item>அந்த மனிதன்</item> <!-- That man-->
+		<item>ஜேம்ஸ்</item> <!-- James-->
+		<item>அவனது மருமகன்</item> <!-- His son in law-->
+		<item>ஃபகீர்</item> <!-- Fakir-->
+		<item>பொம்மையை வாங்கிய சிறுவன்</item> <!-- The small boy who bought the toy-->
+	</string-array>
+
+	<string-array name="fsubjects"> <!-- Feminine subjects-->
+		<item>அவள்</item> <!-- She-->
+		<item>ரம்யா</item> <!-- Ramya-->
+		<item>என் தங்கை</item> <!-- My younger sister-->
+		<item>சமந்தாவின் தோழி</item> <!-- Samantha’s friend-->
+		<item>எதிர்வீட்டு சிறுமி</item> <!-- Small girl in the opposite house-->
+		<item>அவனருகில் நின்றிருந்த பெண்</item> <!-- The girl who stood near him-->
+		<item>உமாவின் மகள்</item> <!-- Uma’s daughter-->
+		<item>அவளின் அக்கா</item> <!-- Her elder sister-->
+		<item>கண்மணி</item> <!-- Kanmani-->
+		<item>அந்த பெண்</item> <!-- That girl-->
+		<item>மயூரி</item> <!-- Mayuri-->
+		<item>அவனது மருமகள்</item> <!-- His daughter in law-->
+		<item>நாடியா</item> <!-- Nadia-->
+		<item>பொம்மையை வாங்கிய சிறுமி</item> <!-- The small girl who bought the toy-->
+	</string-array>
+
+	<string-array name="infinitives">
+		<item>உணவை ருசிக்க</item> <!-- to taste food-->
+		<item>தேநீர் அருந்த</item> <!-- to drink tea-->
+		<item>புத்தகம் வாசிக்க</item> <!-- to read book-->
+		<item>புத்தகத்தில் எழுத</item> <!-- to write on book-->
+		<item>ஓட</item> <!-- to run-->
+		<item>நடக்க</item> <!-- to walk-->
+		<item>வாய்விட்டு சிரிக்க</item> <!-- to laugh aloud-->
+		<item>கைகுலுக்க</item> <!-- to shake hands-->
+		<item>மேடையில் பேச</item> <!-- to speak on stage-->
+		<item>நாடகத்தில் நடிக்க</item> <!-- to act in play-->
+		<item>ஒரு பாடல் பாட</item> <!-- to sing a song-->
+		<item>இசையமைக்க</item> <!-- to compose music-->
+		<item>வயலின் வாசிக்க</item> <!-- to play violin-->
+		<item>மற்றவர்களுடன் சண்டையிட</item> <!-- to fight with others-->
+		<item>புதிதாக துணி வாங்க</item> <!-- to buy new cloth-->
+		<item>மட்டைப்பந்து விளையாட</item> <!-- to play cricket-->
+		<item>நடனமாட</item> <!-- to dance-->
+		<item>உயரமாக குதிக்க</item> <!-- to jump high-->
+		<item>கைப்பந்து விளையாட</item> <!-- to play Handball-->
+		<item>படிக்க</item> <!-- to study-->
+		<item>நண்பர்களுடன் விளையாட</item> <!-- to play with friends-->
+		<item>பண்டிகையை கொண்டாட</item> <!-- to celebrate festival-->
+		<item>சமைக்க</item> <!-- to cook-->
+		<item>தூங்க</item> <!-- to sleep-->
+		<item>சாப்பிட</item> <!-- to eat-->
+		<item>திரைப்படம் பார்க்க</item> <!-- to watch movie-->
+		<item>மழையில் நனைய</item> <!-- to get wet in rain-->
+		<item>தண்ணீர் குடிக்க</item> <!-- to drink water-->
+		<item>கோபத்தை கட்டுபடுத்த</item> <!-- to control anger-->
+		<item>ஜன்னலை திறக்க</item>  <!-- to open window-->
+	</string-array>
+
+	<string-array name="mverbs"> <!-- masculine form of verbs-->
+		<item>யோசித்தான்</item> <!-- thought-->
+		<item>சிந்தித்தான்</item> <!-- thought-->
+		<item>ஆரம்பித்தான்</item> <!-- started-->
+		<item>தொடங்கினான்</item> <!-- started-->
+		<item>நினைத்தான்</item> <!-- thought-->
+		<item>முனைந்தான்</item> <!-- decided-->
+		<item>ஓடினான்</item> <!-- ran-->
+		<item>எழுந்தான்</item> <!-- stood up-->
+		<item>மறுத்தான்</item> <!-- refused-->
+		<item>தயங்கினான்</item> <!-- hesitated-->
+		<item>பயந்தான்</item> <!-- scared-->
+		<item>விரைந்தான்</item> <!-- quickened-->
+		<item>எண்ணினான்</item> <!-- thought-->
+		<item>விரும்பினான்</item> <!-- liked-->
+		<item>சென்றான்</item> <!-- went-->
+		<item>பேருந்தில் ஏறினான்</item>  <!-- boarded bus-->
+		<item>முயற்சித்தான்</item> <!-- tried-->
+		<item>மலை ஏறினான்</item> <!-- climbed mountain-->
+		<item>பயந்து அலறினான்</item> <!-- shrieked in fear-->
+	</string-array>
+
+	<string-array name="fverbs"> <!-- feminine form of verbs-->
+		<item>யோசித்தாள்</item> <!-- thought-->
+		<item>சிந்தித்தாள்</item> <!-- thought-->
+		<item>ஆரம்பித்தாள்</item> <!-- started-->
+		<item>தொடங்கினாள்</item> <!-- started-->
+		<item>நினைத்தாள்</item> <!-- thought-->
+		<item>முனைந்தாள்</item> <!-- decided-->
+		<item>ஓடினாள்</item> <!-- ran-->
+		<item>எழுந்தாள்</item> <!-- stood up-->
+		<item>மறுத்தாள்</item> <!-- refused-->
+		<item>தயங்கினாள்</item> <!-- hesitated-->
+		<item>பயந்தாள்</item> <!-- scared-->
+		<item>விரைந்தாள்</item> <!-- quickened-->
+		<item>எண்ணினாள்</item> <!-- thought-->
+		<item>விரும்பினாள்</item> <!-- liked-->
+		<item>செள்றாள்</item> <!-- went-->
+		<item>பேருந்தில் ஏறினாள்</item>  <!-- boarded bus-->
+		<item>முயற்சித்தாள்</item> <!-- tried-->
+		<item>மலை ஏறினாள்</item> <!-- climbed mountain-->
+		<item>பயந்து அலறினாள்</item> <!-- shrieked in fear-->
+	</string-array>
+
+
 
     <string name="numbersExplanation">The Number Sign sets <b>\'Numeric Mode\'</b> for the remainder of the sentence.\n\nThis means that all Braille characters after the Number Sign should be read as numbers until Numeric Mode ends.\n\nNumeric Mode is ended by spaces, the Letter Sign or any other character not shown in the numbers dictionary.</string>
     <string name="lettersignExplanation">Some Braille characters can have more than one meaning; an uncontracted meaning and a contracted or numerical meaning.\n\nIn cases where this may be confusing for the reader, the <b>\'Uncontracted Indicator\'</b> (Letter Sign) is placed before the character to set <b>\'Uncontracted Mode\'</b>.\n\nThis tells the reader that the next symbol is not a contraction or a numeric value; it should be read as a letter or punctuation.</string>
@@ -466,6 +621,8 @@
 	<string name="rule_optionalSurroundedPlainStart_standalone">\' can be used when preceded by non-short-write symbols, or when standing alone</string>
 
     <string name="placeholderad">You should watch \'Earthlings\'</string>
+
+	<string name="signin_other_error">There was an error signing in</string>
 
     <!-- words used to generate random (but grammatically correct!!) sentences to translate. It works like: Subject + Verb + Object. To make it work in different languages, you might not be able to do literal translations, so you can choose your own words :) -->
 
@@ -1005,5 +1162,28 @@
     <string-array name="extra_pack">
 
     </string-array>
+
+
+    <!-- data - not to be translated or made public -->
+
+    <string name="bluetooth_UUID" translatable="false">6d3a2c6a-9d80-4c12-86a6-b4011f9849e7</string>
+    <string name="banner_ad_unit_home" translatable="false">ca-app-pub-5657768201801734/3219677803</string>
+    <string name="banner_ad_unit_challenge" translatable="false">ca-app-pub-5657768201801734/8773357007</string>
+    <string name="banner_ad_unit_translateselect" translatable="false">ca-app-pub-5657768201801734/8773357007</string>
+
+	<string name="facebook_app_id" translatable="false">1564353793781607</string>
+	<string name="google_play_games_app_id" translatable="false">785279387787</string>
+
+    <string name="brl_a" translatable="false">IEf6d9xwI2dG4MpFy5BC1k6EdGqvZooJyesDCKN76kWhs26+f+LAVUkcZgYmJmSR0TQsPe9ygf6xafenWigXFJ/UvqT545qqJ</string>
+    <string name="brl_b" translatable="false">3d6V/dmVnunIiLobkUJHEYl1uVzRpAS0wc06C9wZZsQORzREDh8wPH0y7TWU/dBje8Ey+hDyIejr3cnSkPoZ+65fG2w6l9PC00E</string>
+    <string name="brl_c" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo0xZo9LJojj34/isg6bwWigT+QiUnqRJkiWn47HguWZz6U8Uwgrh</string>
+    <string name="brl_d" translatable="false">A5Li66+F0sk3P8S5o7BKOnW8dlL6ehtWdi/8P1PEnnA9JX9YJyFpBKVeeVIsPmX/YvE1YRmslo9KOLL2VFgdnGpEW4JNi9FQupe</string>
+    <string name="brl_e" translatable="false">FO8W2xxE2mrnlfGn7w1MVKsMTlqfiD++kEVnr0qPu1gYSsgqvQwIjqFb/U89AQqOrA+ssCWhk9TtF+14EmqLxCxXPTBKHWeW6dDx</string>
+    <string name="brl_f" translatable="false">EogHelD7eQz9GcfogEku1WkYRowLu3/4fm0gpIQZbXtKxa7EjULwZIRQi7JOa5oG6gg8Vh9Aq8Oukkhk6jVCPJlb/AgLfoWh</string>
+    <string name="brl_g" translatable="false">Zq7ZO2yo9LYzymaOgHwoGRkqB+9TGP7GBuN37FYpi9cau9YkHn45MNdWjAOqspnre/GaV/0eBM34/Mtta10hWROL7ZyfeFBFU07</string>
+    <string name="brl_h" translatable="false">GLfsxOirPax3kX5a82vSRChZiHKpKaDXbjSWF85+T7iktDYuWPTaYpq+nuPydN2vhoChtT2/WESTL0l1J9YibWS0BuuHlwIDAQAB</string>
+    <string name="brl_i" translatable="false">DofMJVLH84GYXu4c71db1/VOxqoEjiu+ApdQy0AvvLJuV3E5bpqxKrhGNRkBjaqm992iBoDeaY186iPxoDyDG6H/4tqhbSkDXd</string>
+    <string name="brl_j" translatable="false">pOOen4YezNMf+0ZJhD6kkO/zzuufEGorZo0BKw2gBrpib8oIDE7clbi3U6r90yMgvbaljqsPYJ5wvdoNEuGo24KBtjmefL1O</string>
+    <string name="brl_k" translatable="false">k+Cj5apqNGie7SI4RxUOY2zv8ukPRPprgtp7BHheZ2waaGcaMzTZ4gQen9Kg2wQopJJCg0/lHMr6DjLSB9QbfVQrU0u9egP/l</string>
 
 </resources>
